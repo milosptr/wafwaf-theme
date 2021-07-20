@@ -43,3 +43,5 @@ fields:
     required: true
   label: Delivery
   default: Rozvážíme každý den od 08:00 do 21:00
+pages:
+- Homepage.md
