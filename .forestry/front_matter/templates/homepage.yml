@@ -49,6 +49,4 @@ fields:
     required: false
   label: Layout
   hidden: true
-  default: page
-pages:
-- "./homepage.md"
+  default: homepage
