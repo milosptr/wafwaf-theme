@@ -1,1 +1,7 @@
---- {}
+---
+title: Homepage
+menus:
+  header:
+    title: Home
+    weight: 1
+---
