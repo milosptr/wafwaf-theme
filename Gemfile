@@ -4,10 +4,9 @@ gem "jekyll", "~> 4.0"
 
 group :jekyll_plugins do
   gem "jekyll-feed"
-  gem "jekyll-menus"
+  gem 'jekyll-menus', '~> 0.6.1'
   gem "jekyll-tagging"
   gem "jekyll-archives"
-  gem 'jekyll-menus'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
