@@ -51,4 +51,5 @@ fields:
   hidden: true
   default: page
 pages:
+- "./homepage.md"
 - homepage.md

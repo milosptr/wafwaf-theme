@@ -14,5 +14,7 @@ showcase_images:
 - "/uploads/2021/07/20/mask-group-134.png"
 - "/uploads/2021/07/20/mask-group-133.png"
 - "/uploads/2021/07/20/mask-group-132.png"
+title: Homepage
+published: false
 
 ---
