@@ -52,3 +52,4 @@ fields:
   default: homepage
 pages:
 - homepage.md
+- landing-page.md
