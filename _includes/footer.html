@@ -1,38 +1,33 @@
-<footer class="site-footer">
-	<div class="container pure-g">
-        <div class="footer-col pure-u-1 pure-u-md-1-4">
-            <img src="{{ "/img/logo-white.png" | absolute_url }}" alt="" class="footer-logo">
+<footer class="site-footer container">
+  <div class="footerbar-pattern top"></div>
+  <div class="footer-content flex items-center">
+    <div class="footer-logo">
+      <img src="{{ '/img/footer-logo.svg' | absolute_url }}" alt="waf waf logo 2">
+    </div>
+    <div class="flex justify-end items-start w-full">
+      <div class="w-1/4">
+        <div class="footer-title">WafWaf</div>
+        <div class="footer-body footer-info">
+          <div><a href="mailto:info@waf-waf.cz">info@waf-waf.cz</a></div>
+          <div><a href="tel:+320725344097">+320 725 344 097</a></div>
+          <div><a href="/">www.waf-waf.cz</a></div>
         </div>
-        <div class="footer-col pure-u-1 pure-u-md-1-4">
-            <h3>About {{ site.short_title }}</h3>
-            <ul>
-            {% for item in site.menus.footer %}
-                <li><a href="{{ item.url | absolute_url }}">{{ item.title }}</a></li>
-            {% endfor %}
-            </ul>
+      </div>
+      <div class="w-1/3">
+        <div class="footer-title">Sleduj nás!</div>
+        <div class="footer-body">
+          <div>Ochutnejte naše novinky hned, jak je pro vás připravíme.</div>
         </div>
-        <div class="footer-col pure-u-1 pure-u-md-1-4">
-            <h3>Projects</h3>
-            <ul>
-            {% for project in site.projects limit:5 %}
-                <li><a href="{{ project.url | absolute_url }}">{{ project.title }}</a></li>
-            {% endfor %}
-            {% if site.projects | size > 5 %}
-                <li><a href="{{ "/projects/" | absolute_url }}">See all projects</a></li>
-            {% endif %}
-            </ul>
+      </div>
+      <div class="w-1/3">
+        <div class="footer-title">Spoj se s námi!</div>
+        <div class="footer-body">
+          <div>Přidejte se k nám a mějte nejnovější novinky jako první na dosah!</div>
         </div>
-        <div class="footer-col pure-u-1 pure-u-md-1-4">
-            <h3>Contact</h3>
-            {% include address.html %}
-        </div>
-	</div>
-	<div class="copyright">
-        <p>
-            &copy;{{ 'now' | date: "%Y" }} {{ site.title }} - All Rights Reserved<br>
-			<a href="{{ "/admin" | absolute_url }}">Site Admin</a>
-		</p>
-	</div>
+      </div>
+    </div>
+  </div>
+  <div class="footerbar-pattern bottom"></div>
 </footer>
 <!-- Javascript -->
 <script src="{{ "/js/main.js" | absolute_url }}" type="text/javascript"></script>
