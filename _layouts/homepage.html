@@ -4,7 +4,44 @@
 {% include nav.html %}
 
 <div class="container pt-16 pb-24">
-  Hello World sii
+  <div class="mx-auto swiper-container custom-carousel hero-custom-carousel flex items-center justify-center">
+    <div class="swiper-wrapper">
+      {% for image in page.hero_images %}
+        <div class="swiper-slide">
+          <img src="{{ image }}" alt="wafwaf hero {{ forloop.index }}">
+        </div>
+      {% endfor %}
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <h1 class="h1 mt-12">{{ page.big_title }}</h1>
+  <div class="after-title-section mb-16 mt-24">
+    <div  class="rubic-pattern top"></div>
+    <div class="after-title-section-content">
+      {{ page.subtitle }}
+    </div>
+    <div  class="rubic-pattern bottom"></div>
+  </div>
+  <div class="flex flex-wrap">
+    {% for showcase in page.showcase_images %}
+    {% assign index = forloop.index0 | modulo: 2 %}
+      {% if index == 0 %}
+        <img src="{{ showcase }}" alt="showcase {{ index }}" class="w-1/2 pr-16 pb-16">
+      {% else %}
+        <img src="{{ showcase }}" alt="showcase {{ index }}" class="w-1/2 pl-16 pb-16">
+      {% endif %}
+    {% endfor %}
+  </div>
+  <h2 class="h2 mt-8 mb-24">{{ page.breakfast }}</h2>
+  <div>
+    <img src="{{ page.breakfast_image }}" width="100%" alt="wafwaf breakfast image">
+  </div>
+  <div class="mt-24 mb-16">
+    <h2 class="h2">{{ page.delivery }}</h2>
+  </div>
 </div>
 
 {% include footer.html %}
