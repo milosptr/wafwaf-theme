@@ -15,6 +15,7 @@ sections:
   label: Pages
   create: all
   templates:
+  - contact
   - homepage
 upload_dir: uploads
 public_path: "/uploads"
