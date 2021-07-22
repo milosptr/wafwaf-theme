@@ -105,10 +105,16 @@ body {
 .rubic-pattern {
   height: 30px;
   overflow: hidden;
-  background: #f8eabf;
+  background-image: url('/img/header-pattern.jpg');
+  background-size: 400px;
+  background-position: center top;
+    background-repeat: repeat;
+  /* background-attachment: fixed; */
+  animation: animatedBackground 20s linear infinite alternate;
 }
 
 .rubic-pattern.navbar-pattern {
+  background-position: 30px;
   border-radius: 0 0 30px 30px;
   margin-bottom: 50px;
 }
@@ -120,6 +126,12 @@ body {
 .rubic-pattern.bottom {
   border-radius: 0 0 30px 30px;
 }
+
+/* Pages */
+#homepage {
+  background: #FFFDF5;
+}
+
 
 /* Navigation */
 header nav .menu-item {
@@ -146,6 +158,10 @@ header nav .menu-logo {
 }
 
 /* Carousel */
+.swiper-container-css-mode>.swiper-wrapper.overflow-hidden {
+  overflow: hidden;
+}
+
 .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
   margin: 0 25px;
 }
@@ -219,4 +235,15 @@ footer .footer-body {
 
 footer .footer-info {
   line-height: 48px;
+}
+
+
+/* Animations */
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 100%;
+  }
 }

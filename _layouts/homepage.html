@@ -1,3 +1,4 @@
+{% assign current_page = 'homepage' %}
 
 {% include head.html %}
 
@@ -5,10 +6,10 @@
 
 <div class="container pt-16 pb-24">
   <div class="mx-auto swiper-container custom-carousel hero-custom-carousel flex items-center justify-center">
-    <div class="swiper-wrapper">
+    <div class="swiper-wrapper overflow-hidden">
       {% for image in page.hero_images %}
         <div class="swiper-slide">
-          <img src="{{ image }}" alt="wafwaf hero {{ forloop.index }}">
+          <img src="{{ image }}" alt="wafwaf hero {{ forloop.index }}" width="100%">
         </div>
       {% endfor %}
     </div>
@@ -17,8 +18,8 @@
     <div class="swiper-pagination"></div>
   </div>
 
-  <h1 class="h1 mt-12">{{ page.big_title }}</h1>
-  <div class="after-title-section mb-16 mt-24">
+  <h1 class="h1 mt-12 rellax" data-rellax-speed="0.7">{{ page.big_title }}</h1>
+  <div class="after-title-section mb-16 mt-24 rellax" data-rellax-speed="1.3">
     <div  class="rubic-pattern top"></div>
     <div class="after-title-section-content">
       {{ page.subtitle }}
@@ -29,17 +30,21 @@
     {% for showcase in page.showcase_images %}
     {% assign index = forloop.index0 | modulo: 2 %}
       {% if index == 0 %}
-        <img src="{{ showcase }}" alt="showcase {{ index }}" class="w-1/2 pr-16 pb-16">
+        <div class="w-1/2 pr-16 pb-16 rellax" data-rellax-speed="1.6" >
+          <img src="{{ showcase }}" alt="showcase {{ index }}">
+        </div>
       {% else %}
-        <img src="{{ showcase }}" alt="showcase {{ index }}" class="w-1/2 pl-16 pb-16">
+        <div class="w-1/2 pl-16 pb-16 rellax" data-rellax-speed="2.4">
+          <img src="{{ showcase }}" alt="showcase {{ index }}">
+        </div>
       {% endif %}
     {% endfor %}
   </div>
-  <h2 class="h2 mt-8 mb-24">{{ page.breakfast }}</h2>
-  <div>
+  <h2 class="h2 mt-8 mb-24 rellax" data-rellax-speed="2.1" data-rellax-percentage="0.2">{{ page.breakfast }}</h2>
+  <div class="rellax" data-rellax-speed="1.1" data-rellax-percentage="0.5">
     <img src="{{ page.breakfast_image }}" width="100%" alt="wafwaf breakfast image">
   </div>
-  <div class="mt-24 mb-16">
+  <div class="mt-24 mb-16 rellax" data-rellax-speed="0.8" data-rellax-percentage="0.5">
     <h2 class="h2">{{ page.delivery }}</h2>
   </div>
 </div>
