@@ -18,6 +18,6 @@ fields:
   type: text
   config:
     required: true
-  label: Layout
+  label: layout
   default: contact
   hidden: true
