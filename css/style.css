@@ -211,9 +211,19 @@ header nav .menu-logo {
 }
 
 /* Instagram Feed */
+.instagram-feed {
+  margin-bottom: 53px;
+}
+
 .instagram-title {
   color: #CF909B;
 }
+
+.instagram-item {
+  width: calc(33.33% - 47px);
+  margin-bottom: 70px;
+}
+
 
 /* Delivery */
 .black-btn {
