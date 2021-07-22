@@ -37,12 +37,6 @@ fields:
     maxSize: 64
   label: Breakfast Image
   default: "/uploads/2021/07/20/breakfast.png"
-- name: delivery
-  type: text
-  config:
-    required: true
-  label: Delivery
-  default: Rozvážíme každý den od 08:00 do 21:00
 - name: layout
   type: text
   config:
