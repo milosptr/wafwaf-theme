@@ -21,3 +21,5 @@ fields:
   label: layout
   default: contact
   hidden: true
+pages:
+- Contact.md
