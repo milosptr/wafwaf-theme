@@ -230,7 +230,7 @@ header nav .menu-logo {
   line-height: 25px;
   color: #FFFDF5;
   margin-top: 36px;
-  white-space: pre-wrap;
+  white-space: pre-line;
 }
 
 /* Instagram Feed */
