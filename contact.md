@@ -3,6 +3,11 @@ hero_image: "/uploads/2021/07/22/kontakty.png"
 big_title: Kontakty
 layout: contact
 contact_information:
+- title: Pro média
+  content: 'Otázky na management společnosti využijte prosím email: jonas@waf-waf.cz'
+- title: 'Chtěli byste ve Waf-Waf udělat oslavu? '
+  content: 'Rozlučku se svobodou a nebo si rovnou pronajmout celý prostor? Kontaktujte
+    nás na emailu: provoz@waf-waf.cz'
 - title: Rezervace
   content: Rezervace provádíme od pondělí do pátku pro více jak 2 osoby, které u nás
     místo vždy najdou :)
