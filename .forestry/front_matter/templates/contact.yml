@@ -21,5 +21,32 @@ fields:
   label: layout
   default: contact
   hidden: true
+- name: contact_information
+  type: field_group_list
+  fields:
+  - name: information
+    type: field_group
+    config: {}
+    fields:
+    - name: title
+      type: text
+      config:
+        required: true
+      label: title
+    - name: content
+      type: textarea
+      default: ''
+      config:
+        required: true
+        wysiwyg: true
+        schema:
+          format: markdown
+      label: content
+    label: information
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Contact Information
 pages:
 - contact.md
