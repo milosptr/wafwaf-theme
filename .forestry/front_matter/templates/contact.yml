@@ -14,3 +14,10 @@ fields:
     required: true
   label: Big title
   default: Kontakty
+- name: layout
+  type: text
+  config:
+    required: true
+  label: Layout
+  default: contact
+  hidden: true
