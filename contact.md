@@ -18,7 +18,7 @@ contact_information:
     nás na emailu: provoz@waf-waf.cz'
 - title: Otevírací doba
   content: 'Pokud by Vás zajímala otevírací doba jednotlivých poboček, tak navštivte
-    záložku: [Naše pobočky](#) naopak pokud by Vás zajímala práce ve Waf-Waf můžete
-    navštívit kolonku: [volné pozice](#).'
+    záložku: [Naše pobočky](# "nzm") naopak pokud by Vás zajímala práce ve Waf-Waf
+    můžete navštívit kolonku: [volné pozice](#).'
 
 ---
