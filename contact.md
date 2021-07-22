@@ -3,6 +3,10 @@ hero_image: "/uploads/2021/07/22/kontakty.png"
 big_title: Kontakty
 layout: contact
 contact_information:
+- title: Otevírací doba
+  content: 'Pokud by Vás zajímala otevírací doba jednotlivých poboček, tak navštivte
+    záložku: [Naše pobočky](#) naopak pokud by Vás zajímala práce ve Waf-Waf můžete
+    navštívit kolonku: [volné pozice](#).'
 - title: Pro média
   content: 'Otázky na management společnosti využijte prosím email: jonas@waf-waf.cz'
 - title: 'Chtěli byste ve Waf-Waf udělat oslavu? '
