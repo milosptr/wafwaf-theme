@@ -1,0 +1,27 @@
+{% assign current_page = 'contact' %}
+
+{% include head.html %}
+
+<div class="contact-page">
+  <div class="container">
+    {% include nav.html %}
+  </div>
+  <div class="container pt-16 pb-24">
+    <div class="mx-auto hero-custom-carousel flex items-center justify-center">
+      <div class="overflow-hidden">
+        <img src="{{ page.hero_image }}" alt="wafwaf hero" width="100%">
+      </div>
+    </div>
+    <h1 class="h1 mt-12 rellax" data-rellax-speed="0.7">{{ page.big_title }}</h1>
+  </div>
+  <div class="container">
+    <div class="rubic-pattern top"></div>
+  </div>
+</div>
+
+<div class="container">
+  {% include delivery.html %}
+</div>
+{% include instagram.html %}
+
+{% include footer.html %}

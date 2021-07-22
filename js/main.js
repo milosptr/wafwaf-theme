@@ -14,4 +14,8 @@
     mousewheel: true,
     keyboard: true,
   })
+
+  fetch('https://www.instagram.com/wafwafcz/?__a=1')
+    .then(response => response.json())
+    .then(data => console.log(data))
 })()

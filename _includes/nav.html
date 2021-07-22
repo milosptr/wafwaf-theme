@@ -4,7 +4,11 @@
 
 {% assign url = page.url | remove:'index.html' %}
 <header class="site-header">
-  <div class="container">
+  {% if current_page == 'contact' %}
+    <div>
+  {% else %}
+    <div div class="container">
+  {% endif %}
     <div class="rubic-pattern navbar-pattern"></div>
     <nav class="main-nav flex justify-between items-center">
       <a href="/" class="menu-item">
