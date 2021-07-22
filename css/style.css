@@ -140,8 +140,6 @@ body {
   background: #CF909B;
 }
 
-
-
 /* Navigation */
 header nav .menu-item {
   width: 159px;
@@ -210,6 +208,31 @@ header nav .menu-logo {
   background: #85D3C4;
 }
 
+/* Contact */
+.single-information {
+  max-width: 260px;
+  width: 100%;
+}
+
+.info-title {
+  background: rgb(70, 62, 55);
+  height: 150px;
+  font-family: 'AvenirNext', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 0 10%;
+  color: rgb(229,	213, 136);
+}
+
+.info-content {
+  font-size: 18px;
+  font-family: 'AvenirNext', sans-serif;
+  line-height: 25px;
+  color: #FFFDF5;
+  margin-top: 36px;
+  white-space: pre-wrap;
+}
+
 /* Instagram Feed */
 .instagram-feed {
   margin-bottom: 53px;
@@ -223,7 +246,6 @@ header nav .menu-logo {
   width: calc(33.33% - 47px);
   margin-bottom: 70px;
 }
-
 
 /* Delivery */
 .black-btn {

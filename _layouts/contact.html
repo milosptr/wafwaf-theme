@@ -13,7 +13,22 @@
       </div>
     </div>
     <h1 class="h1 mt-12 rellax" data-rellax-speed="0.7">{{ page.big_title }}</h1>
+    <div class="flex justify-between items-start">
+      {% for information in page.contact_information %}
+        <div class="single-information">
+          <div class="rubic-pattern top"></div>
+          <div class="info-title flex items-center justify-center text-center">
+            {{ information.title }}
+          </div>
+          <div class="rubic-pattern bottom"></div>
+          <div class="info-content">
+            {{ information.content }}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
   </div>
+
   <div class="container">
     <div class="rubic-pattern top"></div>
   </div>
