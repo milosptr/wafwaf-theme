@@ -1,6 +1,6 @@
 ---
 label: contact
-hide_body: false
+hide_body: true
 fields:
 - name: hero_image
   type: file
