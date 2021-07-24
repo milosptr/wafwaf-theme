@@ -70,6 +70,17 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: 'AvenirNextLTPro-Bold';
+  src: url('../fonts/Mada-Bold.eot');
+  src: url('../fonts/Mada-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Mada-Bold.woff2') format('woff2'),
+      url('../fonts/Mada-Bold.woff') format('woff'),
+      url('../fonts/Mada-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
 
 html, body, div, p {
   color: #251C16;
@@ -99,6 +110,10 @@ body {
   max-width: 1640px;
   width: 100%;
   margin: 0 auto;
+}
+
+.bg-light-green {
+  background: #85D3C4;
 }
 
 /* Pattern Bars */
@@ -131,12 +146,14 @@ html .load-hidden {
   visibility: hidden;
 }
 
-/* Pages */
-#homepage {
-  background: #FFFDF5;
+.hide {
+  display: none;
 }
 
-#contact {
+/* Pages */
+#homepage,
+#contact,
+#menu {
   background: #FFFDF5;
 }
 
@@ -216,6 +233,59 @@ header nav .menu-logo {
   text-align: center;
   padding: 68px;
   background: #85D3C4;
+}
+
+/* Menu */
+.category-title {
+  font-family: 'AvenirNextLTPro-Bold', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color:#F8EABF;
+}
+
+.category-title.active {
+  color: #251C16;
+}
+
+.single-product {
+  margin-bottom: 183px;
+}
+
+.single-product:nth-child(even) {
+  padding-left: 7.5%;
+}
+
+.single-product:nth-child(odd) {
+  padding-right: 7.5%;
+}
+
+.single-product img {
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.single-product .product-title,
+.single-product .product-price {
+  font-family: 'BrandonText-Bold', sans-serif;
+  font-size: 56px;
+  font-weight: bold;
+  letter-spacing: -1.4px;
+  line-height: 56px;
+  color: #251C16;
+  margin-top: 22px;
+}
+
+.single-product .product-description {
+  font-family: 'AvenirNext-Regular', sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  color: #483B33;
+}
+
+.single-product .product-price {
+  margin-top: 0;
+  text-align: right;
+  color: #85D3C4;
 }
 
 /* Contact */

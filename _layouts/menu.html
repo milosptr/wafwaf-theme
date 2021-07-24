@@ -1,0 +1,37 @@
+{% assign current_page = 'menu' %}
+
+{% include head.html %}
+
+{% include nav.html %}
+
+<div class="container pt-16 pb-24">
+  <div class="rubic-pattern top"></div>
+  <div class="flex justify-start items-center bg-light-green">
+    {% for item in page.categories %}
+    <div class="category-title ml-24 py-6 cursor-pointer">
+      {{ item.category_title }}
+    </div>
+    {% endfor %}
+  </div>
+  <div class="rubic-pattern bottom"></div>
+  <div class="products-container flex flex-wrap mt-8">
+    {% for item in page.categories %}
+      {% for product in item.products %}
+        <div class="single-product w-1/2 slide-up" data-category={{ item.category_title }}>
+          <img src="{{ product.product_image }}" alt="{{ product.product_title }}" width="100%">
+          <div class="flex flex-wrap items-center">
+            <div class="w-3/4">
+              <div class="product-title">{{ product.product_title }}</div>
+              <div class="product-description">{{ product.product_description }}</div>
+            </div>
+            <div class="w-1/4">
+              <div class="product-price">{{ product.product_price }},-</div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    {% endfor %}
+  </div>
+</div>
+
+{% include footer.html %}
