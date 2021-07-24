@@ -112,8 +112,16 @@ body {
   margin: 0 auto;
 }
 
+.bg-pink {
+  background: #CF909B;
+}
+
 .bg-light-green {
   background: #85D3C4;
+}
+
+.text-pink {
+  color: #CF909B;
 }
 
 /* Pattern Bars */
@@ -155,6 +163,10 @@ html .load-hidden {
 #contact,
 #menu {
   background: #FFFDF5;
+}
+
+#delivery {
+  background: #ECD684;
 }
 
 .contact-page {
