@@ -63,3 +63,5 @@ fields:
   label: layout
   hidden: true
   default: menu
+pages:
+- menu.md
