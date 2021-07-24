@@ -14,6 +14,5 @@ delivery_description: Rozvážíme každý den od 10:00 do 20:00. Na výběr bud
   Food, Wolt a Dáme jídlo.
 delivery_image: "/uploads/2021/07/24/delivery-box.png"
 layout: deliverylayout
-published: false
 
 ---
