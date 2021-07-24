@@ -17,8 +17,8 @@ contact_information:
   content: 'Rozlučku se svobodou a nebo si rovnou pronajmout celý prostor? Kontaktujte
     nás na emailu: provoz@waf-waf.cz'
 - title: Otevírací doba
-  content: 'Pokud by Vás zajímala otevírací doba jednotlivých poboček, tak navštivte
-    záložku: [Naše pobočky](# "nzm") naopak pokud by Vás zajímala práce ve Waf-Waf
-    můžete navštívit kolonku: [volné pozice](#).'
+  content: "Pokud by Vás zajímala otevírací doba jednotlivých poboček, tak navštivte
+    záložku:  \n [Naše pobočky](# \"nzm\") naopak pokud by Vás zajímala práce ve Waf-Waf
+    můžete navštívit kolonku: [volné pozice](#)."
 
 ---
