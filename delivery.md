@@ -15,5 +15,26 @@ delivery_description: Rozvážíme každý den od 10:00 do 20:00. Na výběr bud
 delivery_image: "/uploads/2021/07/24/delivery-box.png"
 layout: deliverylayout
 hero_image: "/uploads/2021/07/24/delivery.png"
+locations:
+- location_image: ''
+  location_title: WAF-WAF LETNÁ
+  wolt: true
+  boltfood: true
+  damejidlo: true
+- location_image: "/uploads/2021/07/24/20190628_112623280_ios.png"
+  location_title: WAF-WAF IP PAVLOVA
+  wolt: true
+  boltfood: true
+  damejidlo: true
+- location_image: "/uploads/2021/07/24/39cf683c-f6fa-4dad-82a3-5a46f81afdf8.png"
+  location_title: WAF-WAF OC PALLADIUM
+  wolt: true
+  boltfood: true
+  damejidlo: true
+- location_image: "/uploads/2021/07/24/20111231_230000000_ios-103.png"
+  location_title: WAF-WAF BRNO
+  wolt: true
+  boltfood: true
+  damejidlo: true
 
 ---
