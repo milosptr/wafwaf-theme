@@ -1,5 +1,23 @@
 (function() {
-  const rellax = new Rellax('.rellax')
+  let slideUp = {
+    distance: '100%',
+    origin: 'bottom',
+    opacity: 0,
+    delay: 275,
+    duration: 2000,
+    easing: 'cubic-bezier(0.5, 0, 0, 1)',
+  };
+
+  document.querySelector('.showcase-group').childNodes.forEach((c, i) => {
+    if(c && c.classList && c.classList.contains('fadeInUp')) {
+      slideUp.delay = c.dataset['delay'] ? parseInt(c.dataset['delay']) : 275
+      ScrollReveal().reveal(c, slideUp);
+    }
+  })
+
+  ScrollReveal().reveal('.slide-up', slideUp);
+
+
   const swiper = new Swiper(".custom-carousel", {
     cssMode: true,
     loop: true,

@@ -127,6 +127,10 @@ body {
   border-radius: 0 0 30px 30px;
 }
 
+html .load-hidden {
+  visibility: hidden;
+}
+
 /* Pages */
 #homepage {
   background: #FFFDF5;
@@ -231,6 +235,19 @@ header nav .menu-logo {
   color: #FFFDF5;
   margin-top: 36px;
   white-space: pre-line;
+}
+
+.info-content p {
+  color: #FFFDF5;
+}
+
+.info-content p a {
+  color: #251C16;
+  text-decoration: underline;
+}
+
+.info-content.content-column-1 p br {
+  display: none;
 }
 
 /* Instagram Feed */
