@@ -1,7 +1,3 @@
-{% comment %}
-	Displays the site's navigation using the jekyll-menus plugin
-{% endcomment %}
-
 {% assign url = page.url | remove:'index.html' %}
 <header class="site-header">
   {% if current_page == 'contact' %}
@@ -25,7 +21,11 @@
       </a>
 
       <a href="/" class="menu-logo">
-        <img src="/img/Waf-Waf-logo.svg" alt="Waf Waf - crepes & waffles" width="192">
+        {% if current_page == 'contact' %}
+          <img src="/img/Waf-Waf-white.svg" alt="Waf Waf - crepes & waffles" width="192">
+        {% else %}
+          <img src="/img/Waf-Waf-logo.svg" alt="Waf Waf - crepes & waffles" width="192">
+        {% endif %}
       </a>
 
       <a href="/" class="menu-item">

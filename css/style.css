@@ -158,6 +158,12 @@ header nav .menu-item {
   transition: all .3s ease-in-out;
 }
 
+#contact header nav .menu-item {
+  background: #FFFDF5;
+  color: #251C16;
+}
+
+#contact header nav .menu-item:hover,
 header nav .menu-item:hover {
   color: #251C16;
   background: #ecd684;
@@ -246,7 +252,8 @@ header nav .menu-logo {
   text-decoration: underline;
 }
 
-.info-content.content-column-1 p br {
+.info-content.content-column-1 p br,
+.info-content.content-column-5 p br {
   display: none;
 }
 
