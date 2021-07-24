@@ -15,8 +15,9 @@ sections:
   label: Pages
   create: all
   templates:
-  - contact
   - homepage
+  - contact
+  - menu
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
