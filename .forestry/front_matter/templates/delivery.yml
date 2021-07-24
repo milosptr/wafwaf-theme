@@ -20,24 +20,43 @@ fields:
     required: true
   label: Subtitle
   default: Rozvoz jídla - Wolt, Bolt Food a Dáme jídlo! ❤️
+- name: locations
+  type: field_group_list
+  fields:
+  - name: location_image
+    type: file
+    config:
+      maxSize: 64
+    label: Location image
+  - name: location_title
+    type: text
+    config:
+      required: true
+    label: Location title
+    default: WAF-WAF LETNÁ
+  - name: wolt
+    type: boolean
+    label: Wolt
+    default: true
+  - name: boltfood
+    type: boolean
+    label: BoltFood
+    default: true
+  - name: damejidlo
+    type: boolean
+    label: Dáme jídlo
+    default: true
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Locations
 - name: delivery_title
   type: text
   config:
     required: true
   label: Delivery title
   default: Rozvoz provádíme v rámci celych mest Praha a Brno
-- name: wolt
-  type: boolean
-  label: Wolt
-  default: true
-- name: boltfood
-  type: boolean
-  label: BoltFood
-  default: true
-- name: damejidlo
-  type: boolean
-  label: DámeJidlo
-  default: true
 - name: delivery_description
   type: textarea
   default: Rozvážíme každý den od 10:00 do 20:00. Na výběr budou jak sladké (Wafreo
