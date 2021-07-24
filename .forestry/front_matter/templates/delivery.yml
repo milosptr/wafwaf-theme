@@ -60,3 +60,5 @@ fields:
   label: layout
   default: deliverylayout
   hidden: true
+pages:
+- delivery.md
