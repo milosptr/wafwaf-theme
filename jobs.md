@@ -2,6 +2,7 @@
 hero_image: "/uploads/2021/07/25/jobs.png"
 big_title: Přidej se k nám
 subtitle: Staň se součástí našeho týmu!
+layout: jobs
 positions_title: 'Nabízené pozice v rámci společnosti Waf-Waf s.r.o.:'
 jobs:
 - job_title: OBSLUHA BISTRA

@@ -128,6 +128,18 @@ body {
   background: #85D3C4;
 }
 
+.bg-yellow {
+  background: #F8EABF;
+}
+
+.text-yellow {
+  color: #F8EABF!important;
+}
+
+.text-light-yellow {
+  color: #FFFDF5!important;
+}
+
 .text-pink {
   color: #CF909B;
 }
@@ -171,6 +183,10 @@ html .load-hidden {
 #contact,
 #menu {
   background: #FFFDF5;
+}
+
+#jobs {
+  background: #76685E;
 }
 
 #delivery {
@@ -327,6 +343,20 @@ header nav .menu-logo {
   margin-top: 0;
   text-align: right;
   color: #85D3C4;
+}
+
+/* Jobs */
+.job-title {
+  font-family: 'Brandon Text', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 50px;
+}
+
+.job-location {
+  font-family: 'Brandon Text', sans-serif;
+  font-size: 32px;
+  line-height: 50px;
 }
 
 /* Contact */
