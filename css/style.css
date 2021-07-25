@@ -106,6 +106,14 @@ body {
   text-align: center;
 }
 
+.h3 {
+  font-family: 'AvenirNextLTPro-Bold', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 50px;
+  color: #251C16;
+}
+
 .container {
   max-width: 1640px;
   width: 100%;
@@ -247,6 +255,27 @@ header nav .menu-logo {
   background: #85D3C4;
 }
 
+/* Delivery */
+#delivery header nav .menu-item {
+  background: #FFFDF5;
+  color: #251C16;
+}
+
+#delivery header nav .menu-item:hover {
+  background: #85D3C4;
+}
+
+.single-location {
+  max-width: 260px;
+}
+
+.delivery-btn {
+  background: #FFFDF5;
+  border-radius: 30px;
+  height: 62px;
+  cursor: pointer;
+}
+
 /* Menu */
 .category-title {
   font-family: 'AvenirNextLTPro-Bold', sans-serif;
@@ -374,6 +403,10 @@ header nav .menu-logo {
 footer.site-footer {
   background: #ECD684;
   border-radius: 30px;
+}
+
+#delivery footer.site-footer  {
+  background: rgb(244,	233,	192);
 }
 
 footer .footer-content {

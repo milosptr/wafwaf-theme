@@ -21,11 +21,28 @@
   <h2 class="h2 my-20 text-pink">{{ page.delivery_title }}</h2>
   <div>
     <div class="rubic-pattern top"></div>
-    <div class="bg-pink py-12">
+    <div class="bg-pink py-20 px-32 flex justify-between">
       {% for  location in page.locations %}
-        <div class="single-location">
+        <div class="single-location text-center">
           <img src="{{ location.location_image }}" alt="{{ location.location_title }}">
-          <h3 class="h3">{{ {{ location.location_title }} }}</h3>
+          <h3 class="h3 my-2">{{ location.location_title }}</h3>
+          <div class="mt-6">
+            {% if location.wolt %}
+              <a class="delivery-btn flex items-center justify-center">
+                <img src="/img/wolt.png" alt="wolt" height="35">
+              </a>
+            {% endif %}
+            {% if location.boltfood %}
+              <a class="delivery-btn flex items-center justify-center mt-6">
+                <img src="/img/boltfood.png" alt="wolt" height="54">
+              </a>
+            {% endif %}
+            {% if location.damejidlo %}
+              <a class="delivery-btn flex items-center justify-center mt-6">
+                <img src="/img/damejidlo.png" alt="wolt" height="42">
+              </a>
+            {% endif %}
+          </div>
         </div>
       {% endfor %}
     </div>
