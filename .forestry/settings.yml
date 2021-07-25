@@ -15,6 +15,7 @@ sections:
   label: Pages
   create: all
   templates:
+  - jobs
   - delivery
   - homepage
   - contact
