@@ -53,5 +53,12 @@ fields:
     max: 
     labelField: 
   label: jobs
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  hidden: true
+  default: jobs
 pages:
 - jobs.md
