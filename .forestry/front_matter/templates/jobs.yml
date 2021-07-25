@@ -53,3 +53,5 @@ fields:
     max: 
     labelField: 
   label: jobs
+pages:
+- jobs.md
