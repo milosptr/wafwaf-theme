@@ -88,6 +88,24 @@ fields:
     max: 
     labelField: 
   label: Stores
+- name: accordions
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: true
+    label: Title
+  - name: description
+    type: text
+    config:
+      required: true
+    label: Description
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Accordions
 - name: layout
   type: text
   config:
