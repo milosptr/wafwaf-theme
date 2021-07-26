@@ -97,9 +97,13 @@ fields:
       required: true
     label: Title
   - name: description
-    type: text
+    type: textarea
+    default: ''
     config:
-      required: true
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
     label: Description
   config:
     min: 
