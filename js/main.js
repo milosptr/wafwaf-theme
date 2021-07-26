@@ -30,7 +30,7 @@
     })
   }
 
-  if(document.body.id === 'jobs') {
+  if(document.body.id === 'jobs' || document.body.id === 'franchising') {
     const buttons = document.querySelectorAll('.open-accordion')
     buttons.forEach((b) => {
       b.addEventListener('click', (e) => {
@@ -67,7 +67,7 @@
 
     const accordionId = '.' + el.dataset.accordion
     const accordion = document.querySelector(accordionId)
-    const accordions = document.querySelectorAll('.job-accordion')
+    const accordions = document.querySelectorAll('.accordion')
 
     if(accordion.classList.contains('accordion-opened')) {
       accordion.classList.remove('accordion-opened')
