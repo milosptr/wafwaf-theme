@@ -55,6 +55,12 @@ fields:
   label: Second subtitle
   default: Chcete tedy originální znacku a stát se obchodním partnerem rychle rostoucí
     spolecnosti?
+- name: third_subtitle
+  type: text
+  config:
+    required: false
+  label: Third subtitle
+  default: KONCEPTY – WAF-WAF FRANCHISE
 - name: stores
   type: field_group_list
   fields:
