@@ -5,6 +5,7 @@ subtitle: Pokud jste se dostali na tuto stránku, pravdepodobneto znamená, že 
   propadli kouzlu Waf-Waf stejne jako MY!
 second_subtitle: Chcete tedy originální znacku a stát se obchodním partnerem rychle
   rostoucí spolecnosti?
+third_subtitle: KONCEPTY – WAF-WAF FRANCHISE
 concept:
 - icon: "/uploads/2021/07/26/group-2184.svg"
   title: Inovativní koncept
