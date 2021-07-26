@@ -19,22 +19,24 @@
     <div  class="rubic-pattern bottom"></div>
   </div>
   <div class="mt-20">
-    <h3 class="h3 text-center text-yellow">{{ page.positions_title }}</h3>
+    <h3 class="h3 text-center text-yellow positions-title">{{ page.positions_title }}</h3>
   </div>
 
   {% for job in page.jobs %}
     <div class="mt-10">
       <div class="rubic-pattern top"></div>
-      <div class="flex flex-wrap justify-between items-center bg-yellow px-16 py-4">
+      <div class="job-accordion job-accordion-{{ forloop.index }} flex flex-wrap justify-between items-center bg-yellow px-16 py-4">
         <div class="w-2/3 flex items-center justify-between">
           <div class="job-title w-2/3">{{ job.job_title }}</div>
           <div class="job-location w-1/3">{{ job.job_location }}</div>
         </div>
         <div class="w-1/3 flex justify-end">
-          <img src="/img/plus.svg" width="50">
+          <img class="open-accordion" src="/img/plus.svg" width="50" data-accordion="job-accordion-{{ forloop.index }}">
         </div>
         <div class="w-full job-description">
-          {{ job.job_description }}
+          <div class="w-1/2 mt-16 mb-12">
+            {{ job.job_description }}
+          </div>
         </div>
       </div>
       <div class="rubic-pattern bottom"></div>

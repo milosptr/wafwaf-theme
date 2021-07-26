@@ -30,6 +30,15 @@
     })
   }
 
+  if(document.body.id === 'jobs') {
+    const buttons = document.querySelectorAll('.open-accordion')
+    buttons.forEach((b) => {
+      b.addEventListener('click', (e) => {
+        toggleAccordion(e.target)
+      })
+    })
+  }
+
   const swiper = new Swiper(".custom-carousel", {
     cssMode: true,
     loop: true,
@@ -53,6 +62,24 @@
   // })
   //   .then(response => response.json())
   //   .then(data => console.log(data))
+
+  function toggleAccordion(el) {
+
+    const accordionId = '.' + el.dataset.accordion
+    const accordion = document.querySelector(accordionId)
+    const accordions = document.querySelectorAll('.job-accordion')
+
+    if(accordion.classList.contains('accordion-opened')) {
+      accordion.classList.remove('accordion-opened')
+      return
+    }
+
+    accordions.forEach((a) => {
+      if(a !== el)
+        a.classList.remove('accordion-opened')
+     })
+     accordion.classList.add('accordion-opened')
+  }
 
   function filterProducts(category) {
     const categories = document.querySelectorAll('.category-title')

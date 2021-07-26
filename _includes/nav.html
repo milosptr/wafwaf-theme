@@ -10,7 +10,7 @@
       <a href="/" class="menu-item">
         Home
       </a>
-      <a href="/" class="menu-item">
+      <a href="/about" class="menu-item">
         Naše pobočky
       </a>
       <a href="/menu" class="menu-item">
@@ -21,7 +21,7 @@
       </a>
 
       <a href="/" class="menu-logo">
-        {% if current_page == 'contact' %}
+        {% if current_page == 'contact' or current_page == 'jobs' %}
           <img src="/img/Waf-Waf-white.svg" alt="Waf Waf - crepes & waffles" width="192">
         {% else %}
           <img src="/img/Waf-Waf-logo.svg" alt="Waf Waf - crepes & waffles" width="192">
@@ -34,10 +34,10 @@
       <a href="/contact" class="menu-item">
         Kontakty
       </a>
-      <a href="/" class="menu-item">
+      <a href="/jobs" class="menu-item">
         Přidej se k nám
       </a>
-      <a href="/" class="menu-item">
+      <a href="/delivery" class="menu-item">
         Rozvoz
       </a>
     </nav>
