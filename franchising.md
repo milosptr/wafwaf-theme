@@ -54,5 +54,5 @@ stores:
     sezení a designu či hudby \n* Průchodnost: min. 20 000 lidí denně. \n* Dostatečná
     kapacita médií – voda, elektro, kanalizace, vzduchotechnika"
   title: KAMENNÁ PROVOZOVNA V OC
-- layout: franchising
+layout: franchising
 ---
