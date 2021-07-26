@@ -132,6 +132,14 @@ body {
   background: #F8EABF;
 }
 
+.bg-yellow-dark {
+  background: #ecd684;
+}
+
+.bg-brown {
+  background: #483B33;
+}
+
 .text-yellow {
   color: #F8EABF!important;
 }
@@ -197,6 +205,10 @@ html .load-hidden {
   background: #CF909B;
 }
 
+.franchising-page {
+  background: #85D3C4;
+}
+
 /* Navigation */
 header nav .menu-item {
   width: 159px;
@@ -212,11 +224,13 @@ header nav .menu-item {
 }
 
 #jobs header nav .menu-item,
+#franchising header nav .menu-item,
 #contact header nav .menu-item {
   background: #FFFDF5;
   color: #251C16;
 }
 #jobs header nav .menu-item:hover,
+#franchising header nav .menu-item:hover,
 #contact header nav .menu-item:hover,
 header nav .menu-item:hover {
   color: #251C16;
@@ -344,6 +358,50 @@ header nav .menu-logo {
   margin-top: 0;
   text-align: right;
   color: #85D3C4;
+}
+
+/* Franchising */
+.concept-box {
+  border-radius: 0 0 30px 30px;
+}
+
+.concept-title {
+  font-family: 'BrandonText-Bold', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+  color: #85D3C4;
+}
+
+.concept-description {
+  font-family: 'AvenirNext-Regular', sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFDF5;
+}
+
+.store-title {
+  font-family: 'BrandonText-Bold', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 50px;
+  min-height: 106px;
+  color: #251C16;
+}
+
+.store-description {
+  font-family: 'AvenirNext-Regular', sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  color: #483B33;
+}
+
+.franchising-subtitle {
+  text-align: center;
+}
+
+.store-description ul li {
+  list-style: inside;
 }
 
 /* Jobs */

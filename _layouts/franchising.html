@@ -6,13 +6,49 @@
   <div class="container">
     {% include nav.html %}
   </div>
-  <div class="container pt-16 pb-24">
+  <div class="container py-16">
     <div class="mx-auto hero-custom-carousel flex items-center justify-center">
       <div class="overflow-hidden">
         <img src="{{ page.hero_image }}" alt="wafwaf hero" width="100%">
       </div>
     </div>
-    <h1 class="h1 mt-12 mb-16 text-white">{{ page.big_title }}</h1>
+    <h1 class="h1 mt-12 mb-16">{{ page.big_title }}</h1>
+    <h2 class="w-4/5 mx-auto mt-48 mb-20 text-white subtitle h2">{{  page.subtitle }}</h2>
+    <div class="">
+      <div class="rubic-pattern top"></div>
+      <div class="flex flex-wrap justify-between p-24 pb-48 bg-brown concept-box">
+        {% for con in page.concept%}
+          <div class="w-1/3">
+            <img src="{{ con.icon }}" alt="concept-{{ forloop.index }}" style="height: 90px; width: auto;">
+            <h3 class="mt-24 concept-title">{{ con.title }}</h3>
+            <p class="mt-20 concept-description pr-20">{{ con.description }}</p>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="mx-24 -mt-48">
+    <div class="rubic-pattern top"></div>
+    <div class="bg-yellow-dark p-16">
+      <h2 class="h2">{{ page.second_subtitle }}</h2>
+    </div>
+    <div class="rubic-pattern bottom"></div>
+  </div>
+  <div class="mt-48">
+    <h2 class="h2 franchising-subtitle">{{ page.third_subtitle }}</h2>
+    <div class="flex flex-wrap justify-between mt-32">
+      {% for store in page.stores %}
+        <div class="w-1/4">
+          <img src="{{ store.image }}" alt="{{ store.title }}" style="max-width: 398px;">
+          <h3 class="store-title mt-10 text-center">{{ store.title }}</h3>
+          <div class="store-description mt-10">
+            {{ store.description | markdownify }}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
   </div>
 </div>
 
