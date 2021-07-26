@@ -82,5 +82,12 @@ fields:
     max: 
     labelField: 
   label: Stores
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  hidden: true
+  default: franchising
 pages:
 - franchising.md
