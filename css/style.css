@@ -140,8 +140,16 @@ body {
   background: #483B33;
 }
 
+.bg-green {
+  background: #85D3C4!important;
+}
+
 .text-yellow {
   color: #F8EABF!important;
+}
+
+.text-green {
+  color: #85D3C4!important;
 }
 
 .text-light-yellow {
@@ -202,7 +210,8 @@ html .load-hidden {
   background: #ECD684;
 }
 
-.contact-page {
+.contact-page,
+#about {
   background: #CF909B;
 }
 
@@ -225,11 +234,14 @@ header nav .menu-item {
 }
 
 #jobs header nav .menu-item,
+#about header nav .menu-item,
 #franchising header nav .menu-item,
 #contact header nav .menu-item {
   background: #FFFDF5;
   color: #251C16;
 }
+
+#about header nav .menu-item:hover,
 #jobs header nav .menu-item:hover,
 #franchising header nav .menu-item:hover,
 #contact header nav .menu-item:hover,
@@ -403,6 +415,98 @@ header nav .menu-logo {
 
 .store-description ul li {
   list-style: inside;
+}
+
+/* About */
+.proccess-item h3 {
+  font-family: 'BrandonText-Bold', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 30px;
+  color: #85D3C4;
+}
+
+.proccess-item-index {
+  font-family: 'BrandonText-Bold', sans-serif;
+  font-size: 50px;
+  line-height: 45px;
+  font-weight: bold;
+  color: #fff;
+  margin-right: 12px;
+}
+
+.proccess-icon-1,
+.proccess-icon-2,
+.proccess-icon-3,
+.proccess-icon-4 {
+  position: relative;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1)
+}
+
+.proccess-item-1::before,
+.proccess-item-2::before,
+.proccess-item-3::before {
+  content: '';
+  position: absolute;
+  z-index: 3;
+  width: 100px;
+  height: 36px;
+  background: url(/img/arrow.svg) no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+.proccess-item-1::before {
+  top: 25%;
+  right: -100px;
+}
+.proccess-item-2::before {
+  top: 15%;
+  right: -100px;
+  transform: scaleY(-1);
+  z-index: 4;
+}
+.proccess-item-3::before {
+  top: 40%;
+  right: -100px;
+}
+
+.proccess-icon-1 {
+  transform: rotate(-10deg);
+}
+
+.proccess-icon-2 {
+  transform: rotate(10deg);
+}
+
+.proccess-icon-3 {
+  transform: rotate(-4deg);
+}
+
+.proccess-icon-4 {
+  transform: rotate(5deg);
+}
+
+.proccess-icon-1:hover,
+.proccess-icon-2:hover,
+.proccess-icon-3:hover,
+.proccess-icon-4:hover {
+  transform: rotate(0);
+}
+
+#about h3 {
+  font-family: 'BrandonText-Bold', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 50px;
+  color: #fff;
+}
+
+#about p {
+  font-family: 'AvenirNext-Regular', sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  color: #251C16;
 }
 
 /* Jobs */
