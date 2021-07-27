@@ -55,14 +55,14 @@
       <div class="rubic-pattern top"></div>
       <div class="accordion accordion-{{ forloop.index }} flex flex-wrap justify-between items-center bg-yellow px-16 py-4">
         <div class="w-2/3 flex items-center justify-between">
-          <div class="job-title">{{ accordion.job_title }}</div>
+          <div class="job-title text-pink">{{ accordion.title }}</div>
         </div>
         <div class="w-1/3 flex justify-end">
           <img class="open-accordion" src="/img/plus.svg" width="50" data-accordion="accordion-{{ forloop.index }}">
         </div>
         <div class="w-full job-description">
           <div class="w-1/2 mt-16 mb-12">
-            {{ accordion.job_description }}
+            {{ accordion.description }}
           </div>
         </div>
       </div>
