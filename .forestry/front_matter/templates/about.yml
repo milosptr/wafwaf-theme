@@ -134,5 +134,12 @@ fields:
         format: markdown
     label: Second content
   label: Right section
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  hidden: true
+  default: about
 pages:
 - about.md
