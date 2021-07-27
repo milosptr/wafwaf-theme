@@ -141,5 +141,11 @@ fields:
   label: layout
   hidden: true
   default: about
+- name: subtitle
+  type: text
+  config:
+    required: false
+  label: Subtitle
+  default: Jak to u nás chodí
 pages:
 - about.md
