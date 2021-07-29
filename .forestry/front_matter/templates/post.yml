@@ -7,3 +7,14 @@ fields:
   config:
     required: true
   label: Title
+- name: excerpt
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Excerpt
+pages:
+- _posts/kuchar-jan-vorel-a-waf-waf-spojili-sve-sily-na-valentyna.md
