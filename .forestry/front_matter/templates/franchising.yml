@@ -110,6 +110,37 @@ fields:
     max: 
     labelField: 
   label: Accordions
+- name: faq_title
+  type: text
+  config:
+    required: true
+  label: FAQ title
+  default: FAQ K FRANCHISE POBOCCE
+- name: faq
+  type: field_group_list
+  fields:
+  - name: question
+    type: text
+    config:
+      required: true
+    label: Question
+    default: Jaká je minimální velikost pobočky Waf-Waf?
+  - name: answer
+    type: textarea
+    default: Doporučujeme mít velikost větší než 80-180m2, musíme počítat s tím, že
+      zde bude zasazena fast-casual kuchyně a take zásobování či popřípadě sklad.
+      Nicméně nabízíme i koncepty jako stánkový prodej s velikostí 20-50m2.
+    config:
+      required: true
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Answer
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: FAQ
 - name: layout
   type: text
   config:
