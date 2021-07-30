@@ -1,6 +1,6 @@
 ---
 hero_image: "/uploads/2021/07/27/fastcasualsystem.png"
-big_title: Naše pobočky
+big_title: Náš příběh
 first_section:
   icon: "/uploads/2021/07/27/group-6357.svg"
   content: V roce 2016 se v našich hlavách zrodila myšlenka, směřující k založení
@@ -35,6 +35,7 @@ proccess:
   name: Pockejte, nez Vam pager zazvoni
 - image: "/uploads/2021/07/27/group-45866.svg"
   name: Prijdte s pagerem pro objednavku a vychutnejte si jidlo
-layout: 'about'
+layout: about
+subtitle: ''
 
 ---

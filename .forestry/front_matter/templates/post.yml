@@ -29,7 +29,3 @@ fields:
   label: layout
   default: post
   hidden: true
-pages:
-- _posts/kuchar-jan-vorel-a-waf-waf-spojili-sve-sily-na-valentyna.md
-- _posts/opening-brno.md
-- _posts/otevreni-nove-pobocky-v-oc-palladium-praha.md

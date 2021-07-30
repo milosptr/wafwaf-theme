@@ -12,7 +12,7 @@ fields:
   type: text
   config:
     required: true
-  default: Naše pobočky
+  default: Náš příběh
   label: Big title
 - name: proccess
   type: field_group_list

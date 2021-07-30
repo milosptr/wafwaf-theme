@@ -45,6 +45,5 @@ fields:
   hidden: true
   default: homepage
 pages:
-- Landing Page/landing-page.md
 - homepage.md
 - index.md
