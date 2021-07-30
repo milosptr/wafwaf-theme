@@ -494,7 +494,7 @@ header nav .menu-logo {
   transform: rotate(0);
 }
 
-#about h3 {
+#about h4 {
   font-family: 'BrandonText-Bold', sans-serif;
   font-size: 50px;
   font-weight: bold;
@@ -619,6 +619,10 @@ header nav .menu-logo {
   margin-right: auto;
 }
 
+.black-btn.ml-0 {
+  margin-left: 0;
+}
+
 /* Footer */
 footer.site-footer {
   background: #ECD684;
@@ -655,6 +659,30 @@ footer .footer-body {
 
 footer .footer-info {
   line-height: 48px;
+}
+
+footer #newsletter input {
+  font-family: 'AvenirNext', sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  background: transparent!important;
+  border: 2px solid #251C16;
+  width: 100%;
+  padding: 8px;
+  color: #251C16;
+  letter-spacing: .5px;
+}
+
+footer #newsletter input[type="button"] {
+  width: 62px;
+  border-left: none;
+  outline: none;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+footer #newsletter input::placeholder {
+  color: #251C16;
 }
 
 

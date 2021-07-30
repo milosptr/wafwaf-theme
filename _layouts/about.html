@@ -1,4 +1,5 @@
 {% assign current_page = 'about' %}
+{% assign page_title = 'Náš příběh' %}
 
 {% include head.html %}
 
@@ -36,9 +37,9 @@
     <div class="mx-auto w-4/5 flex justify-between">
       <div class="w-2/5 pr-4">
         <img src="{{ page.first_section.icon }}" alt="icon 1">
-        <h3 class="h3 text-left text-white mt-4">
+        <h4 class="text-left text-white mt-4">
           {{ page.first_section.title }}
-        </h3>
+        </h4>
         <p class="mt-6">
           {{ page.first_section.content }}
         </p>
@@ -48,16 +49,28 @@
       </div>
     </div>
   </div>
-  <div class="flex justify-between">
-    <div class="w-2/5"></div>
+  <div class="flex justify-between mt-32">
+    <div class="w-2/5">
+      <img src="{{ page.right_section.left_image }}" class="-ml-20" alt="left image">
+    </div>
     <div class="w-3/5">
-      <img src="{{ page.right_section.icon }}" alt="icon 1">
-      <h3 class="h3 text-left text-white mt-4">
-        {{ page.right_section.title }}
-      </h3>
-      <p class="mt-6">
-        {{ page.right_section.content }}
+      <img src="{{ page.right_section.first_icon }}" alt="first icon">
+      <h4 class="h3 text-left text-white mt-4">
+        {{ page.right_section.first_title }}
+      </h4>
+      <p class="mt-6 w-1/2">
+        {{ page.right_section.first_content }}
       </p>
+
+      <img class="mt-6" src="{{ page.right_section.second_icon }}" alt="second icon">
+      <h4 class="h3 text-left text-white mt-4">
+        {{ page.right_section.second_title }}
+      </h4>
+      <p class="mt-6 w-1/2">
+        {{ page.right_section.second_content }}
+      </p>
+
+      <a href="/contact" class="black-btn mt-12 block ml-0">BUĎ U TOHO</a>
     </div>
   </div>
 </div>
