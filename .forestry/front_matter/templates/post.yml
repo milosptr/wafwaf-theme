@@ -29,3 +29,14 @@ fields:
   label: layout
   default: post
   hidden: true
+- name: published_at
+  type: datetime
+  label: published_at
+  description: ''
+  config:
+    required: true
+    date_format: 
+    time_format: 
+    display_utc: false
+  hidden: true
+  default: now
