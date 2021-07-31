@@ -21,6 +21,19 @@ fields:
   label: Subtitle
   default: Waf-Waf to jsou ty nejlepší vafle, palacinky a lívance, které jste meli
     možnost ochutnat.
+- name: latest_posts
+  type: field_group
+  config: {}
+  fields:
+  - name: posts
+    type: blocks
+    label: Posts
+    template_types:
+    - post
+    config:
+      min: 
+      max: 
+  label: Latest posts
 - name: showcase_images
   type: image_gallery
   config: {}
