@@ -374,6 +374,10 @@ header nav .menu-logo {
 }
 
 /* Franchising */
+#franchising {
+  padding-bottom: 0;
+}
+
 .concept-box {
   border-radius: 0 0 30px 30px;
 }
@@ -415,6 +419,48 @@ header nav .menu-logo {
 
 .store-description ul li {
   list-style: inside;
+}
+
+.faq-title {
+  font-family: 'AvenirNextLTPro-Bold', sans-serif;
+  font-size: 55px;
+  font-weight: bold;
+  line-height: 65px;
+  letter-spacing: -2px;
+}
+
+.faq-carousel {
+  width: 100%;
+  max-height: 240px;
+  padding: 0 5%;
+}
+
+.faq-carousel .swiper-button-prev {
+  left: 0;
+}
+.faq-carousel .swiper-button-next {
+  right: 0;
+}
+.faq-carousel .swiper-button-prev::after,
+.faq-carousel .swiper-button-next::after {
+  color: #251C16;
+  font-size: 22px;
+}
+
+.faq-question {
+  font-family: 'BrandonText-Bold', sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 40px;
+  color: #251C16;
+  margin-bottom: 40px;
+}
+
+.faq-answer {
+  font-family: 'AvenirNext', sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  color: #483B33;
 }
 
 /* About */

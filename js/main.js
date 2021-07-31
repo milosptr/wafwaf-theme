@@ -54,6 +54,16 @@
     keyboard: true,
   })
 
+  const swiper2 = new Swiper('.faq-carousel', {
+    cssMode: true,
+    loop: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    mousewheel: true,
+  })
+
   // fetch('https://www.instagram.com/wafwafcz/?__a=1', {
   //   headers: [
   //     ["Content-Type", "application/json"],

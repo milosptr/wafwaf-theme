@@ -70,6 +70,33 @@
       <div class="rubic-pattern bottom"></div>
     </div>
     {% endfor %}
+    <div class="mb-10">
+      <div class="rubic-pattern top"></div>
+      <div class="bg-yellow-dark flex justify-between items-center py-8 px-16">
+        <div class="w-1/5 relative">
+          <div class="faq-title">{{ page.faq_title }}</div>
+          <img class="absolute top-0 -right-24 w-24" src="/img/faq.svg" alt="faq" width="29">
+        </div>
+        <div class="w-3/5">
+          <div class="swiper-container faq-carousel">
+            <div class="swiper-wrapper">
+              {% for f in page.faq %}
+                <div class="swiper-slide">
+                  <div class="faq-question">{{ f.question }}</div>
+                  <div class="faq-answer">{{ f.answer }}</div>
+                </div>
+              {% endfor %}
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+      <div class="rubic-pattern bottom"></div>
+    </div>
 </div>
 
-{% include footer.html %}
+<div class="relative bg-green pt-64 pb-24 -mt-48" style="z-index: -1;">
+  {% include footer.html %}
+</div>
