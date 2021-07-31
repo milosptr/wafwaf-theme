@@ -634,6 +634,27 @@ header nav .menu-logo {
   display: none;
 }
 
+/* Post */
+.latest-posts .post-title {
+  font-family: 'BrandonText-Bold', sans-serif;
+  font-size: 34px;
+  line-height: 40px;
+  min-height: 80px;
+  color: #CF909B;
+}
+
+.latest-posts .post-content {
+  font-family: 'AvenirNext-Regular', sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  color: #251C16;
+}
+
+.latest-posts .w-1\/3 {
+  padding: 0 2%;
+}
+
+
 /* Instagram Feed */
 .instagram-feed {
   margin-bottom: 53px;
@@ -663,6 +684,28 @@ header nav .menu-logo {
   border-radius: 30px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.rounded-outline-btn {
+  font-family: 'AvenirNextLTPro-Bold', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 40px;
+  text-align: center;
+  color: #251C16;
+  border: 1px solid #251C16;
+  border-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all .5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.rounded-outline-btn:hover {
+  background: #251C16;
+  border-color: #251C16;
+  color: #FFFDF5;
 }
 
 .black-btn.ml-0 {
