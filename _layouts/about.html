@@ -11,25 +11,27 @@
       <img src="{{ page.hero_image }}" alt="wafwaf hero" width="100%">
     </div>
   </div>
-  <h1 class="h1 mt-12 mb-16 text-green">{{ page.big_title }}</h1>
+  <h1 class="h1 sm:mt-12 sm:mb-16 text-green">{{ page.big_title }}</h1>
   <div class="">
     <div class="rubic-pattern top"></div>
-    <div class="flex flex-wrap justify-between bg-brown py-10 px-24">
-      {% for p in page.proccess %}
-      <div class="w-1/5 relative proccess-item proccess-item-{{ forloop.index }}">
-        <div class="proccess-icon-{{ forloop.index }}">
-          <div class="rubic-pattern top"></div>
-          <div class="bg-green relative z-0 flex items-center justify-center py-4">
-            <img src="{{ p.image }}" alt="{{ p.name }}">
+    <div class="bg-brown p-8 sm:py-10 sm:px-24 proccess-container">
+      <div class="flex justify-between proccess-wrapper">
+        {% for p in page.proccess %}
+          <div class="w-1/5 relative proccess-item proccess-item-{{ forloop.index }}">
+            <div class="proccess-icon-{{ forloop.index }}">
+              <div class="rubic-pattern top"></div>
+              <div class="bg-green relative z-0 flex items-center justify-center py-4">
+                <img src="{{ p.image }}" alt="{{ p.name }}">
+              </div>
+              <div class="rubic-pattern bottom"></div>
+            </div>
+            <div class="flex items-start mt-8 sm:mt-16">
+              <div class="proccess-item-index">{{ forloop.index }}</div>
+              <h3 class="h3">{{ p.name }}</h3>
+            </div>
           </div>
-          <div class="rubic-pattern bottom"></div>
-        </div>
-        <div class="flex items-start mt-16">
-          <div class="proccess-item-index">{{ forloop.index }}</div>
-          <h3 class="h3">{{ p.name }}</h3>
-        </div>
+          {% endfor %}
       </div>
-      {% endfor %}
     </div>
     <div class="rubic-pattern bottom"></div>
   </div>

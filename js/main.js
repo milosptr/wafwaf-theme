@@ -1,4 +1,6 @@
 (function() {
+  const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
   let slideUp = {
     distance: '100%',
     origin: 'bottom',
@@ -8,7 +10,7 @@
     easing: 'cubic-bezier(0.5, 0, 0, 1)',
   };
 
-  if(document.querySelector('.showcase-group'))
+  if(document.querySelector('.showcase-group') && !isMobile)
     document.querySelector('.showcase-group').childNodes.forEach((c, i) => {
       if(c && c.classList && c.classList.contains('fadeInUp')) {
         slideUp.delay = c.dataset['delay'] ? parseInt(c.dataset['delay']) : 275
@@ -42,6 +44,8 @@
   const swiper = new Swiper(".custom-carousel", {
     cssMode: true,
     loop: true,
+
+    responsive: true,
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
@@ -62,6 +66,50 @@
       prevEl: ".swiper-button-prev",
     },
     mousewheel: true,
+  })
+
+  if(isMobile) {
+    if(document.querySelector('.latest-posts')) {
+      document.querySelector('.latest-posts').classList.add('swiper-container')
+      document.querySelector('.latest-posts-wrapper').classList.add('swiper-wrapper')
+      document.querySelectorAll('.latest-posts-item').forEach((i) => { i.classList.add('swiper-slide') })
+      new Swiper('.latest-posts', {
+        allowTouchMove: true,
+        freeMode: true
+      })
+    }
+
+    if(document.querySelector('.showcase-group')) {
+      document.querySelector('.showcase-group').classList.add('swiper-container')
+      document.querySelector('.showcase-wrapper').classList.add('swiper-wrapper')
+      document.querySelectorAll('.showcase-item').forEach((i) => { i.classList.add('swiper-slide') })
+      new Swiper('.showcase-group', {
+        centeredSlides: true,
+        loop: true,
+        allowTouchMove: true,
+        slidesPerView: 1.3,
+        spaceBetween: 20,
+      })
+    }
+
+    if(document.querySelector('.proccess-container')) {
+      document.querySelector('.proccess-container').classList.add('swiper-container')
+      document.querySelector('.proccess-wrapper').classList.add('swiper-wrapper')
+      document.querySelectorAll('.proccess-item').forEach((i) => { i.classList.add('swiper-slide') })
+      new Swiper('.proccess-container', {
+        centeredSlides: true,
+        slidesPerView: 1.5,
+        allowTouchMove: true,
+        spaceBetween: 40,
+      })
+    }
+  }
+
+  document.getElementById('hamburger').addEventListener('click', (e) => {
+    if(e.target.classList.contains('hamburger'))
+      e.target.classList.toggle('is-active')
+    else
+      e.target.parentNode.classList.toggle('is-active')
   })
 
   // fetch('https://www.instagram.com/wafwafcz/?__a=1', {

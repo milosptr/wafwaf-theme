@@ -6,6 +6,21 @@
     <div div class="container">
   {% endif %}
     <div class="rubic-pattern navbar-pattern"></div>
+    <div class="mobile-nav md:hidden flex justify-between items-center">
+      <a href="/" class="menu-logo">
+        {% if current_page == 'contact' or current_page == 'jobs' or current_page == 'franchising' or current_page == 'about' %}
+          <img src="/img/Waf-Waf-white.svg" alt="Waf Waf - crepes & waffles" width="192">
+        {% else %}
+          <img src="/img/Waf-Waf-logo.svg" alt="Waf Waf - crepes & waffles" width="192">
+        {% endif %}
+      </a>
+      <div class="hamburger" id="hamburger">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+    </div>
+    </div>
     <nav class="main-nav flex justify-between items-center">
       <a href="/" class="menu-item">
         Home
