@@ -130,3 +130,5 @@ fields:
     max: 
     labelField: 
   label: Locations
+pages:
+- locations.md
