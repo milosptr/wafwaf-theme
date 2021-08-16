@@ -2,6 +2,18 @@
 label: locations
 hide_body: true
 fields:
+- name: locations_title
+  type: text
+  config:
+    required: true
+  label: Locations title
+  default: Naše pobočky
+- name: hero_image
+  type: file
+  config:
+    maxSize: 64
+  label: Hero image
+  default: "/uploads/2021/08/16/20111231_230000000_ios-103.png"
 - name: locations
   type: field_group_list
   fields:
