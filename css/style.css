@@ -659,6 +659,16 @@ header nav .menu-logo {
   margin: 0 auto;
 }
 
+/* Locations */
+.location-info {
+  font-family: 'AvenirNext-Regular', san=sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.delivery-logos img {
+  max-height: 40px;
+}
 
 /* Instagram Feed */
 .instagram-feed {
@@ -679,7 +689,7 @@ header nav .menu-logo {
   max-width: 412px;
   width: 100%;
   background: #251C16;
-  font-family: 'AvenirNextLTPro-Cn', sans-serif;
+  font-family: 'AvenirNextLTPro-Bold', sans-serif;
   font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
@@ -690,6 +700,13 @@ header nav .menu-logo {
   border-radius: 30px;
   margin-left: auto;
   margin-right: auto;
+  border: 1px solid #251C16;
+  transition: all .5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.black-btn:hover {
+  color: #251C16;
+  background: transparent;
 }
 
 .rounded-outline-btn {
@@ -698,7 +715,7 @@ header nav .menu-logo {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 2px;
-  line-height: 40px;
+  line-height: 50px;
   text-align: center;
   color: #251C16;
   border: 1px solid #251C16;

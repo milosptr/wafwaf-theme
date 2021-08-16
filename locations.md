@@ -27,5 +27,5 @@ locations:
   footer_image: "/uploads/2021/08/15/img_1675.png"
   footer_description: 'Z této pobočky také probíhá rozvoz Waf-Waf produktů do různých
     koutů Prahy. Objednávat můžete na těchto platformách:'
-
+layout: 'locations'
 ---
