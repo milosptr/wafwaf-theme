@@ -130,5 +130,12 @@ fields:
     max: 
     labelField: 
   label: Locations
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  default: locations
+  hidden: true
 pages:
 - locations.md
