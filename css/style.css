@@ -82,6 +82,25 @@
   font-display: swap;
 }
 
+.reveal {
+  visibility: hidden;
+  position: relative;
+  width: 50%;
+  height: 50%;
+  overflow: hidden;
+}
+
+.reveal img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transform-origin: left;
+}
+
+.reveal.w-full {
+  width: 100%;
+}
+
 html, body, div, p {
   color: #251C16;
 }

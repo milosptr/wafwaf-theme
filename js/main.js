@@ -10,15 +10,7 @@
     easing: 'cubic-bezier(0.5, 0, 0, 1)',
   };
 
-  if(document.querySelector('.showcase-group') && !isMobile)
-    document.querySelector('.showcase-group').childNodes.forEach((c, i) => {
-      if(c && c.classList && c.classList.contains('fadeInUp')) {
-        slideUp.delay = c.dataset['delay'] ? parseInt(c.dataset['delay']) : 275
-        ScrollReveal().reveal(c, slideUp);
-      }
-    })
 
-  ScrollReveal().reveal('.slide-up', slideUp);
 
   if(document.body.id === 'menu') {
     const categories = document.querySelectorAll('.category-title')
@@ -103,6 +95,34 @@
         spaceBetween: 40,
       })
     }
+  }
+
+  if(document.querySelector('.reveal')) {
+    gsap.registerPlugin(ScrollTrigger)
+
+    let revealContainers = document.querySelectorAll(".reveal")
+
+    revealContainers.forEach((container) => {
+      let image = container.querySelector("img");
+      let tl = gsap.timeline({
+        scrollTrigger: {
+          trigger: container,
+          toggleActions: "restart none none reset"
+        }
+      })
+      tl.set(container, { autoAlpha: 1 });
+      tl.from(container, 1, {
+        yPercent: 100,
+        ease: Power2,
+        scale: 0.9,
+      });
+      tl.from(image, 1.5, {
+        yPercent: -100,
+        scale: 1,
+        delay: -1.5,
+        ease: Power2
+      })
+    })
   }
 
   document.getElementById('hamburger').addEventListener('click', (e) => {

@@ -46,12 +46,12 @@
         {% assign index = forloop.index0 | modulo: 2 %}
         {% assign delay = delay | plus: 75 %}
         {% if index == 0 %}
-          <div class="w-1/2 showcase-item sm:pr-16 sm:pb-16 fadeInUp" data-delay="{{ delay }}">
-            <img src="{{ showcase }}" alt="showcase {{ index }}">
+          <div class="w-1/2 showcase-item sm:pr-16 sm:pb-16 reveal" data-delay="{{ delay }}">
+            <img src="{{ showcase }}" alt="showcase {{ index }}" class="reveal-image">
           </div>
         {% else %}
-          <div class="w-1/2 showcase-item sm:pl-16 sm:pb-16 fadeInUp" data-delay="{{ delay }}">
-            <img src="{{ showcase }}" alt="showcase {{ index }}">
+          <div class="w-1/2 showcase-item sm:pl-16 sm:pb-16 reveal" data-delay="{{ delay }}">
+            <img src="{{ showcase }}" alt="showcase {{ index }}" class="reveal-image">
           </div>
         {% endif %}
       {% endfor %}
@@ -61,8 +61,8 @@
   <div class="px-6 sm:px-0 mt-12 mb-8">
     <a href="/delivery" class="black-btn block">OBJEDNAT</a>
   </div>
-  <div class="slide-up px-6 sm:px-0">
-    <img src="{{ page.breakfast_image }}" width="100%" alt="wafwaf breakfast image">
+  <div class="slide-up px-6 sm:px-0 reveal w-full">
+    <img src="{{ page.breakfast_image }}" width="100%" alt="wafwaf breakfast image" class="reveal-image">
   </div>
   {% include delivery.html %}
 </div>
