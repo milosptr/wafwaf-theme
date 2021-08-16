@@ -107,6 +107,7 @@
       let tl = gsap.timeline({
         scrollTrigger: {
           trigger: container,
+          start: "-1000px",
           toggleActions: "restart none none reset"
         }
       })
