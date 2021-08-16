@@ -99,12 +99,6 @@ fields:
       maxSize: 64
     label: Image left
     default: "/uploads/2021/08/15/faf4233d-f364-4045-a10f-47b83c6cf868.png"
-  - name: image_right_portrait
-    type: file
-    config:
-      maxSize: 64
-    label: Image right portrait
-    default: "/uploads/2021/08/15/20200109_095725000_ios-1.png"
   - name: third_column_under_image
     type: textarea
     default: Pobočka se nám rozrostla o zimní zateplenou zahradu/venkovní zahradu
@@ -115,6 +109,12 @@ fields:
       schema:
         format: markdown
     label: Third column under image
+  - name: image_right_portrait
+    type: file
+    config:
+      maxSize: 64
+    label: Image right portrait
+    default: "/uploads/2021/08/15/20200109_095725000_ios-1.png"
   - name: footer_image
     type: file
     config:
