@@ -116,8 +116,7 @@
         scrollTrigger: {
           trigger: container,
           start: "-120%",
-          toggleActions: "restart none none reset",
-          markers: true,
+          toggleActions: "restart none none reset"
         }
       })
       tl.set(container, { autoAlpha: 1 });
