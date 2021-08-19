@@ -10,6 +10,14 @@
     easing: 'cubic-bezier(0.5, 0, 0, 1)',
   };
 
+  const menuItems = document.querySelectorAll('.menu-item')
+  menuItems.forEach((m) => {
+    const menuUrl = m.getAttribute('href').replaceAll('/', '')
+    const url = location.pathname.replaceAll('/', '')
+    m.classList.remove('active')
+    if(menuUrl === url)
+      m.classList.add('active')
+  })
 
 
   if(document.body.id === 'menu') {
@@ -107,8 +115,9 @@
       let tl = gsap.timeline({
         scrollTrigger: {
           trigger: container,
-          start: "-1000px",
-          toggleActions: "restart none none reset"
+          start: "-120%",
+          toggleActions: "restart none none reset",
+          markers: true,
         }
       })
       tl.set(container, { autoAlpha: 1 });
