@@ -46,12 +46,12 @@
         {% assign index = forloop.index0 | modulo: 2 %}
         {% assign delay = delay | plus: 75 %}
         {% if index == 0 %}
-          <div class="w-1/2 showcase-item sm:pr-16 sm:pb-16 reveal" data-delay="{{ delay }}">
-            <img src="{{ showcase }}" alt="showcase {{ index }}" class="reveal-image">
+          <div class="w-1/2 showcase-item sm:pr-16 sm:pb-16">
+            <img src="{{ showcase }}" alt="showcase {{ index }}">
           </div>
         {% else %}
-          <div class="w-1/2 showcase-item sm:pl-16 sm:pb-16 reveal" data-delay="{{ delay }}">
-            <img src="{{ showcase }}" alt="showcase {{ index }}" class="reveal-image">
+          <div class="w-1/2 showcase-item sm:pl-16 sm:pb-16">
+            <img src="{{ showcase }}" alt="showcase {{ index }}">
           </div>
         {% endif %}
       {% endfor %}
