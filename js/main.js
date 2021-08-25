@@ -105,34 +105,9 @@
     }
   }
 
-  // if(document.querySelector('.reveal')) {
-  //   gsap.registerPlugin(ScrollTrigger)
-
-  //   let revealContainers = document.querySelectorAll(".reveal")
-
-  //   revealContainers.forEach((container) => {
-  //     let image = container.querySelector("img");
-  //     let tl = gsap.timeline({
-  //       scrollTrigger: {
-  //         trigger: container,
-  //         start: "-120%",
-  //         toggleActions: "restart none none reset"
-  //       }
-  //     })
-  //     tl.set(container, { autoAlpha: 1 });
-  //     tl.from(container, 1, {
-  //       yPercent: 100,
-  //       ease: Power2,
-  //       scale: 0.9,
-  //     });
-  //     tl.from(image, 1.5, {
-  //       yPercent: -100,
-  //       scale: 1,
-  //       delay: -1.5,
-  //       ease: Power2
-  //     })
-  //   })
-  // }
+  if(document.querySelector('.reveal')) {
+    ScrollReveal().reveal('.reveal', { distance: '120%', duration: 1000, origin: 'bottom' });
+  }
 
   document.getElementById('hamburger').addEventListener('click', (e) => {
     if(e.target.classList.contains('hamburger'))
