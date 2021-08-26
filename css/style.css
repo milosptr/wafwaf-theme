@@ -313,6 +313,36 @@ header nav .menu-logo {
   overflow: hidden;
 }
 
+.swiper-slide img {
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  -webkit-animation: -webkit-zoom-out 1s ease-in-out forwards;
+  animation: zoom-out 1s ease-in-out forwards;
+}
+
+@keyframes zoom-out {
+  0% {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@-webkit-keyframes zoom-out {
+  0% {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
 .after-title-section-content {
   font-family: 'Brandon Text', sans-serif;
   font-size: 60px;
@@ -795,6 +825,17 @@ footer .footer-body {
 
 footer .footer-info {
   line-height: 48px;
+}
+
+footer .social-icons {
+  transform: scale(1);
+  transition: transform .3s ease-in-out;
+}
+
+footer .social-icons:hover {
+  opacity: .8;
+  filter: contrast(1000%) invert(75%) sepia(100%) saturate(8270%) hue-rotate(156deg);
+  transform: scale(1.08);
 }
 
 footer #newsletter input {

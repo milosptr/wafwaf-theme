@@ -109,7 +109,25 @@
   }
 
   if(document.querySelector('.reveal')) {
-    ScrollReveal().reveal('.reveal', { distance: '120%', duration: 1000, origin: 'bottom' });
+    ScrollReveal().reveal('.reveal', { distance: '120%', duration: 1300, origin: 'bottom', easing: 'ease-in-out' });
+  }
+  if(document.querySelector('.reveal-delay-200')) {
+    ScrollReveal().reveal('.reveal-delay-200', { delay: 200, distance: '120%', duration: 1300, origin: 'bottom', easing: 'ease-in-out' });
+  }
+  if(document.querySelector('.reveal-delay-300')) {
+    ScrollReveal().reveal('.reveal-delay-300', { delay: 300, distance: '120%', duration: 1300, origin: 'bottom', easing: 'ease-in-out' });
+  }
+  if(document.querySelector('.reveal-delay-400')) {
+    ScrollReveal().reveal('.reveal-delay-400', { delay: 400, distance: '120%', duration: 1300, origin: 'bottom', easing: 'ease-in-out' });
+  }
+  if(document.querySelector('.reveal-delay-500')) {
+    ScrollReveal().reveal('.reveal-delay-500', { delay: 500, distance: '120%', duration: 1300, origin: 'bottom', easing: 'ease-in-out' });
+  }
+  if(document.querySelector('.reveal-delay-600')) {
+    ScrollReveal().reveal('.reveal-delay-600', { delay: 600, distance: '120%', duration: 1300, origin: 'bottom', easing: 'ease-in-out' });
+  }
+  if(document.querySelector('.reveal-delay-700')) {
+    ScrollReveal().reveal('.reveal-delay-700', { delay: 700, distance: '120%', duration: 1300, origin: 'bottom', easing: 'ease-in-out' });
   }
 
   document.getElementById('hamburger').addEventListener('click', (e) => {
