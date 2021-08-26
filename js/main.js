@@ -50,10 +50,13 @@
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true
+    autoplay: {
+      delay: 2500,
     },
+    // pagination: {
+    //   el: ".swiper-pagination",
+    //   clickable: true
+    // },
     mousewheel: true,
     keyboard: true,
   })
