@@ -309,6 +309,10 @@ header nav .menu-logo {
   border-radius: 30px;
 }
 
+.swiper-css-mode>.swiper-wrapper>.swiper-slide {
+  overflow: hidden;
+}
+
 .after-title-section-content {
   font-family: 'Brandon Text', sans-serif;
   font-size: 60px;
