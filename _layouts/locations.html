@@ -11,8 +11,8 @@
       <img src="{{ page.hero_image }}" alt="wafwaf hero" width="100%">
     </div>
   </div>
-  <h1 class="h1 sm:mt-12 sm:mb-16 text-green">{{ page.locations_title }}</h1>
-  <div>
+  <h1 class="h1 w-full reveal sm:mt-12 sm:mb-16 text-green">{{ page.locations_title }}</h1>
+  <div class="w-full reveal">
     <div class="rubic-pattern top"></div>
     <div class="bg-green relative z-0 flex items-center justify-between py-12 px-32">
       {% for location in page.locations %}
@@ -26,15 +26,15 @@
     {% for l in page.locations %}
     <div class="mx-8 mt-16 sm:mt-32">
       <div class="flex flex-wrap flex-col-reverse sm:flex-row justify-around">
-        <div class="mt-12 sm:mt-0 sm:w-1/2">
+        <div class="mt-12 sm:mt-0 sm:w-1/2 reveal">
           <img src="{{ l.first_left_image }}" alt="left portrait" width="100%">
         </div>
         <div class="sm:w-1/4 location-info">
-          <h2 class="h2">{{ l.location_name }}</h2>
-          <p class="mt-6">{{ l.location_address }}</p>
-          <p class="mt-6">{{ l.location_contact }}</p>
-          <p class="mt-16">{{ l.location_description }}</p>
-          <div class="mr-5 mt-12">
+          <h2 class="h2 w-full reveal">{{ l.location_name }}</h2>
+          <p class="mt-6 w-full reveal">{{ l.location_address }}</p>
+          <p class="mt-6 w-full reveal">{{ l.location_contact }}</p>
+          <p class="mt-16 w-full reveal">{{ l.location_description }}</p>
+          <div class="mr-5 mt-12 w-full reveal">
             <a href="tel:{{ l.contact_number }}" class="block black-btn">Kontaktujte nas</a>
             <a href="/delivery" class="block mt-10 rounded-outline-btn">jak se tam dostanu</a>
           </div>
@@ -42,41 +42,41 @@
       </div>
       <div class="flex flex-wrap justify-between mt-12 sm:mt-32">
         <div class="w-full sm:w-1/2 flex flex-wrap justify-between">
-          <div class="sm:w-1/3 mr-auto">
+          <div class="sm:w-1/3 mr-auto reveal">
             {{ l.first_column_above_image}}
           </div>
-          <div class="sm:w-1/3 mt-6 sm:mt-0">
+          <div class="sm:w-1/3 mt-6 sm:mt-0 reveal">
             {{ l.second_column_above_image}}
           </div>
-          <div class="w-full my-6 sm:my-12">
+          <div class="w-full my-6 sm:my-12 reveal">
             <img src="{{l.image_left }}" width="100%" alt="left image">
           </div>
-          <div class="sm:w-1/3 ml-auto mb-6 sm:mb-0">
+          <div class="sm:w-1/3 ml-auto mb-6 sm:mb-0 reveal">
             {{ l.third_column_under_image}}
           </div>
         </div>
-        <div class="w-full sm:w-1/2 sm:pl-32">
-          <img src="{{ l.image_right_portrait }}" class="sm:pl-6" alt="portrait image" width="100%">
+        <div class="w-full sm:w-1/2 sm:pl-32 reveal">
+          <img src="{{ l.image_right_portrait }}" class="sm:pl-6 rounded-50" alt="portrait image" width="100%">
         </div>
       </div>
       <div class="flex flex-wrap flex-col-reverse sm:flex-row mt-12 sm:mt-32">
-        <div class="sm:w-1/2 mt-12 sm:mt-0">
+        <div class="sm:w-1/2 mt-12 sm:mt-0 reveal">
           <img src="{{ l.footer_image }}" alt="footer_image" width="100%">
         </div>
         <div class="sm:w-1/4 mx-auto">
-          <p class="location-info">{{ l.footer_description }}</p>
+          <p class="location-info w-full reveal">{{ l.footer_description }}</p>
           <div class="mt-6 sm:mt-12 flex justify-around items-center delivery-logos">
-            <a href="#">
+            <a href="#" class="reveal">
               <img src="/img/dj-logo.png" height="39" alt="dj delivery">
             </a>
-            <a href="#">
+            <a href="#" class="reveal">
               <img src="/img/wolt-logo.png" height="39" alt="wolt delivery">
             </a>
-            <a href="#">
+            <a href="#" class="reveal">
               <img src="/img/bolt-food-logo.png" height="39" alt="boltfood delivery">
             </a>
           </div>
-          <div class="mr-5 mt-12">
+          <div class="mr-5 mt-12 w-full reveal">
             <a href="tel:{{ l.contact_number }}" class="block black-btn">Kontaktujte nas</a>
             <a href="/delivery" class="block mt-10 rounded-outline-btn">jak se tam dostanu</a>
           </div>
