@@ -13,8 +13,8 @@
         <img src="{{ page.hero_image }}" alt="wafwaf hero" width="100%">
       </div>
     </div>
-    <h1 class="h1 mt-12 mb-16 text-white w-full reveal">{{ page.big_title }}</h1>
-    <div class="flex justify-between items-start">
+    <h1 class="h1 mt-0 sm:mt-12 mb-8 sm:mb-16 text-white w-full reveal">{{ page.big_title }}</h1>
+    <div class="md:flex justify-between items-start">
       {% for information in page.contact_information %}
         <div class="single-information reveal-delay-{{ forloop.index | plus:1 }}00">
           <div class="rubic-pattern top"></div>

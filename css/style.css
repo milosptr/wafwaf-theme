@@ -497,6 +497,10 @@ header nav .menu-logo {
   color: #251C16;
 }
 
+.store-image{
+  max-width: 398px;
+}
+
 .store-description {
   font-family: 'AvenirNext-Regular', sans-serif;
   font-size: 18px;
@@ -974,6 +978,7 @@ footer #newsletter input::placeholder {
     margin-right: 1.5rem;
     background: #251C16;
     border-radius: 50%;
+    z-index: 10001;
   }
 
   .hamburger .line {
@@ -1035,6 +1040,10 @@ footer #newsletter input::placeholder {
     text-align: left;
     padding: 30px;
   }
+  
+  .latest-posts{
+    overflow-x: hidden;
+  }
 
   .latest-posts,
   .latest-posts-wrapper {
@@ -1042,13 +1051,14 @@ footer #newsletter input::placeholder {
   }
 
   .latest-posts-item  {
-    max-width: 296px;
-    margin: 0 20px!important;
+    /* max-width: 296px; */
+    /* margin: 0 20px!important; */
+    padding: 0 30px !important;
   }
 
-.latest-posts-item:first-child {
+ /* .latest-posts-item:first-child {
     margin-left: calc(50% - 168px)!important;
-  }
+  } */
 
   .latest-posts .post-title {
     font-size: 22px;
@@ -1065,7 +1075,21 @@ footer #newsletter input::placeholder {
   }
   .latest-posts-item.swiper-slide-active {
     opacity: 1;
-    margin-left: 20px;
+    /* margin-left: 20px; */
+  }
+
+  /* TEMP */
+  .instagram-feed {
+    padding: 0 20px;
+  }
+
+  .instagram-item {
+    width: calc(50% - 10px);
+    margin-bottom: 10px;
+  }
+
+  .showcase-group{
+    overflow-x: hidden;
   }
 
   .showcase-item {
@@ -1113,4 +1137,106 @@ footer #newsletter input::placeholder {
     font-size: 24px;
     line-height: 24px;
   }
+
+  /* -------------------- */
+  .single-product {
+    width: 80%;
+    margin: 0 auto 20px;
+    padding-bottom: 20px;
+  }
+
+  .single-product:nth-child(even) {
+    padding-left: 0%;
+  }
+  
+  .single-product:nth-child(odd) {
+    padding-right: 0%;
+  }
+  
+
+  .product-price{
+    min-width: 140px;
+    /* margin: 15px 0; */
+  }
+
+  /* .product-info{
+    width: calc(100% - 130px);
+  } */
+
+  .nav-mobile{
+    width: 0;
+    visibility: hidden;
+    height: 100%;
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    right: 0;
+    background-color: #251C16;
+    transition: 0.5s;
+  }
+  
+  .nav-mobile-full-width{
+    width: 100%;
+    visibility: visible;
+  }
+  
+  .nav-mobile-item{
+    text-align: center;
+    border-bottom: 1px solid #76685E;
+  }
+
+  .nav-mobile-item .menu-item {
+    padding: 10px 20px 10px 10px;
+    background-color: #251C16 !important;
+    color: #FFFDF5 !important;
+    transition: 0.3s;
+  }
+
+  .accordion{
+    padding: 0 30px;
+  }
+  
+  .job-title{
+    width: 100%;
+    font-size: 28px;
+  }
+  
+  .job-location{
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .single-information{
+    max-width: 100%;
+  }
+
+  .info-content{
+    padding: 0 32px
+  }
+
+  .img-center-mobile{
+    margin: 0 auto;
+  }
+
+  .full-width-mobile{
+    width: 100% !important;
+  }
+
+  .store-image{
+    max-width: 250px;
+  }
+
+  .franchising-subtitle {
+    text-align: center;
+  }
+
+  .store-title{
+    font-size: 30px;
+    /* line-height: 20px; */
+    min-height: 75px;
+  }
+
+  
+  
+  
 }

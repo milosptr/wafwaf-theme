@@ -4,11 +4,11 @@
 
 {% include nav.html %}
 
-<div class="container pt-16 pb-24">
+<div class="container pt-8 sm:pt-16 pb-24">
   <div class="rubic-pattern top"></div>
   <div class="flex justify-start items-center bg-light-green">
     {% for item in page.categories %}
-    <div class="category-title ml-24 py-6 cursor-pointer">
+    <div class="category-title ml-12 sm:ml-24 py-6 cursor-pointer">
       {{ item.category_title }}
     </div>
     {% endfor %}
@@ -20,11 +20,12 @@
         <div class="single-product w-1/2 slide-up reveal-delay-200" data-category={{ item.category_title }}>
           <img src="{{ product.product_image }}" alt="{{ product.product_title }}" width="100%">
           <div class="flex flex-wrap items-center">
-            <div class="w-3/4">
+            <div class="sm:w-3/4">
               <div class="product-title">{{ product.product_title }}</div>
-              <div class="product-description">{{ product.product_description }}</div>
+              <div class="hidden sm:block product-description">{{ product.product_description }}</div>
             </div>
-            <div class="w-1/4">
+            <div class="flex justify-between items-center sm:w-1/4 sm:block">
+              <div class="block sm:hidden product-description">{{ product.product_description }}</div>
               <div class="product-price">{{ product.product_price }},-</div>
             </div>
           </div>

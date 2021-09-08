@@ -1,5 +1,6 @@
 (function() {
   const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+  let TOGGLE_MENU = false;
 
   let slideUp = {
     distance: '100%',
@@ -78,7 +79,6 @@
       document.querySelectorAll('.latest-posts-item').forEach((i) => { i.classList.add('swiper-slide') })
       new Swiper('.latest-posts', {
         allowTouchMove: true,
-        freeMode: true
       })
     }
 
@@ -131,10 +131,20 @@
   }
 
   document.getElementById('hamburger').addEventListener('click', (e) => {
+    const navMobile = document.getElementById('nav-mobile');
     if(e.target.classList.contains('hamburger'))
-      e.target.classList.toggle('is-active')
+      e.target.classList.toggle('is-active');
     else
-      e.target.parentNode.classList.toggle('is-active')
+      e.target.parentNode.classList.toggle('is-active');
+
+    if(!TOGGLE_MENU){
+      navMobile.classList.add('nav-mobile-full-width');
+    }
+    else{
+      navMobile.classList.remove('nav-mobile-full-width');
+    }
+
+    TOGGLE_MENU = !TOGGLE_MENU;
   })
 
   // fetch('https://www.instagram.com/wafwafcz/?__a=1', {
