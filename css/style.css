@@ -925,6 +925,10 @@ footer #newsletter input::placeholder {
   color: #251C16;
 }
 
+.nav-mobile{
+  display: none;
+}
+
 
 /* Animations */
 @keyframes animatedBackground {
@@ -937,7 +941,21 @@ footer #newsletter input::placeholder {
 }
 
 /* Responsive */
-@media (max-width: 450px) {
+@media (max-width: 460px) {
+  body{
+    padding-top: 90px;
+  }
+
+  header {
+    position: fixed;
+    background-color: #FFFDF5;
+    padding-bottom: 16px;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
   .h1 {
     font-size: 80px;
   }
@@ -960,7 +978,6 @@ footer #newsletter input::placeholder {
   .main-nav {
     display: none;
   }
-
   .mobile-nav .menu-logo {
     margin-top: 1.5rem;
     margin-left: 1.5rem;
@@ -1108,6 +1125,14 @@ footer #newsletter input::placeholder {
     padding: 48px 0;
   }
 
+  
+  .proccess-item-1::before,
+  .proccess-item-2::before,
+  .proccess-item-3::before {
+    right: -75px;
+  }
+
+
   .proccess-item > div:first-child {
     max-width: 180px;
     min-height: 220px;
@@ -1164,6 +1189,7 @@ footer #newsletter input::placeholder {
   } */
 
   .nav-mobile{
+    display: block;
     width: 0;
     visibility: hidden;
     height: 100%;
@@ -1182,7 +1208,7 @@ footer #newsletter input::placeholder {
   
   .nav-mobile-item{
     text-align: center;
-    border-bottom: 1px solid #76685E;
+    border-bottom: 1px solid #643e22;
   }
 
   .nav-mobile-item .menu-item {

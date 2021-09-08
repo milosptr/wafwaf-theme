@@ -42,6 +42,26 @@
     })
   }
 
+  if(document.body.id === 'jobs'){
+    const header = document.getElementsByTagName('header')[0]
+    header.style.backgroundColor = '#76685E'
+  }
+
+  if(document.body.id === 'franchising'){
+    const header = document.getElementsByTagName('header')[0]
+    header.style.backgroundColor = '#85D3C4'
+  }
+  
+  if(document.body.id === 'contact' || document.body.id === 'about'){
+    const header = document.getElementsByTagName('header')[0]
+    header.style.backgroundColor = '#CF909B'
+  }
+  
+  if(document.body.id === 'delivery'){
+    const header = document.getElementsByTagName('header')[0]
+    header.style.backgroundColor = '#ECD684'
+  }
+
   const swiper = new Swiper(".custom-carousel", {
     cssMode: true,
     loop: true,
@@ -100,7 +120,7 @@
       document.querySelector('.proccess-wrapper').classList.add('swiper-wrapper')
       document.querySelectorAll('.proccess-item').forEach((i) => { i.classList.add('swiper-slide') })
       new Swiper('.proccess-container', {
-        centeredSlides: true,
+        // centeredSlides: true,
         slidesPerView: 1.5,
         allowTouchMove: true,
         spaceBetween: 40,

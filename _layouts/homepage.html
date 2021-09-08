@@ -5,7 +5,7 @@
 
 {% include nav.html %}
 
-<div class="container pt-16 pb-12 sm:pb-24">
+<div class="container pt-0 sm:pt-16 pb-4 sm:pb-24">
   <div class="w-full mt-8 mx-auto swiper-container custom-carousel hero-custom-carousel flex items-center justify-center">
     <div class="swiper-wrapper overflow-hidden">
       {% for image in page.hero_images %}
@@ -57,7 +57,6 @@
       {% endfor %}
     </div>
   </div>
-  <div class="mx-8">
     <h2 class="h2 w-full mt-12 sm:mb-20 px-6 sm:px-0 reveal">{{ page.breakfast }}</h2>
     <div class="px-6 sm:px-0 sm:mb-24 mt-12 mb-8">
       <a href="/delivery" class="black-btn block reveal">OBJEDNAT</a>
@@ -66,7 +65,6 @@
       <img src="{{ page.breakfast_image }}" width="100%" alt="wafwaf breakfast image" class="reveal-image">
     </div>
     {% include delivery.html %}
-  </div>
 </div>
 
 {% include instagram.html %}
