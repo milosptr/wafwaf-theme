@@ -688,7 +688,7 @@ header nav .menu-logo {
 }
 
 .accordion-opened .job-description {
-  max-height: 500px;
+  max-height: 1500px;
   transition: max-height 0.8s ease-in;
 }
 
