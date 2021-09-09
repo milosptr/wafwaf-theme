@@ -2,6 +2,8 @@
 big_title: WAF-WAF NABÍDKA
 layout: menu
 categories:
+- category_title: SNÍDANĚ
+  products: []
 - category_title: SLANÉ
   products:
   - product_image: "/uploads/2021/07/20/mask-group-133.png"
@@ -30,4 +32,5 @@ categories:
     product_image: "/uploads/2021/07/24/mask-group-26.png"
     product_title: WAFTELLA
     product_description: nutella, oreo, jahody, maliny, mascarpone
+
 ---
