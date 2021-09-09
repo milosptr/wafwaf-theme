@@ -51,7 +51,7 @@ locations:
   footer_image: "/uploads/2021/08/15/img_1675.png"
   footer_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
     do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  local_image: "/uploads/2021/08/16/img_6806.png"
+  local_image: "/uploads/2021/08/15/faf4233d-f364-4045-a10f-47b83c6cf868.png"
 layout: locations
 
 ---
