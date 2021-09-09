@@ -2,7 +2,8 @@
 locations_title: Naše pobočky
 hero_image: "/uploads/2021/08/16/20111231_230000000_ios-103.png"
 locations:
-- first_left_image: "/uploads/2021/08/16/mask-group-34-3x.png"
+- local_image: "/uploads/2021/08/16/img_6806.png"
+  first_left_image: "/uploads/2021/08/15/mask-group-34.png"
   location_name: WAF-WAF LETNÁ
   location_address: Milady Horákové 52, Praha 7
   location_contact: "Otevírací doba:   \n\LPondělí - Neděle: dočasně uzavřeno   \n\LKontaktní
@@ -21,12 +22,35 @@ locations:
     zdarma. Do naší provozovny Waf-Waf na Letné mají také povolený vstup pejsci. Na
     pobočce provádíme rezervace pro více než jeden stůl.
   image_left: "/uploads/2021/08/15/faf4233d-f364-4045-a10f-47b83c6cf868.png"
-  image_right_portrait: "/uploads/2021/08/15/20200109_095725000_ios-1.png"
   third_column_under_image: Pobočka se nám rozrostla o zimní zateplenou zahradu/venkovní
     zahradu přes léto a tím se i zvýšila kapacita pobočky na 60 lidí.
+  image_right_portrait: "/uploads/2021/08/15/20200109_095725000_ios-1.png"
   footer_image: "/uploads/2021/08/15/img_1675.png"
   footer_description: 'Z této pobočky také probíhá rozvoz Waf-Waf produktů do různých
     koutů Prahy. Objednávat můžete na těchto platformách:'
+- first_left_image: "/uploads/2021/08/16/mask-group-34-3x.png"
+  location_name: WAF-WAF LETNÁ 2
+  location_address: Milady 52, Praha 7
+  location_contact: "Otevírací doba:   \n\LPondělí - Neděle: dočasně uzavřeno   \n\LKontaktní
+    telefonní číslo: +420602728121\L  \nKontaktní email: letna@waf-waf.cz"
+  location_description: _Lorem ipsum_ is placeholder text commonly used in the graphic,
+    print, and publishing industries for previewing layouts and visual mockups.
+  contact_number: "+420602728121\L"
+  first_column_above_image: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+    minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+    commodo consequat.
+  second_column_above_image: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+    minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+    commodo consequat.
+  image_left: "/uploads/2021/08/15/faf4233d-f364-4045-a10f-47b83c6cf868.png"
+  image_right_portrait: "/uploads/2021/08/15/20200109_095725000_ios-1.png"
+  third_column_under_image: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  footer_image: "/uploads/2021/08/15/img_1675.png"
+  footer_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   local_image: "/uploads/2021/08/16/img_6806.png"
 layout: locations
 
