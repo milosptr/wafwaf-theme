@@ -6,9 +6,9 @@
 
 <div class="container pt-8 sm:pt-16 pb-24">
   <div class="rubic-pattern top"></div>
-  <div class="flex justify-start items-center bg-light-green">
+  <div class="px-6 flex justify-start items-center bg-light-green overflow-x-auto no-scrollbar">
     {% for item in page.categories %}
-    <div class="category-title ml-12 sm:ml-24 py-6 cursor-pointer">
+    <div class="category-title mx-6 sm:mx-12 py-6 cursor-pointer">
       {{ item.category_title }}
     </div>
     {% endfor %}
