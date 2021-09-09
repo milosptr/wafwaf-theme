@@ -2,6 +2,8 @@
 big_title: WAF-WAF NABÍDKA
 layout: menu
 categories:
+- category_title: NÁPOJE
+  products: []
 - category_title: SPECIÁLNÍ NABÍDKA
   products: []
 - category_title: MILKSHAKES
