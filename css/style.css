@@ -82,6 +82,11 @@
   font-display: swap;
 }
 
+body {
+  opacity: 0;
+  animation: loadBody 3s forwards;
+}
+
 .rounded-50 {
   border-radius: 50px;
   overflow: hidden;
@@ -1312,8 +1317,14 @@ footer #newsletter input::placeholder {
     /* line-height: 20px; */
     min-height: 75px;
   }
+}
 
+@keyframes loadBody {
+  0% { opacity: 0 }
+  100% { opacity: 1; }
+}
 
-
-
+@-webkit-keyframes loadBody {
+  0% { opacity: 0 }
+  100% { opacity: 1; }
 }
