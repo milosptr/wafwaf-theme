@@ -682,9 +682,26 @@ header nav .menu-logo {
   max-height: 0;
   font-family: 'AvenirNext-Regular', sans-serif;
   font-size: 18px;
-  line-height: 25px;
+  line-height: 5px;
+  white-space: pre-wrap;
   overflow: hidden;
   transition: max-height 0.6s ease-in;
+}
+
+.job-description p, .job-description li {
+  line-height: 30px;
+}
+
+.job-description ul li {
+  position: relative;
+  padding-left: 30px;
+}
+
+.job-description ul li::before {
+  content: '•';
+  position: absolute;
+  left: 10px;
+  top: 1px;
 }
 
 .accordion-opened .job-description {
@@ -1266,14 +1283,6 @@ footer #newsletter input::placeholder {
     font-size: 20px;
   }
 
-  .open-accordion {
-    width: 40px !important;
-  }
-  
-  .job-description {
-    font-family: 'AvenirNext', sans-serif;
-  }
-  
   .single-information{
     max-width: 100%;
   }
