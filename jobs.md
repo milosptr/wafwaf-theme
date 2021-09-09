@@ -52,13 +52,20 @@ jobs:
     kariérního růstu.\n\nDále také po zapracování nabízíme:  \n služební oblečení
     \ \n možnosti MultiSport Card  \n možnost stravování z naší nabídky v hodnotě
     3150 Kč / (měs.)\n\nVaše životopisy můžete zasílat na email: [jonas@waf-waf.cz](mailto:jonas@waf-waf.cz)"
-- job_title: OBSLUHA BISTRA
-  job_location: Praha 7 (LETNÁ)
-  job_description: Scelerisque eleifend donec pretium vulputate sapien nec sagittis
-    aliquam malesuada. Elit scelerisque mauris pellentesque pulvinar pellentesque
-    habitant morbi tristique. Facilisis gravida neque convallis a cras semper auctor
-    neque. Lacus sed viverra tellus in hac habitasse platea dictumst vestibulum. Leo
-    in vitae turpis massa sed elementum tempus egestas sed. Non consectetur a erat
-    nam at lectus urna.
+- job_title: Obsluha ve WAF-WAF až 120 Kč / hod
+  job_location: Praha
+  job_description: "**Co Vás ve Waf-Waf čeká:**\n\nNáš koncept se zaměřuje na výrobu
+    a přípravu vaflí, palčinek a lívanců či milkshake ve velmi originálním pojetí.
+    Našim hlavním mottem je #radostprovsechny a to budeme očekávat i od Vás. Ať už
+    připravujete naše produkty a nebo pracujete na pokladně a komunikujete se zákazníky.\n\n**Koho
+    hledáme do Waf-Waf?**\n\nMladé ambiciózní kolegyně na brigádu a výpomoc. Budeme
+    očekávat pracovitou a milou osobu, která bude přínosem pro celý náš tým.\n\n**Výhodou
+    bude, pokud budete mít zkušenosti z gastro provozu.**\n\n**  \n Co vám můžeme
+    nabídnout:**\n\nZa brigádu Vám můžeme nabídnout nástupní mzdu 90-120Kč/hod. Máme
+    zájem o dlouhodobou spolupráci a také o to, že Vaše mzda bude růst, stejně jako
+    naše rozšiřující se společnost a proto Vaše mzda i jako u brigádníka se může posunout.\n\n**Dále
+    také nabízíme nad rámec uvedené mzdy:**  \n - pracovní oblečení  \n - bonusy za
+    denní plnění  \n - bonusy za zaměstnance měsíce  \n - pravidelné TeamBuilding
+    aktivity\n\nVaše životopisy můžete zasílat na email: [jonas@waf-waf.cz](mailto:jonas@waf-waf.cz)"
 
 ---
