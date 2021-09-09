@@ -36,7 +36,7 @@
         </div>
         <div class="w-full job-description">
           <div class="sm:w-1/2 mt-16 mb-12">
-            {{ job.job_description }}
+            {{ job.job_description | markdownify }}
           </div>
         </div>
       </div>

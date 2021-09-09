@@ -14,17 +14,25 @@
   <h1 class="h1 w-full reveal sm:mt-12 mb-8 sm:mb-16 text-green">{{ page.locations_title }}</h1>
   <div class="w-full reveal">
     <div class="rubic-pattern top"></div>
-    <div class="bg-green relative z-0 flex items-center justify-between py-12 px-8 sm:px-32">
+    <div class="bg-green relative z-0 flex items-center py-12 px-32">
       {% for location in page.locations %}
-        <div class="w-1/2 sm:w-1/4 flex justify-center">
-          <img src="{{ location.local_image }}" alt="{{ location.location_name }}" width="90%">
+      {% if forloop.index == 1 %}
+        <div class="change-location w-1/2 sm:w-1/4 flex justify-center cursor-pointer change-location-active" data-location="{{ forloop.index }}">
+      {% else %}
+        <div class="change-location w-1/2 sm:w-1/4 flex justify-center cursor-pointer" data-location="{{ forloop.index }}">
+      {% endif %}
+          <img src="{{ location.local_image }}" alt="{{ location.location_name }}" style="max-width: 260px; border-radius: 40px;">
         </div>
       {% endfor %}
     </div>
     <div class="rubic-pattern bottom"></div>
 
     {% for l in page.locations %}
-    <div class="mx-8 mt-16 sm:mt-32">
+      {% if forloop.index == 1 %}
+        <div class="location-section mx-8 mt-16 sm:mt-32 location-section-active" data-section="{{ forloop.index }}">
+      {% else %}
+        <div class="location-section mx-8 mt-16 sm:mt-32" data-section="{{ forloop.index }}">
+      {% endif %}
       <div class="flex flex-wrap flex-col-reverse sm:flex-row justify-around">
         <div class="mt-12 w-full sm:mt-0 sm:w-1/2 sm:reveal">
           <img src="{{ l.first_left_image }}" alt="left portrait" width="100%">

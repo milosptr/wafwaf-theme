@@ -42,6 +42,15 @@
     })
   }
 
+  if(document.body.id === 'locations') {
+    const locationItems = document.querySelectorAll('.change-location')
+    locationItems.forEach((l) => {
+      l.addEventListener('click', (e) => {
+        changeLocations(e.target)
+      })
+    })
+  }
+
   if(document.body.id === 'jobs'){
     const header = document.getElementsByTagName('header')[0]
     header.style.backgroundColor = '#76685E'
@@ -51,12 +60,12 @@
     const header = document.getElementsByTagName('header')[0]
     header.style.backgroundColor = '#85D3C4'
   }
-  
+
   if(document.body.id === 'contact' || document.body.id === 'about'){
     const header = document.getElementsByTagName('header')[0]
     header.style.backgroundColor = '#CF909B'
   }
-  
+
   if(document.body.id === 'delivery'){
     const header = document.getElementsByTagName('header')[0]
     header.style.backgroundColor = '#ECD684'
@@ -192,6 +201,23 @@
         a.classList.remove('accordion-opened')
      })
      accordion.classList.add('accordion-opened')
+  }
+
+  function changeLocations(el) {
+    const locationId = el.dataset.location || el.parentNode.dataset.location
+    const locationSections = document.querySelectorAll('.location-section')
+    const changeLocations = document.querySelectorAll('.change-location')
+    changeLocations.forEach((cl) => {
+      cl.classList.remove('change-location-active')
+      if(cl.dataset.location === locationId)
+        cl.classList.add('change-location-active')
+    })
+    locationSections.forEach((l) => {
+      if(l.dataset.section !== locationId)
+        l.classList.remove('location-section-active')
+      else
+        l.classList.add('location-section-active')
+    })
   }
 
   function filterProducts(category) {

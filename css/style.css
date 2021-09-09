@@ -767,13 +767,35 @@ header nav .menu-logo {
 
 /* Locations */
 .location-info {
-  font-family: 'AvenirNext-Regular', san=sans-serif;
+  font-family: 'AvenirNext-Regular', sans-serif;
   font-size: 18px;
   line-height: 25px;
 }
 
 .delivery-logos img {
   max-height: 40px;
+}
+.location-section {
+   display: none;
+}
+
+.location-section-active {
+  display: block;
+}
+
+.change-location {
+  opacity: 0.3;
+  transition: all .3s ease-in-out;
+}
+
+.change-location-active {
+  opacity: 1;
+}
+
+.location-section-active .reveal,
+.location-section-active .sm\:reveal {
+  opacity: 1!important;
+  transform: none!important;
 }
 
 /* Instagram Feed */
@@ -955,7 +977,7 @@ footer #newsletter input::placeholder {
     left: 0;
     right: 0;
   }
-  
+
   .h1 {
     font-size: 80px;
   }
@@ -1057,7 +1079,7 @@ footer #newsletter input::placeholder {
     text-align: left;
     padding: 30px;
   }
-  
+
   .latest-posts{
     overflow-x: hidden;
   }
@@ -1125,7 +1147,7 @@ footer #newsletter input::placeholder {
     padding: 48px 0;
   }
 
-  
+
   .proccess-item-1::before,
   .proccess-item-2::before,
   .proccess-item-3::before {
@@ -1173,11 +1195,11 @@ footer #newsletter input::placeholder {
   .single-product:nth-child(even) {
     padding-left: 0%;
   }
-  
+
   .single-product:nth-child(odd) {
     padding-right: 0%;
   }
-  
+
 
   .product-price{
     min-width: 140px;
@@ -1200,12 +1222,12 @@ footer #newsletter input::placeholder {
     background-color: #251C16;
     transition: 0.5s;
   }
-  
+
   .nav-mobile-full-width{
     width: 100%;
     visibility: visible;
   }
-  
+
   .nav-mobile-item{
     text-align: center;
     border-bottom: 1px solid #643e22;
@@ -1221,12 +1243,12 @@ footer #newsletter input::placeholder {
   .accordion{
     padding: 0 30px;
   }
-  
+
   .job-title{
     width: 100%;
     font-size: 28px;
   }
-  
+
   .job-location{
     width: 100%;
     font-size: 20px;
@@ -1262,7 +1284,7 @@ footer #newsletter input::placeholder {
     min-height: 75px;
   }
 
-  
-  
-  
+
+
+
 }
