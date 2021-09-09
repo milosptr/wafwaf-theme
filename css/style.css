@@ -484,6 +484,10 @@ header nav .menu-logo {
   padding-bottom: 0;
 }
 
+#franchising .job-description div {
+  line-height: 30px;
+}
+
 .concept-box {
   border-radius: 0 0 30px 30px;
 }
