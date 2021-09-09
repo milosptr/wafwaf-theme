@@ -130,7 +130,7 @@
 
 .no-scrollbar {
   -ms-overflow-style: none;
-  scrollbar-width: none; 
+  scrollbar-width: none;
 }
 
 
@@ -1269,7 +1269,11 @@ footer #newsletter input::placeholder {
   .open-accordion {
     width: 40px !important;
   }
-
+  
+  .job-description {
+    font-family: 'AvenirNext', sans-serif;
+  }
+  
   .single-information{
     max-width: 100%;
   }
