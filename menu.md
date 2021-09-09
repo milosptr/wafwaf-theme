@@ -2,6 +2,8 @@
 big_title: WAF-WAF NABÍDKA
 layout: menu
 categories:
+- category_title: MILKSHAKES
+  products: []
 - category_title: SNÍDANĚ
   products: []
 - category_title: SLANÉ
