@@ -37,18 +37,21 @@
   </div>
   <div class="mt-20">
     <div class="mx-auto w-4/5 sm:flex justify-between">
+      <div class="w-full sm:hidden mb-16 reveal">
+        <img src="{{ page.first_section.image }}" alt="first image wafwaf">
+      </div>
       <div class="sm:w-2/5 pr-4">
         <div class="w-full reveal">
-          <img src="{{ page.first_section.icon }}" style="width: 160px" class="img-center-mobile" alt="icon 1">
+          <img src="{{ page.first_section.icon }}" style="width: 160px" alt="icon 1">
         </div>
-        <h4 class="text-center md:text-left text-white mt-4 w-full reveal">
+        <h4 class="text-white mt-4 w-full reveal">
           {{ page.first_section.title }}
         </h4>
         <p class="mt-6 w-full reveal">
           {{ page.first_section.content }}
         </p>
       </div>
-      <div class="w-full py-10 sm:w-3/5 reveal hidden sm:block">
+      <div class="w-full hidden sm:block py-10 sm:w-3/5 reveal">
         <img src="{{ page.first_section.image }}" alt="first image wafwaf">
       </div>
     </div>
@@ -59,18 +62,18 @@
     </div>
     <div class="w-full mx-auto sm:w-3/5">
       <div class="w-full reveal ">
-        <img src="{{ page.right_section.first_icon }}" alt="first icon" class="img-center-mobile">
+        <img src="{{ page.right_section.first_icon }}" alt="first icon">
       </div>
-      <h4 class="h3 text-center md:text-left text-white mt-4 w-full reveal py-3">
+      <h4 class="h3 text-white mt-4 w-full reveal py-3">
         {{ page.right_section.first_title }}
       </h4>
       <p class="mt-6 sm:w-1/2 reveal full-width-mobile">
         {{ page.right_section.first_content }}
       </p>
       <div class="mt-10 sm:mt-0 w-full reveal">
-        <img class="mt-6 img-center-mobile" src="{{ page.right_section.second_icon }}" alt="second icon">
+        <img class="mt-6" src="{{ page.right_section.second_icon }}" alt="second icon">
       </div>
-      <h4 class="h3 text-center md:text-left text-white mt-4 w-full reveal py-3">
+      <h4 class="h3 text-white mt-4 w-full reveal py-3">
         {{ page.right_section.second_title }}
       </h4>
       <p class="mt-6 w-1/2 reveal full-width-mobile">
