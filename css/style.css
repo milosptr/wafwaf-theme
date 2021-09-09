@@ -130,7 +130,7 @@
 
 .no-scrollbar {
   -ms-overflow-style: none;
-  scrollbar-width: none; 
+  scrollbar-width: none;
 }
 
 
@@ -1262,6 +1262,10 @@ footer #newsletter input::placeholder {
   .job-location{
     width: 100%;
     font-size: 20px;
+  }
+
+  .job-description {
+    font-family: 'AvenirNext', sans-serif;
   }
 
   .single-information{
