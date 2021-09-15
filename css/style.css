@@ -1273,12 +1273,11 @@ footer #newsletter input::placeholder {
   .nav-mobile-item{
     text-align: center;
     border-bottom: 1px solid #643e22;
+    color: #FFFDF5 !important;
   }
 
   .nav-mobile-item .menu-item {
     padding: 10px 20px 10px 10px;
-    background-color: #251C16 !important;
-    color: #FFFDF5 !important;
     transition: 0.3s;
   }
 
