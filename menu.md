@@ -106,6 +106,10 @@ categories:
     product_price: 138
 - category_title: CHEF MENU BY HONZA VOREL
   products:
+  - product_image: "/uploads/2021/09/15/halloumiwaf-small.jpg"
+    product_title: HALOUMI WAF
+    product_description: Haloumi
+    product_price: 123
   - product_image: "/uploads/2021/09/15/greensmoothie-small.jpg"
     product_description: Green
     product_price: 123
