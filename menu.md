@@ -90,8 +90,12 @@ categories:
     product_title: FRESH JUICE
     product_description: nutella, oreo, jahody, maliny, mascarpone
     product_price: 123
-- category_title: SPECIÁLNÍ NABÍDKA
-  products: []
+- category_title: WAF GIRLS MENU
+  products:
+  - product_image: "/uploads/2021/09/15/dalgonwaf-small.jpg"
+    product_title: DALGON WAF
+    product_description: DALGON
+    product_price: 138
 - category_title: NÁPOJE
   products: []
 
