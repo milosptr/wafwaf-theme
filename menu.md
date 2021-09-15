@@ -17,8 +17,8 @@ categories:
     product_description: jahody, nutella, oreo, domácí šlehačka
     product_price: 112
   - product_price: 134
-    product_image: "/uploads/2021/07/24/mask-group-26.png"
-    product_title: WAFTELLA
+    product_image: "/uploads/2021/09/15/pearwaf-small.jpg"
+    product_title: PEARWAF
     product_description: nutella, oreo, jahody, maliny, mascarpone
 - category_title: SLANÉ
   products:
