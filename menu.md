@@ -70,6 +70,10 @@ categories:
     product_title: AVOWAF
 - category_title: NÁPOJE & MILKSHAKES
   products:
+  - product_image: "/uploads/2021/09/15/wafrappe-small.jpg"
+    product_title: Wafrape
+    product_description: wafrape....
+    product_price: 123
   - product_image: "/uploads/2021/09/15/pomerancovy-freshjuice-small.jpg"
     product_title: Pomerančový freshjuice
     product_description: Pomerančový freshjuice
