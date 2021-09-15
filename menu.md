@@ -70,6 +70,10 @@ categories:
     product_title: AVOWAF
 - category_title: NÁPOJE & MILKSHAKES
   products:
+  - product_image: "/uploads/2021/09/15/pomerancovy-freshjuice-small.jpg"
+    product_title: Pomerančový freshjuice
+    product_description: Pomerančový freshjuice
+    product_price: 123
   - product_image: "/uploads/2021/09/15/jahodovy-cokoladovy-a-bananovy-wafshake-small.jpg"
     product_title: Jahodový, Čokoládový a Banánový Wafshake
     product_description: Jahodový, Čokoládový a Banánový
