@@ -4,6 +4,10 @@ layout: menu
 categories:
 - category_title: SLADKÉ
   products:
+  - product_image: "/uploads/2021/09/15/sushiwaf-small.jpg"
+    product_title: SUSHIWAF
+    product_description: ''
+    product_price: 
   - product_image: "/uploads/2021/09/15/wafreo-small.jpg"
     product_title: WAFREO
     product_description: jahody, nutella, oreo, domácí šlehačka
