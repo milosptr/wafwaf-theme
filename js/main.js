@@ -89,6 +89,14 @@
     header.style.backgroundColor = '#ECD684'
   }
 
+  if(document.body.id === 'contact' || document.body.id === 'homepage'){
+    const instaItems = document.querySelectorAll('.instagram-item')
+    instaItems.forEach( item => {
+      const itemWidth = item.offsetWidth
+      item.style.height = itemWidth + 'px'
+    })
+  }  
+
   const swiper = new Swiper(".custom-carousel", {
     cssMode: true,
     loop: true,
