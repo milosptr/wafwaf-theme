@@ -34,8 +34,8 @@ categories:
     product_title: IRONWAF
     product_description: egg, bacon, asparagus, souce
     product_price: 160
-  - product_image: "/uploads/2021/07/20/mask-group-133.png"
-    product_title: EGG WAFF
+  - product_image: "/uploads/2021/09/15/bigwaf-small.jpg"
+    product_title: BIGWAF
     product_description: egg, bacon, asparagus, souce
     product_price: 160
 - category_title: SNÍDANĚ
