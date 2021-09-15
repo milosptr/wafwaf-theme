@@ -52,6 +52,10 @@ categories:
     product_price: 160
 - category_title: SNÍDANĚ
   products:
+  - product_image: "/uploads/2021/09/15/waf-wood-small.jpg"
+    product_title: WAF&FOOD
+    product_description: nutella, oreo, jahody, maliny, mascarpone
+    product_price: 160
   - product_image: "/uploads/2021/09/15/eggwaf-small.jpg"
     product_title: EGGWAF
     product_description: nutella, oreo, jahody, maliny, mascarpone
