@@ -27,7 +27,7 @@
     </div>
     <div  class="rubic-pattern bottom"></div>
   </div>
-  <div class="latest-posts mt-12 sm:mt-20 mb-16 sm:mb-48 px-0">
+  <div class="latest-posts mt-12 sm:mt-20 mb-16 sm:mb-36 px-0">
     <div class="latest-posts-wrapper flex justify-between">
       {% for post in site.posts limit: 3 %}
         <div class="latest-posts-item w-full sm:w-1/3 reveal-delay-{{ forloop.index | plus: 1 }}00">
@@ -46,11 +46,11 @@
         {% assign index = forloop.index0 | modulo: 2 %}
         {% assign delay = delay | plus: 75 %}
         {% if index == 0 %}
-          <div class="w-full sm:w-1/2 showcase-item sm:pr-16 sm:pb-16 sm:reveal-delay-200">
+          <div class="w-full sm:w-1/2 showcase-item sm:pr-16 sm:py-16 sm:reveal-delay-200">
             <img src="{{ showcase }}" alt="showcase {{ index }}">
           </div>
         {% else %}
-          <div class="w-full sm:w-1/2 showcase-item sm:pl-16 sm:pb-16 sm:reveal-delay-400">
+          <div class="w-full sm:w-1/2 showcase-item sm:pl-16 sm:py-16 sm:reveal-delay-400">
             <img src="{{ showcase }}" alt="showcase {{ index }}">
           </div>
         {% endif %}

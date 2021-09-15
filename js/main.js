@@ -25,7 +25,7 @@
     const categories = document.querySelectorAll('.category-title')
     categories[0].classList.add('active')
     filterProducts(categories[0].innerText)
-
+    
     categories.forEach((c) => {
       c.addEventListener('click', (e) => {
         filterProducts(e.target.innerText)
@@ -34,12 +34,25 @@
   }
 
   if(document.body.id === 'jobs' || document.body.id === 'franchising') {
-    const buttons = document.querySelectorAll('.open-accordion')
-    buttons.forEach((b) => {
-      b.addEventListener('click', (e) => {
-        toggleAccordion(e.target)
+    const accordions = document.querySelectorAll('.accordion')
+    accordions.forEach((a) => {
+      a.addEventListener('click', () => {
+        if(a.classList.contains('accordion-opened')) {
+          a.classList.remove('accordion-opened')
+          return
+        }
+        else{
+          a.classList.add('accordion-opened')
+        }
+          // toggleAccordion(e.target)
       })
     })
+    // const buttons = document.querySelectorAll('.open-accordion')
+    // buttons.forEach((b) => {
+    //   b.addEventListener('click', (e) => {
+    //     toggleAccordion(e.target)
+    //   })
+    // })
   }
 
   if(document.body.id === 'locations') {
