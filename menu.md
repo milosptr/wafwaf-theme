@@ -31,7 +31,7 @@ categories:
 - category_title: SLANÉ
   products:
   - product_image: "/uploads/2021/07/20/mask-group-133.png"
-    product_title: EGG WAFF
+    product_title: IRONWAF
     product_description: egg, bacon, asparagus, souce
     product_price: 160
   - product_image: "/uploads/2021/07/20/mask-group-133.png"
