@@ -104,7 +104,11 @@ categories:
     product_title: DALGON WAF
     product_description: DALGON
     product_price: 138
-- category_title: NÁPOJE
-  products: []
+- category_title: CHEF MENU BY HONZA VOREL
+  products:
+  - product_image: "/uploads/2021/09/15/greensmoothie-small.jpg"
+    product_description: Green
+    product_price: 123
+    product_title: GREEN SMOTHIE
 
 ---
