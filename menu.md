@@ -92,6 +92,10 @@ categories:
     product_price: 123
 - category_title: WAF GIRLS MENU
   products:
+  - product_image: "/uploads/2021/09/15/friedwaf-small.jpg"
+    product_title: FRIED WAF
+    product_description: Fried
+    product_price: 123
   - product_image: "/uploads/2021/09/15/dalgonwaf-small.jpg"
     product_title: DALGON WAF
     product_description: DALGON
