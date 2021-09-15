@@ -68,8 +68,12 @@ categories:
     product_description: nutella, oreo, jahody, maliny, mascarpone
     product_price: 150
     product_title: AVOWAF
-- category_title: MILKSHAKES
+- category_title: NÁPOJE & MILKSHAKES
   products:
+  - product_image: "/uploads/2021/09/15/jahodovy-cokoladovy-a-bananovy-shake-small.jpg"
+    product_title: Jahodový, Čokoládový a Banánový Shake
+    product_description: Jahodový,-Čokoládový-a-Banánový-Shake-SMALL
+    product_price: 123
   - product_image: "/uploads/2021/09/15/freshjuice-small.jpg"
     product_title: FRESH JUICE
     product_description: nutella, oreo, jahody, maliny, mascarpone
