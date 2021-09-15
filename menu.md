@@ -9,7 +9,7 @@ categories:
     product_description: jahody, nutella, oreo, domácí šlehačka
     product_price: 112
   - product_price: 134
-    product_image: "/uploads/2021/07/24/mask-group-26.png"
+    product_image: "/uploads/2021/09/15/waftella-small.jpg"
     product_title: WAFTELLA
     product_description: nutella, oreo, jahody, maliny, mascarpone
   - product_image: "/uploads/2021/07/24/mask-group-27.png"
