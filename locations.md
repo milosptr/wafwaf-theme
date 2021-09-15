@@ -29,7 +29,7 @@ locations:
   footer_description: 'Z této pobočky také probíhá rozvoz Waf-Waf produktů do různých
     koutů Prahy. Objednávat můžete na těchto platformách:'
 - local_image: "/uploads/2021/09/15/kanecelar10.jpeg"
-  first_left_image: "/uploads/2021/08/15/mask-group-34.png"
+  first_left_image: "/uploads/2021/09/15/20190827_145731000_ios.jpg"
   location_name: WAF-WAF IP PAVLOVA
   location_address: Milady Horákové 52, Praha 7
   location_contact: "Otevírací doba:   \n\LPondělí - Neděle: dočasně uzavřeno   \n\LKontaktní
@@ -47,11 +47,11 @@ locations:
     prostorné zahrádce ve vnitronloku. Samozřejmostí je možnost take-away a to zcela
     zdarma. Do naší provozovny Waf-Waf na Letné mají také povolený vstup pejsci. Na
     pobočce provádíme rezervace pro více než jeden stůl.
-  image_left: "/uploads/2021/08/15/faf4233d-f364-4045-a10f-47b83c6cf868.png"
+  image_left: "/uploads/2021/09/15/20190704_112943000_ios.jpg"
   third_column_under_image: Pobočka se nám rozrostla o zimní zateplenou zahradu/venkovní
     zahradu přes léto a tím se i zvýšila kapacita pobočky na 60 lidí.
-  image_right_portrait: "/uploads/2021/08/15/20200109_095725000_ios-1.png"
-  footer_image: "/uploads/2021/08/15/img_1675.png"
+  image_right_portrait: "/uploads/2021/09/15/20190628_112525254_ios.jpg"
+  footer_image: "/uploads/2021/09/15/20190603_090334000_ios.jpg"
   footer_description: 'Z této pobočky také probíhá rozvoz Waf-Waf produktů do různých
     koutů Prahy. Objednávat můžete na těchto platformách:'
 layout: locations
