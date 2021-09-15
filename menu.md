@@ -92,6 +92,10 @@ categories:
     product_price: 123
 - category_title: WAF GIRLS MENU
   products:
+  - product_image: "/uploads/2021/09/15/wafchick-small.jpg"
+    product_title: WAF CHICK
+    product_description: Chicken...
+    product_price: 125
   - product_image: "/uploads/2021/09/15/friedwaf-small.jpg"
     product_title: FRIED WAF
     product_description: Fried
