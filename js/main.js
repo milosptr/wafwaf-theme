@@ -28,6 +28,11 @@
     
     categories.forEach((c) => {
       c.addEventListener('click', (e) => {
+        c.scrollIntoView({
+          behavior: 'smooth',
+          block: 'center',
+          inline: 'center'
+      })
         filterProducts(e.target.innerText)
       })
     })
