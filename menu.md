@@ -106,6 +106,10 @@ categories:
     product_price: 138
 - category_title: CHEF MENU BY HONZA VOREL
   products:
+  - product_image: "/uploads/2021/09/15/purplesmoothie-small.jpg"
+    product_title: PURPLE SMOOTHIE
+    product_description: Purple
+    product_price: 123
   - product_image: "/uploads/2021/09/15/halloumiwaf-small.jpg"
     product_title: HALOUMI WAF
     product_description: Haloumi
