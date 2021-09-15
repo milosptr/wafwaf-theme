@@ -51,7 +51,11 @@ categories:
     product_description: egg, bacon, asparagus, souce
     product_price: 160
 - category_title: SNÍDANĚ
-  products: []
+  products:
+  - product_image: "/uploads/2021/09/15/avowaf-small.jpg"
+    product_description: nutella, oreo, jahody, maliny, mascarpone
+    product_price: 150
+    product_title: AVOWAF
 - category_title: MILKSHAKES
   products: []
 - category_title: SPECIÁLNÍ NABÍDKA
