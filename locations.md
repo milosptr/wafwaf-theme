@@ -28,8 +28,8 @@ locations:
   footer_image: "/uploads/2021/08/15/img_1675.png"
   footer_description: 'Z této pobočky také probíhá rozvoz Waf-Waf produktů do různých
     koutů Prahy. Objednávat můžete na těchto platformách:'
-- local_image: "/uploads/2021/09/15/kanecelar10.jpeg"
-  first_left_image: "/uploads/2021/09/15/20190827_145731000_ios.jpg"
+- local_image: "/uploads/2021/09/15/20190628_112623280_ios.jpg"
+  first_left_image: "/uploads/2021/09/15/20190628_115452000_ios.jpg"
   location_name: WAF-WAF IP PAVLOVA
   location_address: Milady Horákové 52, Praha 7
   location_contact: "Otevírací doba:   \n\LPondělí - Neděle: dočasně uzavřeno   \n\LKontaktní
