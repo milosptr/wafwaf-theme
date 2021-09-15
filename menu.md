@@ -4,7 +4,7 @@ layout: menu
 categories:
 - category_title: SLADKÉ
   products:
-  - product_image: "/uploads/2021/07/24/mask-group-27.png"
+  - product_image: "/uploads/2021/09/15/wafreo-small.jpg"
     product_title: WAFREO
     product_description: jahody, nutella, oreo, domácí šlehačka
     product_price: 112
