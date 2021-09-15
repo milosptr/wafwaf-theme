@@ -4,10 +4,6 @@ layout: menu
 categories:
 - category_title: SLADKÉ
   products:
-  - product_image: "/uploads/2021/09/15/sushiwaf-small.jpg"
-    product_title: SUSHIWAF
-    product_description: ''
-    product_price: 
   - product_image: "/uploads/2021/09/15/wafreo-small.jpg"
     product_title: WAFREO
     product_description: jahody, nutella, oreo, domácí šlehačka
@@ -24,6 +20,10 @@ categories:
     product_image: "/uploads/2021/09/15/pearwaf-small.jpg"
     product_title: PEARWAF
     product_description: nutella, oreo, jahody, maliny, mascarpone
+  - product_image: "/uploads/2021/09/15/sushiwaf-small.jpg"
+    product_title: SUSHIWAF
+    product_description: nutella, oreo, jahody, maliny, mascarpone
+    product_price: 124
 - category_title: SLANÉ
   products:
   - product_image: "/uploads/2021/07/20/mask-group-133.png"
