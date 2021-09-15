@@ -4,6 +4,10 @@ layout: menu
 categories:
 - category_title: SLADKÉ
   products:
+  - product_image: "/uploads/2021/09/15/waf-cut-small.jpg"
+    product_title: WAF&CUT
+    product_description: nutella, oreo, jahody, maliny, mascarpone
+    product_price: 124
   - product_image: "/uploads/2021/09/15/wafreo-small.jpg"
     product_title: WAFREO
     product_description: jahody, nutella, oreo, domácí šlehačka
