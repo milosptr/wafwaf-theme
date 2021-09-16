@@ -131,6 +131,30 @@ fields:
       schema:
         format: markdown
     label: Footer description
+  - name: wolt
+    type: boolean
+    label: Wolt
+  - name: wolt_url
+    type: text
+    config:
+      required: false
+    label: Wolt Url
+  - name: boltfood
+    type: boolean
+    label: Boltfood
+  - name: boltfood_url
+    type: text
+    config:
+      required: false
+    label: Boltfood url
+  - name: damejidlo
+    type: boolean
+    label: Damejidlo
+  - name: damejidlo_url
+    type: text
+    config:
+      required: false
+    label: Damejidlo_url
   config:
     min: 
     max: 
