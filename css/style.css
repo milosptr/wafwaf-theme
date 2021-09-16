@@ -723,10 +723,11 @@ header nav .menu-logo {
 }
 
 .open-accordion {
-  transition: all 1s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .accordion-opened .open-accordion {
+  transform-origin: center;
   transform: rotate(45deg)
 }
 

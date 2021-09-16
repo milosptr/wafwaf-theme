@@ -64,6 +64,11 @@
     const locationItems = document.querySelectorAll('.change-location')
     locationItems.forEach((l) => {
       l.addEventListener('click', (e) => {
+        l.scrollIntoView({
+          behavior: 'smooth',
+          block: 'nearest',
+          inline: 'center'
+        });
         changeLocations(e.target)
       })
     })
