@@ -29,17 +29,17 @@
           <h3 class="h3 my-2">{{ location.location_title }}</h3>
           <div class="mt-6">
             {% if location.wolt %}
-              <a class="delivery-btn flex items-center justify-center">
+              <a href="{{ location.wolt_url }}" class="delivery-btn flex items-center justify-center">
                 <img src="/img/wolt.png" alt="wolt" height="35">
               </a>
             {% endif %}
             {% if location.boltfood %}
-              <a class="delivery-btn flex items-center justify-center mt-6">
+              <a href="{{ location.boltfood_url }}" class="delivery-btn flex items-center justify-center mt-6">
                 <img src="/img/boltfood.png" alt="wolt" height="54">
               </a>
             {% endif %}
             {% if location.damejidlo %}
-              <a class="delivery-btn flex items-center justify-center mt-6">
+              <a href="{{ location.jidlo_url }}" class="delivery-btn flex items-center justify-center mt-6">
                 <img src="/img/damejidlo.png" alt="wolt" height="42">
               </a>
             {% endif %}
