@@ -38,14 +38,29 @@ fields:
     type: boolean
     label: Wolt
     default: true
+  - name: wolt_url
+    type: text
+    config:
+      required: false
+    label: Wolt Url
   - name: boltfood
     type: boolean
     label: BoltFood
     default: true
+  - name: boltfood_url
+    type: text
+    config:
+      required: false
+    label: BoltFood Url
   - name: damejidlo
     type: boolean
     label: Dáme jídlo
     default: true
+  - name: jidlo_url
+    type: text
+    config:
+      required: false
+    label: DameJidlo Url
   config:
     min: 
     max: 
