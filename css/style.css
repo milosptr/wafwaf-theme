@@ -317,6 +317,21 @@ header nav .menu-item.active {
   background: #ecd684;
 }
 
+#locations header nav .menu-item{
+  background-color: #85D3C4;
+  color: #251C16;
+}
+
+#locations header nav .menu-item:hover{
+  background: #ecd684;
+  color: #251C16;
+}
+
+#locations header nav .menu-item.active{
+  background: #ecd684;
+  color: #251C16;
+}
+
 header nav .menu-logo {
   margin: 0 50px;
   width: 190px;
