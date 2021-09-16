@@ -60,7 +60,7 @@ fields:
     type: text
     config:
       required: false
-    label: Jidlo Url
+    label: DameJidlo Url
   config:
     min: 
     max: 
