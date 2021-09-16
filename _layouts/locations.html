@@ -22,7 +22,7 @@
         <div class="change-location w-full px-4 sm:w-1/4 cursor-pointer" data-location="{{ forloop.index }}">
       {% endif %}
           <!-- <div> -->
-            <img src="{{ location.local_image }}" alt="{{ location.location_name }}" style="max-width: 260px; border-radius: 40px;">
+            <img class="btn-zoom-in-out" src="{{ location.local_image }}" alt="{{ location.location_name }}" style="max-width: 260px; border-radius: 40px;">
             <h2 class="text-xl font-bold pt-4 w-full text-center">{{ location.location_name }}</h2>
           <!-- </div> -->
         </div>
@@ -45,9 +45,9 @@
           <p class="mt-6 w-full reveal">{{ l.location_address }}</p>
           <p class="mt-6 w-full reveal">{{ l.location_contact }}</p>
           <p class="mt-16 w-full reveal">{{ l.location_description }}</p>
-          <div class="mr-5 mt-12 w-full reveal">
-            <a href="tel:{{ l.contact_number }}" class="block black-btn">Kontaktujte nas</a>
-            <a href="/delivery" class="block mt-10 rounded-outline-btn">jak se tam dostanu</a>
+          <div class="mr-5 mt-12 p-4 w-full reveal">
+            <a href="tel:{{ l.contact_number }}" class="block black-btn btn-zoom-in-out">Kontaktujte nas</a>
+            <a href="/delivery" class="block mt-10 rounded-outline-btn btn-zoom-in-out">jak se tam dostanu</a>
           </div>
         </div>
       </div>
@@ -94,9 +94,9 @@
             </a>
             {% endif %}
           </div>
-          <div class="mr-5 mt-12 w-full reveal">
-            <a href="tel:{{ l.contact_number }}" class="block black-btn">Kontaktujte nas</a>
-            <a href="/delivery" class="block mt-10 rounded-outline-btn">jak se tam dostanu</a>
+          <div class="mr-5 mt-12 w-full reveal p-4">
+            <a href="tel:{{ l.contact_number }}" class="block black-btn btn-zoom-in-out">Kontaktujte nas</a>
+            <a href="/delivery" class="block mt-10 rounded-outline-btn btn-zoom-in-out">jak se tam dostanu</a>
           </div>
         </div>
       </div>

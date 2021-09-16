@@ -62,7 +62,8 @@
 
   if(document.body.id === 'locations') {
     const locationItems = document.querySelectorAll('.change-location')
-    locationItems.forEach((l) => {
+    locationItems.forEach((l, idx) => {
+      // l.children[0].classList.add(idx%2 === 0 ? 'btn-funny-left' : 'btn-funny-right')
       l.addEventListener('click', (e) => {
         l.scrollIntoView({
           behavior: 'smooth',
@@ -92,6 +93,18 @@
   if(document.body.id === 'delivery'){
     const header = document.getElementsByTagName('header')[0]
     header.style.backgroundColor = '#ECD684'
+    
+    const deliveryBtns = document.querySelectorAll('.delivery-btn')
+    deliveryBtns.forEach( db => {
+      db.addEventListener('mouseenter', (e) => {
+        db.children[0].style.transition = "all .3s ease-in-out"
+        db.children[0].style.transform = "scale(1.1)"
+      })
+      db.addEventListener('mouseleave', (e) => {
+        db.children[0].style.transform = "scale(1)"
+      })
+    })
+
   }
 
   if(document.body.id === 'contact' || document.body.id === 'homepage'){
@@ -254,15 +267,15 @@
   function filterProducts(category) {
     const categories = document.querySelectorAll('.category-title')
     const products = [...document.querySelector('.products-container').children]
-    console.log(category)
     products.forEach((p) => {
       p.style = ''
       p.classList.remove('hide')
       p.style.opacity = 1
       if(p.dataset.category !== category)
-        p.classList.add('hide')
+      p.classList.add('hide')
     })
-    categories.forEach((c) => {
+    categories.forEach((c,idx) => {
+      c.classList.add(idx%2 === 0 ? 'btn-funny-left' : 'btn-funny-right')
       c.classList.remove('active')
       if(c.dataset.categoryName === category)
         c.classList.add('active')
