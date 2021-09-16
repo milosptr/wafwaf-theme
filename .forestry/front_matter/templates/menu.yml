@@ -1,6 +1,6 @@
 ---
 label: menu
-hide_body: false
+hide_body: true
 fields:
 - name: big_title
   type: text
