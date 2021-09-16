@@ -30,7 +30,7 @@
       c.addEventListener('click', (e) => {
         c.scrollIntoView({
           behavior: 'smooth',
-          block: 'center',
+          block: 'nearest',
           inline: 'center'
       })
         filterProducts(e.target.innerText)
