@@ -829,6 +829,12 @@ header nav .menu-logo {
   transition: all .3s ease-in-out;
 }
 
+.change-location img{
+  max-height: 165px;
+  width: 265px !important;
+  margin: 0 auto;
+}
+
 .change-location-active {
   opacity: 1;
 }
