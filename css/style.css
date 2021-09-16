@@ -84,7 +84,7 @@
 
 body {
   opacity: 0;
-  animation: loadBody 3s forwards;
+  animation: loadBody 4s forwards;
 }
 
 .rounded-50 {
@@ -458,7 +458,7 @@ header nav .menu-logo {
   margin-bottom: 183px;
   padding: 0 3.75%;
 }
-/* 
+/*
 .single-product:nth-child(even) {
   padding-left: 7.5%;
 }

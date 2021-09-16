@@ -24,8 +24,8 @@
   if(document.body.id === 'menu') {
     const categories = document.querySelectorAll('.category-title')
     categories[0].classList.add('active')
-    filterProducts(categories[0].innerText)
-    
+    filterProducts(categories[0].dataset.categoryName)
+
     categories.forEach((c) => {
       c.addEventListener('click', (e) => {
         c.scrollIntoView({
@@ -33,7 +33,7 @@
           block: 'nearest',
           inline: 'center'
       })
-        filterProducts(e.target.innerText)
+        filterProducts(e.target.dataset.categoryName)
       })
     })
   }
@@ -100,7 +100,7 @@
       const itemWidth = item.offsetWidth
       item.style.height = itemWidth + 'px'
     })
-  }  
+  }
 
   const swiper = new Swiper(".custom-carousel", {
     cssMode: true,
@@ -254,6 +254,7 @@
   function filterProducts(category) {
     const categories = document.querySelectorAll('.category-title')
     const products = [...document.querySelector('.products-container').children]
+    console.log(category)
     products.forEach((p) => {
       p.style = ''
       p.classList.remove('hide')
@@ -263,7 +264,7 @@
     })
     categories.forEach((c) => {
       c.classList.remove('active')
-      if(c.innerText === category)
+      if(c.dataset.categoryName === category)
         c.classList.add('active')
     })
   }
