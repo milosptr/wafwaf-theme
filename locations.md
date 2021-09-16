@@ -28,6 +28,12 @@ locations:
   footer_image: "/uploads/2021/08/15/img_1675.png"
   footer_description: 'Z této pobočky také probíhá rozvoz Waf-Waf produktů do různých
     koutů Prahy. Objednávat můžete na těchto platformách:'
+  wolt: true
+  wolt_url: https://wolt.com/cs/cze/brno/restaurant/waf-waf-brno
+  boltfood: false
+  boltfood_url: ''
+  damejidlo: true
+  damejidlo_url: https://www.damejidlo.cz/restaurant/b5cn/waf-waf-3
 - local_image: "/uploads/2021/08/16/img_6806.png"
   first_left_image: "/uploads/2021/08/15/mask-group-34.png"
   location_name: WAF-WAF OC PALLADIUM
@@ -54,6 +60,12 @@ locations:
   footer_image: "/uploads/2021/08/15/img_1675.png"
   footer_description: 'Z této pobočky také probíhá rozvoz Waf-Waf produktů do různých
     koutů Prahy. Objednávat můžete na těchto platformách:'
+  wolt: true
+  wolt_url: https://wolt.com/cs/cze/prague/restaurant/waf-waf-palladium
+  boltfood: false
+  boltfood_url: ''
+  damejidlo: true
+  damejidlo_url: https://www.damejidlo.cz/restaurant/p3ug/waf-waf-paladium
 - local_image: "/uploads/2021/08/16/img_6806.png"
   first_left_image: "/uploads/2021/08/15/mask-group-34.png"
   location_name: WAF-WAF LETNÁ
@@ -80,6 +92,12 @@ locations:
   footer_image: "/uploads/2021/08/15/img_1675.png"
   footer_description: 'Z této pobočky také probíhá rozvoz Waf-Waf produktů do různých
     koutů Prahy. Objednávat můžete na těchto platformách:'
+  wolt: true
+  wolt_url: https://wolt.com/cs/cze/prague/restaurant/waf-waf-letna
+  boltfood: false
+  boltfood_url: ''
+  damejidlo: true
+  damejidlo_url: https://www.damejidlo.cz/restaurant/f6zc/waf-waf-m-horakove
 - local_image: "/uploads/2021/09/15/20190628_112623280_ios.jpg"
   first_left_image: "/uploads/2021/09/15/20190628_115452000_ios.jpg"
   location_name: WAF-WAF IP PAVLOVA
@@ -106,6 +124,12 @@ locations:
   footer_image: "/uploads/2021/09/15/20190603_090334000_ios.jpg"
   footer_description: 'Z této pobočky také probíhá rozvoz Waf-Waf produktů do různých
     koutů Prahy. Objednávat můžete na těchto platformách:'
+  wolt: true
+  wolt_url: https://wolt.com/cs/cze/prague/restaurant/waf-waf-ipak
+  boltfood: false
+  boltfood_url: ''
+  damejidlo: true
+  damejidlo_url: " https://www.damejidlo.cz/restaurant/s0ma/waf-waf-belehradska"
 layout: locations
 
 ---
