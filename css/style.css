@@ -432,6 +432,7 @@ header nav .menu-logo {
   font-weight: bold;
   font-size: 24px;
   color:#F8EABF;
+  flex: 0 0 auto;
 }
 
 .category-title.active {
@@ -727,7 +728,7 @@ header nav .menu-logo {
 }
 
 .accordion-opened .open-accordion {
-  transform-origin: center;
+  transform-origin: center !important;
   transform: rotate(45deg)
 }
 
@@ -1039,8 +1040,8 @@ footer #newsletter input::placeholder {
   }
 
   body .rubic-pattern {
-    background-size: 200px;
-    height: 20px;
+    /* background-size: 200px;
+    height: 20px; */
     border-radius: 0!important;
   }
 
