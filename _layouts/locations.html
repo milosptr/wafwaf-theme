@@ -77,15 +77,21 @@
         <div class="sm:w-1/4 mx-auto">
           <p class="location-info w-full reveal">{{ l.footer_description }}</p>
           <div class="mt-6 sm:mt-12 flex justify-around items-center delivery-logos">
-            <a href="#" class="reveal">
+            {% if(l.damejidlo) %}
+            <a href="{{ l.jidlo_url }}" class="reveal">
               <img class="img-center-mobile" src="/img/dj-logo.png" height="39" alt="dj delivery">
             </a>
-            <a href="#" class="reveal">
+            {% endif %}
+            {% if(l.wolt) %}
+            <a href=" {{ l.wolt_url }}" class="reveal">
               <img class="img-center-mobile" src="/img/wolt-logo.png" height="39" alt="wolt delivery">
             </a>
-            <a href="#" class="reveal">
+            {% endif %}
+            {% if(l.boltfood) %}
+            <a href="{{ l.boltfood_url }}" class="reveal">
               <img class="img-center-mobile" src="/img/bolt-food-logo.png" height="39" alt="boltfood delivery">
             </a>
+            {% endif %}
           </div>
           <div class="mr-5 mt-12 w-full reveal">
             <a href="tel:{{ l.contact_number }}" class="block black-btn">Kontaktujte nas</a>
