@@ -34,10 +34,20 @@ fields:
       required: true
     label: Location title
     default: WAF-WAF LETNÁ
+  - name: wolt_url
+    type: text
+    config:
+      required: false
+    label: Wolt Url
   - name: wolt
     type: boolean
     label: Wolt
     default: true
+  - name: boltfood_url
+    type: text
+    config:
+      required: false
+    label: BoltFood Url
   - name: boltfood
     type: boolean
     label: BoltFood
@@ -46,6 +56,11 @@ fields:
     type: boolean
     label: Dáme jídlo
     default: true
+  - name: jidlo_url
+    type: text
+    config:
+      required: false
+    label: Jidlo Url
   config:
     min: 
     max: 
