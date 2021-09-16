@@ -469,6 +469,7 @@ header nav .menu-logo {
 
 .single-product img {
   border-radius: 30px;
+  max-height: 465px;
   overflow: hidden;
 }
 
@@ -578,8 +579,9 @@ header nav .menu-logo {
 }
 .faq-carousel .swiper-button-prev::after,
 .faq-carousel .swiper-button-next::after {
-  color: #251C16;
-  font-size: 22px;
+  color: #000;
+  font-weight: bold;
+  font-size: 24px;
 }
 
 .faq-question {
@@ -1352,6 +1354,16 @@ footer #newsletter input::placeholder {
     font-size: 30px;
     /* line-height: 20px; */
     min-height: 75px;
+  }
+  .open-accordion {
+    width: 40px !important;
+  }
+
+  .faq-carousel .swiper-button-prev {
+    left: 10px;
+  }
+  .faq-carousel .swiper-button-next {
+    right: 10px;
   }
 }
 
