@@ -63,7 +63,7 @@
   if(document.body.id === 'locations') {
     const locationItems = document.querySelectorAll('.change-location')
     locationItems.forEach((l, idx) => {
-      // l.children[0].classList.add(idx%2 === 0 ? 'btn-zoom-in-out' : 'btn-funny-right')
+      // l.children[0].classList.add(idx%2 === 0 ? 'btn-zoom-in-out' : 'btn-zoom-in-out')
       l.addEventListener('click', (e) => {
         l.scrollIntoView({
           behavior: 'smooth',
@@ -275,7 +275,7 @@
       p.classList.add('hide')
     })
     categories.forEach((c,idx) => {
-      c.classList.add(idx%2 === 0 ? 'btn-zoom-in-out' : 'btn-funny-right')
+      c.classList.add(idx%2 === 0 ? 'btn-zoom-in-out' : 'btn-zoom-in-out')
       c.classList.remove('active')
       if(c.dataset.categoryName === category)
         c.classList.add('active')
