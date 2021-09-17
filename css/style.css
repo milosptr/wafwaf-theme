@@ -171,6 +171,11 @@ body {
   color: #251C16;
 }
 
+#menu .h1 {
+  font-size: 80px;
+  line-height: 180px;
+}
+
 .container {
   max-width: 1640px;
   width: 100%;
@@ -255,7 +260,6 @@ html .load-hidden {
 #homepage,
 #locations,
 #contact,
-#menu,
 #franchising {
   background: #FFFDF5;
 }
@@ -330,6 +334,17 @@ header nav .menu-item:hover {
 header nav .menu-item.active {
   color: #251C16;
   background: #ecd684;
+}
+
+#menu header nav .menu-item {
+  color: #FFFDF5;
+  background: #251C16;
+}
+
+#menu header nav .menu-item.active,
+#menu header nav .menu-item:hover {
+  color: #251C16;
+  background: #ECD684;
 }
 
 #locations header nav .menu-item{
