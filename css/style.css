@@ -92,7 +92,7 @@ body {
   overflow: hidden;
 }
 
-.reveal {
+.reveal-left {
   visibility: hidden;
   position: relative;
   width: 50%;

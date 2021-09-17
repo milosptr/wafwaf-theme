@@ -20,7 +20,6 @@
       m.classList.add('active')
   })
 
-
   if(document.body.id === 'menu') {
     const categories = document.querySelectorAll('.category-title')
     categories[0].classList.add('active')
@@ -202,6 +201,10 @@
   }
   if(document.querySelector('.reveal-delay-700')) {
     ScrollReveal().reveal('.reveal-delay-700', { delay: 700, distance: '100px', duration: 1500, origin: 'bottom', easing: 'ease-in-out' });
+  }
+
+  if(document.querySelector('.reveal-left')) {
+    ScrollReveal().reveal('.reveal-left', { distance: '100px', origin: 'left', opacity: 0, delay: 275, duration: 2000, easing: 'ease-in-out'})
   }
 
   document.getElementById('hamburger').addEventListener('click', (e) => {
