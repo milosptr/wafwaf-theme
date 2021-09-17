@@ -30,7 +30,7 @@ locations:
     koutů Prahy. Objednávat můžete na těchto platformách:'
   wolt: true
   wolt_url: https://wolt.com/cs/cze/brno/restaurant/waf-waf-brno
-  boltfood: false
+  boltfood: true
   boltfood_url: ''
   damejidlo: true
   damejidlo_url: https://www.damejidlo.cz/restaurant/b5cn/waf-waf-3
