@@ -63,7 +63,7 @@
   if(document.body.id === 'locations') {
     const locationItems = document.querySelectorAll('.change-location')
     locationItems.forEach((l, idx) => {
-      // l.children[0].classList.add(idx%2 === 0 ? 'btn-funny-left' : 'btn-funny-right')
+      // l.children[0].classList.add(idx%2 === 0 ? 'btn-zoom-in-out' : 'btn-funny-right')
       l.addEventListener('click', (e) => {
         l.scrollIntoView({
           behavior: 'smooth',
@@ -93,7 +93,7 @@
   if(document.body.id === 'delivery'){
     const header = document.getElementsByTagName('header')[0]
     header.style.backgroundColor = '#ECD684'
-    
+
     const deliveryBtns = document.querySelectorAll('.delivery-btn')
     deliveryBtns.forEach( db => {
       db.addEventListener('mouseenter', (e) => {
@@ -275,7 +275,7 @@
       p.classList.add('hide')
     })
     categories.forEach((c,idx) => {
-      c.classList.add(idx%2 === 0 ? 'btn-funny-left' : 'btn-funny-right')
+      c.classList.add(idx%2 === 0 ? 'btn-zoom-in-out' : 'btn-funny-right')
       c.classList.remove('active')
       if(c.dataset.categoryName === category)
         c.classList.add('active')
