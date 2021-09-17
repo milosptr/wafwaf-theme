@@ -677,6 +677,10 @@ header nav .menu-logo {
   right: -100px;
 }
 
+.left-image-margin-wrapper {
+  overflow: unset!important;
+}
+
 .left-image-margin {
   margin-left: calc(-50vw + 700px);
 }
