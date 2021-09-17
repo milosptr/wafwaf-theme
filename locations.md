@@ -4,8 +4,8 @@ hero_image: "/uploads/2021/08/16/20111231_230000000_ios-103.png"
 locations:
 - local_image: "/uploads/2021/08/16/img_6806.png"
   first_left_image: "/uploads/2021/08/15/mask-group-34.png"
-  location_name: WAF-WAF BRNO
-  location_address: Milady Horákové 52, Praha 7
+  location_name: WAF-WAF VELKÝ ŠPALÍČEK
+  location_address: Mečová 695/2, 602 00 Brno-střed
   location_contact: "Otevírací doba: \n\nPondělí - Neděle: dočasně uzavřeno \n\nKontaktní
     telefonní číslo: +420602728121 \n\nKontaktní email: letna@waf-waf.cz"
   location_description: Na této pobočce si můžete vyzvednout jídlo s sebou. Slečny
@@ -34,10 +34,11 @@ locations:
   boltfood_url: ''
   damejidlo: true
   damejidlo_url: https://www.damejidlo.cz/restaurant/b5cn/waf-waf-3
+  location_gmaps_url: https://g.page/wafwafbrnospalicek?share
 - local_image: "/uploads/2021/08/16/img_6806.png"
   first_left_image: "/uploads/2021/08/15/mask-group-34.png"
   location_name: WAF-WAF OC PALLADIUM
-  location_address: Milady Horákové 52, Praha 7
+  location_address: Náměstí Republiky 1, 110 00 Nové Město
   location_contact: "Otevírací doba:   \n\LPondělí - Neděle: dočasně uzavřeno   \n\LKontaktní
     telefonní číslo: +420602728121\L  \nKontaktní email: letna@waf-waf.cz"
   location_description: Na této pobočce si můžete vyzvednout jídlo s sebou. Slečny
@@ -66,6 +67,7 @@ locations:
   boltfood_url: ''
   damejidlo: true
   damejidlo_url: https://www.damejidlo.cz/restaurant/p3ug/waf-waf-paladium
+  location_gmaps_url: https://g.page/wafwafpalladium
 - local_image: "/uploads/2021/08/16/img_6806.png"
   first_left_image: "/uploads/2021/08/15/mask-group-34.png"
   location_name: WAF-WAF LETNÁ
@@ -98,10 +100,11 @@ locations:
   boltfood_url: ''
   damejidlo: true
   damejidlo_url: https://www.damejidlo.cz/restaurant/f6zc/waf-waf-m-horakove
+  location_gmaps_url: https://goo.gl/maps/XbPeVgcsR95ms4qx8
 - local_image: "/uploads/2021/09/15/20190628_112623280_ios.jpg"
   first_left_image: "/uploads/2021/09/15/20190628_115452000_ios.jpg"
-  location_name: WAF-WAF IP PAVLOVA
-  location_address: Milady Horákové 52, Praha 7
+  location_name: WAF-WAF IPÁK
+  location_address: Bělehradská 67, 120 00 Nové Město
   location_contact: "Otevírací doba: \n\nPondělí - Neděle: dočasně uzavřeno \n\nKontaktní
     telefonní číslo: +420602728121 \n\nKontaktní email: letna@waf-waf.cz"
   location_description: Na této pobočce si můžete vyzvednout jídlo s sebou. Slečny
@@ -130,6 +133,7 @@ locations:
   boltfood_url: ''
   damejidlo: true
   damejidlo_url: " https://www.damejidlo.cz/restaurant/s0ma/waf-waf-belehradska"
+  location_gmaps_url: https://g.page/wafwafipak
 layout: locations
 
 ---
