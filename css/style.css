@@ -677,6 +677,10 @@ header nav .menu-logo {
   right: -100px;
 }
 
+.left-image-margin {
+  margin-left: calc(-50vw + 700px);
+}
+
 .proccess-icon-1 {
   transform: rotate(-10deg);
 }
