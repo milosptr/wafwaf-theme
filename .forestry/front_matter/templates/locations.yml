@@ -51,6 +51,12 @@ fields:
       schema:
         format: markdown
     label: Location contact
+  - name: location_gmaps_url
+    type: text
+    config:
+      required: false
+    label: Location gmaps url
+    description: Add full google maps url here
   - name: location_description
     type: textarea
     default: Na této pobočce si můžete vyzvednout jídlo s sebou. Slečny Vám zabalí
