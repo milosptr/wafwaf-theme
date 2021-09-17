@@ -125,7 +125,8 @@
       prevEl: ".swiper-button-prev",
     },
     autoplay: {
-      delay: 2500,
+      delay: 3000,
+      loop: true,
     },
     // pagination: {
     //   el: ".swiper-pagination",
