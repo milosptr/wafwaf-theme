@@ -6,8 +6,8 @@ locations:
   first_left_image: "/uploads/2021/08/15/mask-group-34.png"
   location_name: WAF-WAF BRNO
   location_address: Milady Horákové 52, Praha 7
-  location_contact: "Otevírací doba:   \n\LPondělí - Neděle: dočasně uzavřeno   \n\LKontaktní
-    telefonní číslo: +420602728121\L  \nKontaktní email: letna@waf-waf.cz"
+  location_contact: "Otevírací doba: \n\nPondělí - Neděle: dočasně uzavřeno \n\nKontaktní
+    telefonní číslo: +420602728121 \n\nKontaktní email: letna@waf-waf.cz"
   location_description: Na této pobočce si můžete vyzvednout jídlo s sebou. Slečny
     Vám zabalí naše produkty do hezkého obalu a dají Vám papírovou tašku pro snazší
     odnos vaflí, lívanců nebo palačinek.
@@ -62,7 +62,7 @@ locations:
     koutů Prahy. Objednávat můžete na těchto platformách:'
   wolt: true
   wolt_url: https://wolt.com/cs/cze/prague/restaurant/waf-waf-palladium
-  boltfood: false
+  boltfood: true
   boltfood_url: ''
   damejidlo: true
   damejidlo_url: https://www.damejidlo.cz/restaurant/p3ug/waf-waf-paladium
@@ -70,8 +70,8 @@ locations:
   first_left_image: "/uploads/2021/08/15/mask-group-34.png"
   location_name: WAF-WAF LETNÁ
   location_address: Milady Horákové 52, Praha 7
-  location_contact: "Otevírací doba:   \n\LPondělí - Neděle: dočasně uzavřeno   \n\LKontaktní
-    telefonní číslo: +420602728121\L  \nKontaktní email: letna@waf-waf.cz"
+  location_contact: "Otevírací doba: \n\nPondělí - Neděle: dočasně uzavřeno \n\nKontaktní
+    telefonní číslo: +420602728121 \n\nKontaktní email: letna@waf-waf.cz"
   location_description: Na této pobočce si můžete vyzvednout jídlo s sebou. Slečny
     Vám zabalí naše produkty do hezkého obalu a dají Vám papírovou tašku pro snazší
     odnos vaflí, lívanců nebo palačinek.
@@ -94,7 +94,7 @@ locations:
     koutů Prahy. Objednávat můžete na těchto platformách:'
   wolt: true
   wolt_url: https://wolt.com/cs/cze/prague/restaurant/waf-waf-letna
-  boltfood: false
+  boltfood: true
   boltfood_url: ''
   damejidlo: true
   damejidlo_url: https://www.damejidlo.cz/restaurant/f6zc/waf-waf-m-horakove
@@ -102,8 +102,8 @@ locations:
   first_left_image: "/uploads/2021/09/15/20190628_115452000_ios.jpg"
   location_name: WAF-WAF IP PAVLOVA
   location_address: Milady Horákové 52, Praha 7
-  location_contact: "Otevírací doba:   \n\LPondělí - Neděle: dočasně uzavřeno   \n\LKontaktní
-    telefonní číslo: +420602728121\L  \nKontaktní email: letna@waf-waf.cz"
+  location_contact: "Otevírací doba: \n\nPondělí - Neděle: dočasně uzavřeno \n\nKontaktní
+    telefonní číslo: +420602728121 \n\nKontaktní email: letna@waf-waf.cz"
   location_description: Na této pobočce si můžete vyzvednout jídlo s sebou. Slečny
     Vám zabalí naše produkty do hezkého obalu a dají Vám papírovou tašku pro snazší
     odnos vaflí, lívanců nebo palačinek.
@@ -126,7 +126,7 @@ locations:
     koutů Prahy. Objednávat můžete na těchto platformách:'
   wolt: true
   wolt_url: https://wolt.com/cs/cze/prague/restaurant/waf-waf-ipak
-  boltfood: false
+  boltfood: true
   boltfood_url: ''
   damejidlo: true
   damejidlo_url: " https://www.damejidlo.cz/restaurant/s0ma/waf-waf-belehradska"
