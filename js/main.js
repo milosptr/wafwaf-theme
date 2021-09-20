@@ -21,15 +21,13 @@
   })
 
   const mobileMenuItems = document.querySelectorAll('.nav-mobile-item')
-  mobileMenuItems.forEach((mi, idx) => {
-    if(idx === 0){ return }
-    
+  mobileMenuItems.forEach((mi, idx) => {    
     const menuUrl = mi.parentElement.getAttribute('href').replaceAll('/', '');
-    const url = location.pathname.replaceAll('/', '')
+    const url = location.pathname.replaceAll('/', '');
 
-    mi.classList.remove('nav-mobile-item-active')
+    mi.classList.remove('nav-mobile-item-active');
     if(menuUrl === url){
-      mi.classList.add('nav-mobile-item-active')
+      mi.classList.add('nav-mobile-item-active');
     }
   })
 
@@ -229,8 +227,10 @@
 
     if(!TOGGLE_MENU){
       navMobile.classList.add('nav-mobile-full-width');
+      document.body.style.position = 'fixed';
     }
     else{
+      document.body.style.removeProperty('position');
       navMobile.classList.remove('nav-mobile-full-width');
     }
 
