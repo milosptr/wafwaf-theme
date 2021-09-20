@@ -1051,6 +1051,10 @@ footer #newsletter input::placeholder {
   display: none;
 }
 
+.img-border-radius{
+  border-radius: 40px;
+  overflow: hidden;
+}
 
 /* Animations */
 @keyframes animatedBackground {
