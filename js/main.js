@@ -20,6 +20,19 @@
       m.classList.add('active')
   })
 
+  const mobileMenuItems = document.querySelectorAll('.nav-mobile-item')
+  mobileMenuItems.forEach((mi, idx) => {
+    if(idx === 0){ return }
+    
+    const menuUrl = mi.parentElement.getAttribute('href').replaceAll('/', '');
+    const url = location.pathname.replaceAll('/', '')
+
+    mi.classList.remove('nav-mobile-item-active')
+    if(menuUrl === url){
+      mi.classList.add('nav-mobile-item-active')
+    }
+  })
+
   if(document.body.id === 'menu') {
     const categories = document.querySelectorAll('.category-title')
     categories[0].classList.add('active')
