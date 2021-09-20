@@ -227,10 +227,10 @@
 
     if(!TOGGLE_MENU){
       navMobile.classList.add('nav-mobile-full-width');
-      document.body.style.position = 'fixed';
+      document.body.style.overflow = 'hidden';
     }
     else{
-      document.body.style.removeProperty('position');
+      document.body.style.removeProperty('overflow');
       navMobile.classList.remove('nav-mobile-full-width');
     }
 
