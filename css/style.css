@@ -231,7 +231,7 @@ body {
   background-position: center top;
     background-repeat: repeat;
   /* background-attachment: fixed; */
-  animation: animatedBackground 20s linear infinite alternate;
+  animation: animatedBackground 15s linear infinite alternate;
 }
 
 .rubic-pattern.navbar-pattern {
@@ -1333,7 +1333,7 @@ footer #newsletter input::placeholder {
     width: 100%;
     visibility: visible;
   }
-  
+
   .nav-mobile-item{
     padding-left: 32px;
     text-align: left;
