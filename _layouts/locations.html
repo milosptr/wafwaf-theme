@@ -14,7 +14,7 @@
   <h1 class="h1 w-full reveal sm:mt-12 mb-8 sm:mb-16 text-green">{{ page.locations_title }}</h1>
   <div class="w-full reveal">
     <div class="rubic-pattern top"></div>
-    <div class="bg-green relative z-0 flex items-center pt-12 pb-4 px-4 sm:px-32 overflow-x-auto no-scrollbar">
+    <div class="bg-green relative z-0 flex items-center pt-12 pb-4 px-4 2xl:px-32 overflow-x-auto no-scrollbar">
       {% for location in page.locations %}
       {% if forloop.index == 1 %}
         <div class="change-location w-full px-4 sm:w-1/4 cursor-pointer change-location-active" data-location="{{ forloop.index }}">

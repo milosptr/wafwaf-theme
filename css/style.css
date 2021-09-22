@@ -1066,6 +1066,68 @@ footer #newsletter input::placeholder {
   }
 }
 
+@media (max-width: 1440px) and (min-width: 1280px){
+  header nav .menu-item{
+    width: 125px;
+    font-size: 12px;
+    line-height: 52px;
+  }
+
+  .job-title{
+    font-size: 32px;
+  }
+
+  .job-location{
+    font-size: 28px;
+  }
+
+  .about-lg-margin{
+    margin-left: calc(-50vw + 800px);
+  }
+
+  .single-product img{
+    max-height: 363px;
+    min-height: 363px;
+  }
+
+  .proccess-container{
+    padding-left: 32px;
+    padding-right: 64px;
+  }
+
+  .proccess-item{
+    width: 23%!important;
+  }
+
+  .proccess-item-1::before,
+  .proccess-item-2::before,
+  .proccess-item-3::before {
+    right: -75px;
+  }
+
+  .store-image{
+    max-width: 100%;
+  }
+
+  .latest-posts{
+    box-sizing: border-box;
+  }
+  
+  .latest-posts .latest-posts-item{
+    width: 33%;
+  }
+
+  .showcase-group{
+    padding: 0 16px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  
+  .instagram-item img{
+    height: 100%;
+  }
+}
+
 /* Responsive */
 @media (max-width: 460px) {
   body{
@@ -1194,14 +1256,8 @@ footer #newsletter input::placeholder {
   }
 
   .latest-posts-item  {
-    /* max-width: 296px; */
-    /* margin: 0 20px!important; */
     padding: 0 30px !important;
   }
-
- /* .latest-posts-item:first-child {
-    margin-left: calc(50% - 168px)!important;
-  } */
 
   .latest-posts .post-title {
     font-size: 22px;
@@ -1218,7 +1274,6 @@ footer #newsletter input::placeholder {
   }
   .latest-posts-item.swiper-slide-active {
     opacity: 1;
-    /* margin-left: 20px; */
   }
 
   .instagram-feed {
