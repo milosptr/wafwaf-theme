@@ -1068,9 +1068,23 @@ footer #newsletter input::placeholder {
 
 @media (max-width: 1440px) and (min-width: 1280px){
   header nav .menu-item{
-    width: 125px;
-    font-size: 12px;
+    width: 135px;
+    font-size: 16px;
     line-height: 52px;
+  }
+
+  body .container {
+    max-width: 1360px;
+    margin: 0 auto;
+  }
+
+  body .latest-posts .post-title {
+    min-height: 120px;
+  }
+
+  header nav .menu-logo {
+    margin: 0 30px;
+    width: 140px;
   }
 
   .job-title{
@@ -1112,7 +1126,7 @@ footer #newsletter input::placeholder {
   .latest-posts{
     box-sizing: border-box;
   }
-  
+
   .latest-posts .latest-posts-item{
     width: 33%;
   }
@@ -1122,7 +1136,7 @@ footer #newsletter input::placeholder {
     box-sizing: border-box;
     overflow-x: hidden;
   }
-  
+
   .instagram-item img{
     height: 100%;
   }
