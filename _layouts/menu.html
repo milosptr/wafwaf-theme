@@ -23,12 +23,12 @@
         <div class="single-product w-1/2 slide-up reveal-delay-200" data-category={{ item.category_title | slugify }}>
           <img src="{{ product.product_image }}" alt="{{ product.product_title }}" width="100%">
           <div class="flex flex-wrap items-center">
-            <div class="sm:w-3/4">
+            <div class="md:w-3/4">
               <div class="product-title">{{ product.product_title }}</div>
-              <div class="hidden sm:block product-description">{{ product.product_description }}</div>
+              <div class="hidden md:block product-description">{{ product.product_description }}</div>
             </div>
-            <div class="flex justify-between items-center sm:w-1/4 sm:block">
-              <div class="block sm:hidden product-description">{{ product.product_description }}</div>
+            <div class="flex justify-between items-center md:w-1/4 md:block">
+              <div class="block md:hidden product-description">{{ product.product_description }}</div>
               <div class="product-price">{{ product.product_price }},-</div>
             </div>
           </div>

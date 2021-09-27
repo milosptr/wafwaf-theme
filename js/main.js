@@ -157,16 +157,14 @@
   })
 
   if(isMobile) {
-    console.log(screen.width)
     if(document.querySelector('.latest-posts')) {
       document.querySelector('.latest-posts').classList.add('swiper-container')
       document.querySelector('.latest-posts-wrapper').classList.add('swiper-wrapper')
       document.querySelectorAll('.latest-posts-item').forEach((i) => { i.classList.add('swiper-slide') })
-      if(screen.width >= 1280){
-        return
-      }
+
       new Swiper('.latest-posts', {
         allowTouchMove: true,
+        slidesPerView: screen.width < 640 ? '1' : screen.width >= 640 && screen.width < 1028 ? '2' : '3'
       })
     }
 

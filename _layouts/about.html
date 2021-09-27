@@ -14,7 +14,7 @@
   <h1 class="h1 sm:mt-12 mb-8 sm:mb-16 text-green w-full reveal">{{ page.big_title }}</h1>
   <div class="">
     <div class="rubic-pattern top"></div>
-    <div class="bg-brown p-8 sm:py-10 sm:px-24 overflow-x-hidden proccess-container">
+    <div class="bg-brown p-8 sm:py-10 xl:px-24 overflow-x-hidden proccess-container">
       <div class="flex justify-between proccess-wrapper">
         {% for p in page.proccess %}
           <div class="w-1/5 relative proccess-item proccess-item-{{ forloop.index }} md:reveal-delay-{{ forloop.index | plus:1 }}00">
@@ -36,11 +36,11 @@
     <div class="rubic-pattern bottom"></div>
   </div>
   <div class="mt-20">
-    <div class="mx-auto w-4/5 sm:flex justify-between">
-      <div class="w-full sm:hidden mb-16 reveal">
+    <div class="mx-auto lg:w-11/12 2xl:w-4/5 lg:flex justify-between">
+      <div class="w-full lg:hidden mb-16 reveal">
         <img src="{{ page.first_section.image }}" alt="first image wafwaf">
       </div>
-      <div class="sm:w-2/5 pr-4">
+      <div class="lg:w-2/5 pr-4">
         <div class="w-full reveal">
           <img src="{{ page.first_section.icon }}" style="width: 160px" alt="icon 1">
         </div>
@@ -51,16 +51,16 @@
           {{ page.first_section.content }}
         </p>
       </div>
-      <div class="w-full hidden sm:block py-10 sm:w-3/5 reveal">
+      <div class="w-full hidden lg:block py-10 sm:w-3/5 reveal">
         <img src="{{ page.first_section.image }}" alt="first image wafwaf">
       </div>
     </div>
   </div>
-  <div class="px-8 sm:px-0 sm:flex justify-between mt-12 sm:mt-32">
-    <div class="hidden sm:block sm:w-2/5 reveal reveal-left left-image-margin-wrapper">
+  <div class="px-16 lg:px-0 lg:w-11/12 2xl:w-full lg:flex justify-between mt-12 sm:mt-32">
+    <div class="hidden lg:block lg:w-2/5 reveal reveal-left left-image-margin-wrapper">
       <img src="{{ page.right_section.left_image }}" class="left-image-margin" alt="left image">
     </div>
-    <div class="about-lg-margin w-full mx-auto sm:w-3/5">
+    <div class="about-lg-margin w-full mx-auto lg:w-3/5">
       <div class="w-full reveal ">
         <img src="{{ page.right_section.first_icon }}" alt="first icon">
       </div>
