@@ -1146,11 +1146,9 @@ footer #newsletter input::placeholder {
     height: 100%;
   }
 
-<<<<<<< HEAD
   .latest-posts .post-title{
     min-height: 120px;
   }
-=======
   /* --------------------- */
 
   h1{
@@ -1186,7 +1184,6 @@ footer #newsletter input::placeholder {
     max-height: 44px !important;
   }
       
->>>>>>> 06c2d664f31eb4fde04a5069d3f3c355a36dc452
 }
 
 /* Responsive */
