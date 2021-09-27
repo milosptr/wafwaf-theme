@@ -723,6 +723,12 @@ header nav .menu-logo {
   color: #251C16;
 }
 
+#about p img {
+  border-radius: 30px;
+  display: block;
+  margin-top: 16px;
+}
+
 /* Jobs */
 .job-title {
   font-family: 'Brandon Text', sans-serif;
@@ -1183,7 +1189,7 @@ footer #newsletter input::placeholder {
   .social-icons{
     max-height: 44px !important;
   }
-      
+
 }
 
 /* Responsive */
@@ -1738,7 +1744,7 @@ footer #newsletter input::placeholder {
     padding-left: 0%;
     padding-right: 3%;
   }
-  
+
   .single-product:nth-child(odd) {
     padding-right: 0%;
     padding-left: 3%;
@@ -1854,29 +1860,29 @@ footer #newsletter input::placeholder {
     text-align: center;
     margin-top: 50px;
   }
-  
+
   .single-location a,
   .single-location img{
     max-width: 300px;
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   .about-lg-margin .black-btn{
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   .left-image-margin{
     margin-left: -30px;
   }
 
-  
+
   .single-product img{
     max-height: 363px;
     min-height: 363px;
   }
-  
+
   .latest-posts .post-title{
     min-height: 120px;
   }
@@ -1885,7 +1891,7 @@ footer #newsletter input::placeholder {
 }
 
 @media (min-width: 460px) and (max-width: 640px){
-  
+
   .single-information{
     max-width: 100%;
   }
