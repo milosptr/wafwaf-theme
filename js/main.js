@@ -164,7 +164,7 @@
 
       new Swiper('.latest-posts', {
         allowTouchMove: true,
-        slidesPerView: screen.width < 640 ? '1' : screen.width >= 640 && screen.width < 1028 ? '2' : '3'
+        slidesPerView: screen.width < 1028 ? '1' : '3'
       })
     }
 
@@ -172,6 +172,7 @@
       document.querySelector('.showcase-group').classList.add('swiper-container')
       document.querySelector('.showcase-wrapper').classList.add('swiper-wrapper')
       document.querySelectorAll('.showcase-item').forEach((i) => { i.classList.add('swiper-slide') })
+      if(screen.width < 1028) { return }
       new Swiper('.showcase-group', {
         centeredSlides: true,
         loop: true,

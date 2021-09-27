@@ -1540,6 +1540,7 @@ footer #newsletter input::placeholder {
 
   .h1 {
     font-size: 150px;
+    margin-top: 1rem !important; 
   }
 
   .h2 {
@@ -1613,11 +1614,11 @@ footer #newsletter input::placeholder {
   }
 
   footer .footer-content {
-    padding: 16px;
+    padding: 16px 24px;
   }
 
   .hero-custom-carousel {
-    /* height: 500px; */
+    height: 440px !important;
     width: 80%;
   }
 
@@ -1640,7 +1641,8 @@ footer #newsletter input::placeholder {
 
   .latest-posts-wrapper{
     box-sizing: border-box;
-    /* padding: 0 20px; */
+    overflow-x: hidden;
+    overflow-y: hidden;
   }
 
   .latest-posts-item.swiper-slide {
@@ -1660,16 +1662,17 @@ footer #newsletter input::placeholder {
 
   .showcase-group{
     overflow-x: hidden;
+    overflow-y: hidden;
   }
 
   .showcase-item {
-    /* max-width: 296px; */
+    max-width: calc(50% - 24px);
   }
 
-  .showcase-item.swiper-slide {
+  /* .showcase-item.swiper-slide {
     opacity: 0.5;
     transition: all .4s ease-in-out;
-  }
+  } */
   .showcase-item.swiper-slide-active {
     opacity: 1;
   }
@@ -1877,6 +1880,7 @@ footer #newsletter input::placeholder {
   .latest-posts .post-title{
     min-height: 120px;
   }
+
 
 }
 
