@@ -1173,8 +1173,13 @@ footer #newsletter input::placeholder {
   #menu .h1 {
     font-size: 80px !important;
     line-height: 180px;
-}
-  
+  }
+  .footer-logo{
+    max-width: 200px !important;
+  }
+  .social-icons{
+    max-height: 44px !important;
+  }
       
 }
 
