@@ -725,6 +725,8 @@ header nav .menu-logo {
 
 #about p img {
   border-radius: 30px;
+  display: block;
+  margin-top: 16px;
 }
 
 /* Jobs */
