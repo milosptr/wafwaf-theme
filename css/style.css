@@ -1145,6 +1145,37 @@ footer #newsletter input::placeholder {
   .instagram-item img{
     height: 100%;
   }
+
+  /* --------------------- */
+
+  h1{
+    font-size: 160px !important;
+  }
+  #homepage h2,
+  #franchising h2,
+  #contact h2,
+  #delivery h2{
+    font-size: 48px !important;
+    line-height: 58px !important;
+  }
+  .after-title-section-content{
+    font-size: 48px;
+    line-height: 48px;
+  }
+  .post-content p {
+    min-height: 200px;
+  }
+
+  .hero-custom-carousel {
+    max-width: 760px;
+    height: 420px;
+  }
+  #menu .h1 {
+    font-size: 80px !important;
+    line-height: 180px;
+}
+  
+      
 }
 
 /* Responsive */
