@@ -971,6 +971,12 @@ header nav .menu-logo {
 .black-btn.ml-0 {
   margin-left: 0;
 }
+.proccess-title{
+  color: #fdfbf1;
+  font-size: 50px;
+  line-height: 60px;
+  padding-bottom: 60px;
+}
 
 /* Footer */
 footer.site-footer {
@@ -1117,13 +1123,6 @@ footer #newsletter input::placeholder {
   .proccess-item{
     width: 23%!important;
     padding: 10px;
-  }
-
-  .proccess-title{
-    color: #fdfbf1;
-    font-size: 50px;
-    line-height: 60px;
-    padding-bottom: 60px;
   }
 
   .proccess-item h3{
