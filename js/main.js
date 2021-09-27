@@ -172,7 +172,7 @@
       document.querySelector('.showcase-group').classList.add('swiper-container')
       document.querySelector('.showcase-wrapper').classList.add('swiper-wrapper')
       document.querySelectorAll('.showcase-item').forEach((i) => { i.classList.add('swiper-slide') })
-      if(screen.width < 1028) { return }
+      if(screen.width > 460) { return }
       new Swiper('.showcase-group', {
         centeredSlides: true,
         loop: true,

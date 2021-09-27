@@ -723,12 +723,6 @@ header nav .menu-logo {
   color: #251C16;
 }
 
-#about p img {
-  border-radius: 30px;
-  display: block;
-  margin-top: 16px;
-}
-
 /* Jobs */
 .job-title {
   font-family: 'Brandon Text', sans-serif;
@@ -1189,7 +1183,21 @@ footer #newsletter input::placeholder {
   .social-icons{
     max-height: 44px !important;
   }
+      
+  .showcase-group{
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+  }
 
+  .showcase-item {
+    max-width: 50% !important;
+
+  }
+
+  /* .showcase-item.swiper-slide {
+    opacity: 0.5;
+    transition: all .4s ease-in-out;
+  } */
 }
 
 /* Responsive */
@@ -1350,12 +1358,11 @@ footer #newsletter input::placeholder {
   }
 
   .showcase-group{
-    overflow-x: hidden;
-    overflow-y: hidden;
+    overflow:hidden;
   }
 
   .showcase-item {
-    /* max-width: 296px; */
+    max-width: 296px;
   }
 
   .showcase-item.swiper-slide {
@@ -1744,7 +1751,7 @@ footer #newsletter input::placeholder {
     padding-left: 0%;
     padding-right: 3%;
   }
-
+  
   .single-product:nth-child(odd) {
     padding-right: 0%;
     padding-left: 3%;
@@ -1860,38 +1867,39 @@ footer #newsletter input::placeholder {
     text-align: center;
     margin-top: 50px;
   }
-
+  
   .single-location a,
   .single-location img{
     max-width: 300px;
     margin-left: auto;
     margin-right: auto;
   }
-
+  
   .about-lg-margin .black-btn{
     margin-left: auto;
     margin-right: auto;
   }
-
+  
   .left-image-margin{
     margin-left: -30px;
   }
 
-
+  
   .single-product img{
     max-height: 363px;
     min-height: 363px;
   }
-
+  
   .latest-posts .post-title{
     min-height: 120px;
   }
 
+  
 
 }
 
 @media (min-width: 460px) and (max-width: 640px){
-
+  
   .single-information{
     max-width: 100%;
   }
