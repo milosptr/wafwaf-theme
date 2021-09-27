@@ -1066,11 +1066,30 @@ footer #newsletter input::placeholder {
   }
 }
 
-@media (max-width: 1440px) and (min-width: 1280px){
+@media (max-width: 1840px) and (min-width: 1280px){
+  footer .footer-body {
+    font-size: 22px;
+  }
   header nav .menu-item{
     width: 125px;
-    font-size: 12px;
-    line-height: 52px;
+    font-size: 14px;
+    line-height: 45px;
+  }
+  body .single-information {
+    max-width: 230px;
+  }
+  body .container {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  body .latest-posts .post-title {
+    min-height: 120px;
+  }
+
+  header nav .menu-logo {
+    margin: 0 30px;
+    width: 120px;
   }
 
   .job-title{
@@ -1112,7 +1131,7 @@ footer #newsletter input::placeholder {
   .latest-posts{
     box-sizing: border-box;
   }
-  
+
   .latest-posts .latest-posts-item{
     width: 33%;
   }
@@ -1122,14 +1141,52 @@ footer #newsletter input::placeholder {
     box-sizing: border-box;
     overflow-x: hidden;
   }
-  
+
   .instagram-item img{
     height: 100%;
   }
 
+<<<<<<< HEAD
   .latest-posts .post-title{
     min-height: 120px;
   }
+=======
+  /* --------------------- */
+
+  h1{
+    font-size: 160px !important;
+  }
+  #homepage h2,
+  #franchising h2,
+  #contact h2,
+  #delivery h2{
+    font-size: 48px !important;
+    line-height: 58px !important;
+  }
+  .after-title-section-content{
+    font-size: 48px;
+    line-height: 48px;
+  }
+  .post-content p {
+    min-height: 200px;
+  }
+
+  .hero-custom-carousel {
+    max-width: 760px;
+    height: 420px;
+  }
+  #menu .h1 {
+    font-size: 80px !important;
+    line-height: 180px;
+  }
+  .footer-logo{
+    max-width: 200px !important;
+  }
+  .social-icons{
+    max-height: 44px !important;
+  }
+      
+>>>>>>> 06c2d664f31eb4fde04a5069d3f3c355a36dc452
 }
 
 /* Responsive */
@@ -1291,6 +1348,7 @@ footer #newsletter input::placeholder {
 
   .showcase-group{
     overflow-x: hidden;
+    overflow-y: hidden;
   }
 
   .showcase-item {
