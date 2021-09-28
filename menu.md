@@ -103,9 +103,9 @@ categories:
     product_description: smažená palačinka, kuřecí maso, gouda, špenát, kukuřice
     product_price: 164
   - product_image: "/uploads/2021/09/15/dalgonwaf-small.jpg"
-    product_title: DALGON WAF
-    product_description: DALGON
-    product_price: 138
+    product_title: DALGONWAF
+    product_description: kávový krém, mléko, led
+    product_price: 89
 - category_title: CHEF MENU BY HONZA VOREL
   products:
   - product_image: "/uploads/2021/09/15/skywaf-small.jpg"
