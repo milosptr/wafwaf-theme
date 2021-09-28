@@ -114,7 +114,7 @@ categories:
     product_price: 149
   - product_image: "/uploads/2021/09/15/purplesmoothie-small.jpg"
     product_title: PURPLE SMOOTHIE
-    product_description: Purple
+    product_description: borůvky, banán, kiwi, med
     product_price: 123
   - product_image: "/uploads/2021/09/15/halloumiwaf-small.jpg"
     product_title: HALOUMI WAF
