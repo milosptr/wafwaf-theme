@@ -80,6 +80,9 @@ accordions:
 layout: franchising
 faq_title: FAQ K FRANCHISE POBOCCE
 faq:
+- question: 7. Jak se můžu postarat o marketing v rámci otevření pobočky Waf-Waf?
+  answer: V rámci jednoduchých marketingových činnosti budete zaškoleni, například
+    ke správě vlastních sociálních médií či stránek hodnotících vaši provozovnu.
 - question: 6. Potřebuji zkušenosti proto, abych mohl začít s Waf-Waf franchise?
   answer: Není zapotřebí zkušeností, pokud je odhodlání, motivace. Každopádně zkušenosti,
     zcela jistě vítáme a takový uchyzeči u nás budou mít určitou výhodu rychlejšího
