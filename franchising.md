@@ -80,6 +80,12 @@ accordions:
 layout: franchising
 faq_title: FAQ K FRANCHISE POBOCCE
 faq:
+- question: 9. Je zapotřebí zaplatit licenční poplatek?
+  answer: Ano, licenční poplatek, který zahranuje práva na úžívání kompletního brandu
+    Waf- Waf a práva na jeho používání je 750.000Kč.
+- question: 8. Jaký je Váš měsíční poplatek, který musím hradit?
+  answer: V závislosti na několika faktorech, které jsou obsahem franchisové smlouvy
+    se měsíční poplatek může měnit od 10-12%.
 - question: 7. Jak se můžu postarat o marketing v rámci otevření pobočky Waf-Waf?
   answer: V rámci jednoduchých marketingových činnosti budete zaškoleni, například
     ke správě vlastních sociálních médií či stránek hodnotících vaši provozovnu.
