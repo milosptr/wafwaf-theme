@@ -1077,11 +1077,11 @@ footer #newsletter input::placeholder {
   footer .footer-body {
     font-size: 22px;
   }
-  header nav .menu-item{
+  /* header nav .menu-item{
     width: 125px;
     font-size: 14px;
     line-height: 45px;
-  }
+  } */
   body .single-information {
     max-width: 230px;
   }
@@ -1091,7 +1091,8 @@ footer #newsletter input::placeholder {
   }
 
   body .latest-posts .post-title {
-    min-height: 120px;
+    font-size: 23px;
+    line-height: 20px;
   }
 
   header nav .menu-logo {
@@ -1160,19 +1161,16 @@ footer #newsletter input::placeholder {
   }
 
   .latest-posts .post-title{
-    min-height: 120px;
+    min-height: 60px;
   }
   /* --------------------- */
 
-  h1{
-    font-size: 160px !important;
-  }
   #homepage h2,
   #franchising h2,
   #contact h2,
   #delivery h2{
-    font-size: 48px !important;
-    line-height: 58px !important;
+    font-size: 36px !important;
+    line-height: 36px !important;
   }
   .after-title-section-content{
     font-size: 48px;
@@ -1183,8 +1181,9 @@ footer #newsletter input::placeholder {
   }
 
   .hero-custom-carousel {
-    max-width: 760px;
-    height: 420px;
+    max-width: 58%;
+    height: 358px;
+    margin-top: 0;
   }
   #menu .h1 {
     font-size: 80px !important;
@@ -1209,8 +1208,44 @@ footer #newsletter input::placeholder {
 
   /* .showcase-item.swiper-slide {
     opacity: 0.5;
-    transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;  
   } */
+
+  .container{
+    max-width: 87.5% !important;
+  }
+  header nav .menu-item{
+    width: 108px;
+    max-height: 43px;
+    font-size: 16px;
+    overflow:hidden;
+    line-height: 45px;
+    letter-spacing: -1px;
+  }
+
+  h1{
+    font-size: 132px !important;
+    line-height: 132px !important;
+    margin-top: 2rem !important;
+  }
+  
+  .after-title-section{
+    margin-top: 4rem;
+  }
+  .after-title-section-content{
+    font-size: 36px;
+    letter-spacing: -0.9px;
+    line-height: 36px;
+  }
+  .latest-posts{
+    margin-bottom: 16px;
+    padding: 0 7%;
+  }
+  .latest-posts-item img{
+    max-height: 90%;
+    max-width: 90%;
+  }
+
 }
 
 /* Responsive */
@@ -1549,7 +1584,7 @@ footer #newsletter input::placeholder {
   }
 }
 
-@media (max-width: 1280px) and (min-width: 450px){
+@media (max-width: 1279px) and (min-width: 450px){
   body{
     padding-top: 90px;
   }

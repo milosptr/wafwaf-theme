@@ -156,6 +156,17 @@
     mousewheel: true,
   })
 
+  const containerWidth = document.querySelector('.container').offsetWidth
+  const heroCustomCarousel = document.querySelector('.hero-custom-carousel')
+  // const menuItems = document.querySelectorAll('.menu-item')
+  
+  window.addEventListener('resize', e => {
+    heroCustomCarousel.style.height = 0.55 * heroCustomCarousel.offsetWidth + 'px'
+    menuItems.forEach(mI => {
+      mI.style.width = 0.095 * containerWidth + 'px'
+    })
+  })
+
   if(isMobile) {
     if(document.querySelector('.latest-posts')) {
       document.querySelector('.latest-posts').classList.add('swiper-container')
