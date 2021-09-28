@@ -121,7 +121,7 @@ categories:
     product_description: avokádová pomazánka, haloumi sýr, rukola, rajče
     product_price: 159
   - product_image: "/uploads/2021/09/15/greensmoothie-small.jpg"
-    product_description: Green
+    product_description: avokádo, špenát, banán, sojové mléko
     product_price: 123
     product_title: GREEN SMOTHIE
 
