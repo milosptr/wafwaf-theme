@@ -64,8 +64,9 @@ categories:
     product_price: 134
   - product_image: "/uploads/2021/09/15/eggwaf-small.jpg"
     product_title: EGGWAF
-    product_description: nutella, oreo, jahody, maliny, mascarpone
-    product_price: 150
+    product_description: "sázená vajíčka, slanina, cheddar, baby špenát, cherry rajčátka,
+      pažitka a kousky vaflí polité cheddarem \n"
+    product_price: 139
   - product_image: "/uploads/2021/09/15/cream-waf-small.jpg"
     product_title: CREAM&WAF
     product_description: nutella, oreo, jahody, maliny, mascarpone
