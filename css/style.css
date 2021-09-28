@@ -1497,11 +1497,12 @@ footer #newsletter input::placeholder {
   }
 
   .showcase-item.swiper-slide {
-    opacity: 0.5;
+    opacity: 0.5!important;
     transition: all .4s ease-in-out;
+    transform: none!important;
   }
   .showcase-item.swiper-slide-active {
-    opacity: 1;
+    opacity: 1!important;
   }
 
   .proccess-wrapper {
