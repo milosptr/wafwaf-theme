@@ -23,8 +23,9 @@ categories:
       sirup, domácí šlehačka
   - product_image: "/uploads/2021/09/15/sushiwaf-small.jpg"
     product_title: SUSHIWAF
-    product_description: nutella, oreo, jahody, maliny, mascarpone
-    product_price: 124
+    product_description: čokoládová palačinky, jahody, banán, karamel, kokos, linoláda
+      a nutella
+    product_price: 99
   - product_image: "/uploads/2021/09/15/waf-cut-small.jpg"
     product_title: WAF&CUT
     product_description: nutella, oreo, jahody, maliny, mascarpone
