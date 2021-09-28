@@ -84,15 +84,15 @@ faq:
   answer: Doporučujeme mít velikost větší než 80-180m2, musíme počítat s tím, že
     zde bude zasazena fast-casual kuchyně a take zásobování či popřípadě sklad.
     Nicméně nabízíme i koncepty jako stánkový prodej s velikostí 20-50m2.
-- question: 2. Jaký je nejmenší kapitál pro otevření franchisy Waf-Waf?
+- question: Jaký je nejmenší kapitál pro otevření franchisy Waf-Waf?
   answer: Minimální kapitál se bude pohybovat kolem 3.750.000Kč v závislosti na velikost
     pobočky a její stavební připravenosti. Investice tak může být výrazně menší
     a nebo take vyšší a lišit se také dle zvoleného konceptu samotné pobočky.
-- question: 3. Jak rychlá je návratnost investice?
+- question: Jak rychlá je návratnost investice?
   answer: Opět záleží na velikosti pobočky a kapacitě pobočky či její doporučené
     lokalitě. Každopádně u menšího obchodu předpokládáme kolem 1 rok a u větších
     se můžeme bavit o 15-30 měsících v závislosti na několika faktorech.
-- question: 4. Jakou doporučujete lokalitu k umístění pobočky Waf-Waf?
+- question: Jakou doporučujete lokalitu k umístění pobočky Waf-Waf?
   answer: Doporučujeme jakoukoliv pobočku, kde je možné prodat 300 porcí denně
     a vice. Respektive ve městech nad 100.000 obyvatel a na jeho hlavních místech.
 - question: 5. Musím kupovat zásoby přímo od Vás?
