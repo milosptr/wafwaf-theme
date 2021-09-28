@@ -649,6 +649,24 @@ header nav .menu-logo {
   transition: all 1s cubic-bezier(0.275, 0.82, 0.165, 1)
 }
 
+.proccess-icon-image img{
+  height: 100%;
+}
+
+/* .proccess-icon-image{
+  height: 190px !important;
+} */
+
+.proccess-item{
+  width: 23%!important;
+  padding: 10px;
+  min-width: 180px !important;
+  max-width: 280px !important;
+}
+.proccess-item h3 {
+  font-size: 24px;
+}
+
 .proccess-item-1::before,
 .proccess-item-2::before,
 .proccess-item-3::before {
@@ -1120,11 +1138,6 @@ footer #newsletter input::placeholder {
   .proccess-container{
     padding-left: 32px;
     padding-right: 64px;
-  }
-
-  .proccess-item{
-    width: 23%!important;
-    padding: 10px;
   }
 
   .proccess-item h3{

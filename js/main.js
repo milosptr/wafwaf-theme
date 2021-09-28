@@ -164,12 +164,29 @@
     window.addEventListener('resize', e => {
       heroCustomCarousel.style.height = 0.55 * heroCustomCarousel.offsetWidth + 'px'
       if(window.width >= 1280 && window.width < 1440){
-        menuItems.forEach((mI, idx) => {
+        menuItems.forEach( mI => {
           mI.style.width = 0.095 * containerWidth + 'px'
         })
       }
     })
   }
+
+  if(document.body.id === 'about'){
+    const proccessImgs = document.querySelectorAll('.proccess-icon-image')
+    const imageWidth = proccessImgs[1].offsetWidth
+
+    if(window.innerWidth > 450){
+      proccessImgs.forEach(imgDiv => {
+        imgDiv.style.height = imageWidth-60 + 'px'
+      })
+    }
+    else{
+      proccessImgs.forEach(imgDiv => {
+        imgDiv.style.height = imageWidth-40 + 'px'
+      })
+    }
+  }
+
 
   if(isMobile) {
     if(document.querySelector('.latest-posts')) {
