@@ -1050,7 +1050,7 @@ footer .social-icons:hover {
 
 footer #newsletter input {
   font-family: 'AvenirNext', sans-serif;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: normal;
   background: transparent!important;
   border: 2px solid #251C16;
@@ -1488,12 +1488,6 @@ footer #newsletter input::placeholder {
     margin-bottom: 20px;
   }
 
-  .swiper-button-prev,
-  .swiper-button-next{
-    display: none;
-  }
-  
-
   .showcase-group{
     overflow:hidden;
   }
@@ -1674,7 +1668,7 @@ footer #newsletter input::placeholder {
   }
 }
 
-@media (max-width: 1279px) and (min-width: 450.1px){
+@media (max-width: 1279px) and (min-width: 450px){
   body{
     padding-top: 90px;
   }
