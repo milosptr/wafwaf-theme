@@ -1261,7 +1261,7 @@ footer #newsletter input::placeholder {
   footer .footer-content {
     padding: 84px 55px 50px 48px;
   }
-  .footer-info div{
+  footer .footer-body{
     max-height: 35px;
     font-size: 18px;
   }
