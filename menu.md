@@ -43,8 +43,9 @@ categories:
     product_price: 129
   - product_image: "/uploads/2021/09/15/crepedilla-small.jpg"
     product_title: CREPEDILLA
-    product_description: nutella, oreo, jahody, maliny, mascarpone
-    product_price: 151
+    product_description: kuřecí maso, cheddar, baby špenát, rajčatový dip, zakysaná
+      smetana
+    product_price: 129
   - product_image: "/uploads/2021/07/20/mask-group-133.png"
     product_title: IRONWAF
     product_description: egg, bacon, asparagus, souce
