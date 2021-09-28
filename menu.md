@@ -88,7 +88,7 @@ categories:
     product_description: Jahodový, Čokoládový a Banánový
     product_price: 124
   - product_image: "/uploads/2021/09/15/jahodovy-cokoladovy-a-bananovy-shake-small.jpg"
-    product_title: Čokoládový
+    product_title: Milkshake Čokoládový
     product_description: mléko, kakao, granko, čokoládová poleva, čokoládová zmrzlina,
       šlehačka, oreo
     product_price: 119
