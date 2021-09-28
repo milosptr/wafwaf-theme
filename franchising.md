@@ -80,6 +80,14 @@ accordions:
 layout: franchising
 faq_title: FAQ K FRANCHISE POBOCCE
 faq:
+- question: 6. Potřebuji zkušenosti proto, abych mohl začít s Waf-Waf franchise?
+  answer: Není zapotřebí zkušeností, pokud je odhodlání, motivace. Každopádně zkušenosti,
+    zcela jistě vítáme a takový uchyzeči u nás budou mít určitou výhodu rychlejšího
+    začlenění v rámci samotného byznysu.
+- question: 5. Musím kupovat zásoby přímo od Vás?
+  answer: Jaké konkrétní zásoby je zapotřebí nakupovat od naší společnosti je obsaženo
+    ve franchisové smlouvě. Některé jsou zapotřebí nakupovat napřímo a některé
+    přes naše obchodní partnery.
 - question: 4. Jakou doporučujete lokalitu k umístění pobočky Waf-Waf?
   answer: Doporučujeme jakoukoliv pobočku, kde je možné prodat 300 porcí denně
     a vice. Respektive ve městech nad 100.000 obyvatel a na jeho hlavních místech.
