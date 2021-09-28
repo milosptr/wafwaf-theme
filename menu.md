@@ -52,8 +52,9 @@ categories:
     product_price: 134
   - product_image: "/uploads/2021/09/15/bigwaf-small.jpg"
     product_title: BIGWAF
-    product_description: egg, bacon, asparagus, souce
-    product_price: 160
+    product_description: dvě vafle, dvě sázená vejce, slanina, cheddar, rukola, rajčata,
+      baby špenát, šunka
+    product_price: 189
 - category_title: SNÍDANĚ
   products:
   - product_image: "/uploads/2021/09/15/waf-wood-small.jpg"
