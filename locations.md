@@ -49,22 +49,25 @@ locations:
     Vám zabalí naše produkty do hezkého obalu a dají Vám papírovou tašku pro snazší
     odnos vaflí, lívanců nebo palačinek.
   contact_number: "+420602728121\L"
-  first_column_above_image: Letenská pobočka se otevřela přesně 8.4.2017 a nabízí
-    kompletní sortiment konceptu Waf-Waf ať už se jedná o oblíbené vafle, palačinky,
-    lívance nebo i milkshakes, fresh-juices a dalčí originální produkty. Zajímavá
-    je specifickým interiérem, který zahrnuje i některé z retro prvků. Vhodná je také
-    pro rodinny s dětmi včetně kočárků a to
-  second_column_above_image: Právě díky dětskému koutku v zadní části provozovny a
-    prostorné zahrádce ve vnitronloku. Samozřejmostí je možnost take-away a to zcela
-    zdarma. Do naší provozovny Waf-Waf na Letné mají také povolený vstup pejsci. Na
-    pobočce provádíme rezervace pro více než jeden stůl.
+  first_column_above_image: Další pražská pobočka (v pořadí již třetí) se otevřela
+    19. ledna 2020 a nabízí kompletní sortiment konceptu Waf-Waf, ať už se jedná o
+    oblíbené vafle, palačinky, lívance nebo i milkshakes, fresh-juices a další originální
+    produkty jako **SushiWaf, BigWaf, WafShake** aj. Zajímavá je specifickým interiérem,
+    který zahrnuje i některé z retro prvků.
+  second_column_above_image: Pobočka se nachází v OC Palladium (Praha 1, Náměstí Republiky
+    1, 110 00) v - **2. patře** vedle Sportisimo a Sparkys. Kapacita je **20 zákazníků**.
+    Samozřejmostí je možnost **take-away či rozvoz jídla**. Radost uděláme i **veganům**,
+    protože už i vegani si můžou sestavit vafli podle sebe! Stačí zaškrtnout políčko
+    veganská vafle.
   image_left: "/uploads/2021/09/28/ocpalladium3.jpg"
-  third_column_under_image: Pobočka se nám rozrostla o zimní zateplenou zahradu/venkovní
-    zahradu přes léto a tím se i zvýšila kapacita pobočky na 60 lidí.
+  third_column_under_image: 'I na této pobočce můžete využít naše Waf-Waf poukazy
+    a vychutnat si #novyzazitek společně se svými nejbližšími. Doporučujeme ochutnat
+    i některé z našich novinek, které jsme aktuálně přidali do našeho sortimentu.
+    Věříme, že jsme Vás navnadili k návštěvě, těšíme se na Vás.'
   image_right_portrait: "/uploads/2021/08/15/20200109_095725000_ios-1.png"
   footer_image: "/uploads/2021/09/28/ocpalladium6.jpg"
-  footer_description: 'Z této pobočky také probíhá rozvoz Waf-Waf produktů do různých
-    koutů Prahy. Objednávat můžete na těchto platformách:'
+  footer_description: 'Z této pobočky také probíhá **rozvoz Waf-Waf produktů do různých
+    koutů Prahy**. Objednávat můžete na těchto platformách:'
   wolt: true
   wolt_url: https://wolt.com/cs/cze/prague/restaurant/waf-waf-palladium
   boltfood: true
