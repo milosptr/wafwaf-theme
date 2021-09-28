@@ -649,8 +649,9 @@ header nav .menu-logo {
   transition: all 1s cubic-bezier(0.275, 0.82, 0.165, 1)
 }
 
-.proccess-icon-image img{
-  height: 100%;
+.proccess-icon-image img,
+#about .left-image-margin {
+  height: 100%!important;
 }
 
 /* .proccess-icon-image{
@@ -2014,7 +2015,6 @@ footer #newsletter input::placeholder {
 
   .left-image-margin{
     margin-left: -30px;
-    height: 100%;
   }
 
 
