@@ -92,14 +92,6 @@ categories:
     product_description: mléko, kakao, granko, čokoládová poleva, čokoládová zmrzlina,
       šlehačka, oreo
     product_price: 119
-  - product_image: "/uploads/2021/09/15/pomerancovy-freshjuice-small.jpg"
-    product_title: Pomerančový freshjuice
-    product_description: Pomerančový freshjuice
-    product_price: 123
-  - product_image: "/uploads/2021/09/15/freshjuice-small.jpg"
-    product_title: FRESH JUICE
-    product_description: nutella, oreo, jahody, maliny, mascarpone
-    product_price: 123
 - category_title: WAF GIRLS MENU
   products:
   - product_image: "/uploads/2021/09/15/wafchick-small.jpg"
@@ -118,8 +110,8 @@ categories:
   products:
   - product_image: "/uploads/2021/09/15/skywaf-small.jpg"
     product_title: SKY WAF
-    product_description: jahody....
-    product_price: 124
+    product_description: vafle, salko toping, jahody, lotus posyp a sušenka
+    product_price: 149
   - product_image: "/uploads/2021/09/15/purplesmoothie-small.jpg"
     product_title: PURPLE SMOOTHIE
     product_description: Purple
