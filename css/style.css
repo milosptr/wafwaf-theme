@@ -1280,7 +1280,7 @@ footer #newsletter input::placeholder {
   }
 }
 
-@media (min-width: 1440px) and (max-width: 1840px){
+@media (min-width: 1450px) and (max-width: 1840px){
   #homepage h2,
   #franchising h2,
   #contact h2,
