@@ -95,7 +95,7 @@ faq:
 - question: Jakou doporučujete lokalitu k umístění pobočky Waf-Waf?
   answer: Doporučujeme jakoukoliv pobočku, kde je možné prodat 300 porcí denně
     a vice. Respektive ve městech nad 100.000 obyvatel a na jeho hlavních místech.
-- question: 5. Musím kupovat zásoby přímo od Vás?
+- question: Musím kupovat zásoby přímo od Vás?
   answer: Jaké konkrétní zásoby je zapotřebí nakupovat od naší společnosti je obsaženo
     ve franchisové smlouvě. Některé jsou zapotřebí nakupovat napřímo a některé
     přes naše obchodní partnery.
