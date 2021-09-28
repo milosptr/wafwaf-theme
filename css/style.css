@@ -1218,7 +1218,7 @@ footer #newsletter input::placeholder {
     width: 108px;
     max-height: 43px;
     font-size: 16px;
-    overflow:hidden;
+    overflow: hidden;
     line-height: 45px;
     letter-spacing: -1px;
   }
@@ -1245,7 +1245,52 @@ footer #newsletter input::placeholder {
     max-height: 90%;
     max-width: 90%;
   }
+}
 
+@media (min-width: 1440px) and (max-width: 1840px){
+  #homepage h2,
+  #franchising h2,
+  #contact h2,
+  #delivery h2{
+    font-size: 48px !important;
+    line-height: 48px !important;
+  }
+
+  h1{
+    font-size: 160px !important;
+    line-height: 160px !important;
+    margin-top: 4rem !important;
+  }
+  .after-title-section-content{
+    font-size: 48px;
+    line-height: 48px;
+  }
+  header nav .menu-item{
+    width: 135px;
+    font-size: 18px;
+    overflow: hidden;
+    line-height: 48px;
+    max-height: 48px;
+  }
+  .after-title-section{
+    margin-top: 6rem;
+  }
+  .latest-posts{
+    margin-bottom: 60px;
+    padding: 0 7%;
+  }
+  .latest-posts-item img{
+    max-height: 100%;
+    max-width: 100%;
+  }
+  body .latest-posts .post-title {
+    font-size: 28px;
+    line-height: 28px;
+  }
+
+  .latest-posts .post-title {
+    min-height: 80px;
+  }
 }
 
 /* Responsive */

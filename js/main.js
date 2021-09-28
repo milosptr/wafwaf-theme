@@ -162,9 +162,11 @@
   
   window.addEventListener('resize', e => {
     heroCustomCarousel.style.height = 0.55 * heroCustomCarousel.offsetWidth + 'px'
-    menuItems.forEach(mI => {
-      mI.style.width = 0.095 * containerWidth + 'px'
-    })
+    if(window.width >= 1280 && window.width < 1440){
+      menuItems.forEach((mI, idx) => {
+        mI.style.width = 0.095 * containerWidth + 'px'
+      })
+    }
   })
 
   if(isMobile) {
