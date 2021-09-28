@@ -28,8 +28,8 @@ categories:
     product_price: 99
   - product_image: "/uploads/2021/09/15/waf-cut-small.jpg"
     product_title: WAF&CUT
-    product_description: nutella, oreo, jahody, maliny, mascarpone
-    product_price: 124
+    product_description: kousky kostiček vafle, skořicový cukr, nutella
+    product_price: 59
 - category_title: SLANÉ
   products:
   - product_image: "/uploads/2021/09/15/beefwaf-small.jpg"
