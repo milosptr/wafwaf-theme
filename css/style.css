@@ -1489,7 +1489,7 @@ footer #newsletter input::placeholder {
   }
 
   .showcase-group{
-    overflow:hidden;
+    overflow-x:hidden;
   }
 
   .showcase-item {
@@ -1667,7 +1667,7 @@ footer #newsletter input::placeholder {
   }
 }
 
-@media (max-width: 1279px) and (min-width: 450px){
+@media (max-width: 1279px) and (min-width: 450.1px){
   body{
     padding-top: 90px;
   }
