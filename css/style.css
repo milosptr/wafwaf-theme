@@ -1130,7 +1130,7 @@ footer #newsletter input::placeholder {
   .proccess-item h3{
     font-size: 24px;
   }
-  
+
 
   .proccess-item-1::before,
   .proccess-item-2::before,
@@ -1195,7 +1195,7 @@ footer #newsletter input::placeholder {
   .social-icons{
     max-height: 44px !important;
   }
-      
+
   .showcase-group{
     overflow-x: hidden;
     /* overflow-y: hidden; */
@@ -1208,7 +1208,7 @@ footer #newsletter input::placeholder {
 
   /* .showcase-item.swiper-slide {
     opacity: 0.5;
-    transition: all .4s ease-in-out;  
+    transition: all .4s ease-in-out;
   } */
 
   .container{
@@ -1228,7 +1228,7 @@ footer #newsletter input::placeholder {
     line-height: 132px !important;
     margin-top: 2rem !important;
   }
-  
+
   .after-title-section{
     margin-top: 4rem;
   }
@@ -1258,7 +1258,7 @@ footer #newsletter input::placeholder {
   .footer-logo{
     padding-right: 50px;
   }
-  
+
   .footer-social-place{
     margin-top: 50px;
   }
@@ -1355,6 +1355,11 @@ footer #newsletter input::placeholder {
     margin-top: 1.5rem;
     margin-left: 1.5rem;
     width: 92px;
+  }
+
+  body .homepage-delivery-img img,
+  body .showcase-item.swiper-slide img {
+    height: auto;
   }
 
   .hamburger {
@@ -1666,7 +1671,7 @@ footer #newsletter input::placeholder {
 
   .h1 {
     font-size: 150px;
-    margin-top: 1rem !important; 
+    margin-top: 1rem !important;
   }
 
   .h2 {
@@ -1864,7 +1869,7 @@ footer #newsletter input::placeholder {
     padding-left: 0%;
     padding-right: 3%;
   }
-  
+
   .single-product:nth-child(odd) {
     padding-right: 0%;
     padding-left: 3%;
@@ -1980,39 +1985,39 @@ footer #newsletter input::placeholder {
     text-align: center;
     margin-top: 50px;
   }
-  
+
   .single-location a,
   .single-location img{
     max-width: 300px;
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   .about-lg-margin .black-btn{
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   .left-image-margin{
     margin-left: -30px;
   }
 
-  
+
   .single-product img{
     max-height: 363px;
     min-height: 363px;
   }
-  
+
   .latest-posts .post-title{
     min-height: 120px;
   }
 
-  
+
 
 }
 
 @media (min-width: 460px) and (max-width: 640px){
-  
+
   .single-information{
     max-width: 100%;
   }
