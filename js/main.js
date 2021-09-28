@@ -156,18 +156,20 @@
     mousewheel: true,
   })
 
-  const containerWidth = document.querySelector('.container').offsetWidth
-  const heroCustomCarousel = document.querySelector('.hero-custom-carousel')
-  // const menuItems = document.querySelectorAll('.menu-item')
   
-  window.addEventListener('resize', e => {
-    heroCustomCarousel.style.height = 0.55 * heroCustomCarousel.offsetWidth + 'px'
-    if(window.width >= 1280 && window.width < 1440){
-      menuItems.forEach((mI, idx) => {
-        mI.style.width = 0.095 * containerWidth + 'px'
-      })
-    }
-  })
+  if(document.body.id !== 'menu'){
+    const containerWidth = document.querySelector('.container').offsetWidth
+    const heroCustomCarousel = document.querySelector('.hero-custom-carousel')
+    
+    window.addEventListener('resize', e => {
+      heroCustomCarousel.style.height = 0.55 * heroCustomCarousel.offsetWidth + 'px'
+      if(window.width >= 1280 && window.width < 1440){
+        menuItems.forEach((mI, idx) => {
+          mI.style.width = 0.095 * containerWidth + 'px'
+        })
+      }
+    })
+  }
 
   if(isMobile) {
     if(document.querySelector('.latest-posts')) {

@@ -1190,7 +1190,7 @@ footer #newsletter input::placeholder {
     line-height: 180px;
   }
   .footer-logo{
-    max-width: 200px !important;
+    max-width: 255px !important;
   }
   .social-icons{
     max-height: 44px !important;
@@ -1244,6 +1244,26 @@ footer #newsletter input::placeholder {
   .latest-posts-item img{
     max-height: 90%;
     max-width: 90%;
+  }
+  footer .footer-content {
+    padding: 84px 55px 50px 48px;
+  }
+  .footer-info div{
+    max-height: 35px;
+    font-size: 18px;
+  }
+  .footer-body{
+    font-size: 18px;
+  }
+  .footer-logo{
+    padding-right: 50px;
+  }
+  
+  .footer-social-place{
+    margin-top: 50px;
+  }
+  #newsletter{
+    margin-top: 45px;
   }
 }
 
