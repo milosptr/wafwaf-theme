@@ -1488,8 +1488,14 @@ footer #newsletter input::placeholder {
     margin-bottom: 20px;
   }
 
+  .swiper-button-prev,
+  .swiper-button-next{
+    display: none;
+  }
+  
+
   .showcase-group{
-    overflow-x:hidden;
+    overflow:hidden;
   }
 
   .showcase-item {
