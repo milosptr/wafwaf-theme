@@ -80,6 +80,9 @@ accordions:
 layout: franchising
 faq_title: FAQ K FRANCHISE POBOCCE
 faq:
+- question: 10. Je zapotřebí zaplatit kauci?
+  answer: Ano, kauce je splatná při podpisu SOSB a platí pro zúčtování při vážném
+    porušení smlouvy a také jako garance kontraktu ve výši 500.000Kč
 - question: 9. Je zapotřebí zaplatit licenční poplatek?
   answer: Ano, licenční poplatek, který zahranuje práva na úžívání kompletního brandu
     Waf- Waf a práva na jeho používání je 750.000Kč.
