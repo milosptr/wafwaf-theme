@@ -21,7 +21,7 @@
   })
 
   const mobileMenuItems = document.querySelectorAll('.nav-mobile-item')
-  mobileMenuItems.forEach((mi, idx) => {    
+  mobileMenuItems.forEach((mi, idx) => {
     const menuUrl = mi.parentElement.getAttribute('href').replaceAll('/', '');
     const url = location.pathname.replaceAll('/', '');
 
@@ -147,11 +147,11 @@
     mousewheel: true,
   })
 
-  
+
   if(document.body.id !== 'menu'){
     const containerWidth = document.querySelector('.container').offsetWidth
     const heroCustomCarousel = document.querySelector('.hero-custom-carousel')
-    
+
     window.addEventListener('resize', e => {
       heroCustomCarousel.style.height = 0.55 * heroCustomCarousel.offsetWidth + 'px'
       if(window.width >= 1280 && window.width < 1440){
@@ -263,14 +263,15 @@
     TOGGLE_MENU = !TOGGLE_MENU;
   })
 
-  // fetch('https://www.instagram.com/wafwafcz/?__a=1', {
-  //   headers: [
-  //     ["Content-Type", "application/json"],
-  //     ["Content-Type", "text/plain"]
-  //   ],
-  // })
-  //   .then(response => response.json())
-  //   .then(data => console.log(data))
+  fetch('https://api.instagram.com/v1/users/4141630830/media/recent?access_token=IGQVJVZAHFOcVhxQlQxcW5LWjFpXzZAhOXRJeEhkS1FIemt1UVh2TGwzazhkemZASWk9KTlRuRldvb3BXcVpvWlJJYzBHX1B3dVNmdWZAIWXktdVY4ZAjBqOTAwTHA5bzYxeU52b21JR0VkUTdNTjRqRkIzMwZDZD&count=6', {
+    headers: [
+      ["Content-Type", "application/json"],
+      ["Accept", "*/*"],
+      ["Accept-Encoding", "gzip, deflate, br"],
+    ],
+  })
+    .then(response => response.json())
+    .then(data => console.log(data))
 
   function toggleAccordion(el) {
 
