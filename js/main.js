@@ -263,15 +263,13 @@
     TOGGLE_MENU = !TOGGLE_MENU;
   })
 
-  fetch('https://api.instagram.com/v1/users/4141630830/media/recent?access_token=IGQVJVZAHFOcVhxQlQxcW5LWjFpXzZAhOXRJeEhkS1FIemt1UVh2TGwzazhkemZASWk9KTlRuRldvb3BXcVpvWlJJYzBHX1B3dVNmdWZAIWXktdVY4ZAjBqOTAwTHA5bzYxeU52b21JR0VkUTdNTjRqRkIzMwZDZD&count=6', {
-    headers: [
-      ["Content-Type", "application/json"],
-      ["Accept", "*/*"],
-      ["Accept-Encoding", "gzip, deflate, br"],
-    ],
-  })
-    .then(response => response.json())
-    .then(data => console.log(data))
+  // setTimeout(() => {
+  //   const frCards = document.querySelectorAll('.fr-card-body')
+  //   const frCards2 = document.querySelectorAll('.fr-card-body')
+  //   const frCards3 = document.querySelectorAll('.fr-card-body')
+  //   document.querySelectorAll('.fr-card-body').forEach((c) => c.remove())
+  //   // console.log(frCards,frCards2,frCards3);
+  // }, 5000);
 
   function toggleAccordion(el) {
 
